@@ -74,6 +74,12 @@
       display: none;
 
       &-item {
+         &:hover {
+            .header__social-icon {
+               color: var(--color_blue);
+            }
+         }
+
          @include md {
             cursor: pointer;
             position: relative;
@@ -94,6 +100,8 @@
             width: 20px;
             height: 20px;
             transform: translateX(-50%) translateY(-50%);
+            transition: all 0.2s ease-in-out;
+            color: var(--color_grey);
          }
       }
 
@@ -143,12 +151,20 @@
       }
 
       &-number {
+         &:hover {
+            color: var(--color_blue);
+         }
+
          @include sm {
             display: flex;
             align-items: center;
             gap: 5px;
             font: 700 16px/14px "Overpass";
+            transition: all 0.2s ease-in-out;
             color: var(--color_font);
+         }
+         @include xl {
+            font-size: 18px;
          }
       }
 
@@ -164,6 +180,10 @@
          flex-flow: column;
          gap: 8px;
          margin-right: 20px;
+      }
+
+      @include xl {
+         gap: 10px;
       }
    }
 

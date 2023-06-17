@@ -144,7 +144,7 @@ module.exports = {
                force: true,
             },
             {
-               from: "./src/assets/img/svg/sprites.svg",
+               from: "./src/assets/img/svg/sprite.svg",
                to: "assets/img/",
                toType: "dir",
                force: true,

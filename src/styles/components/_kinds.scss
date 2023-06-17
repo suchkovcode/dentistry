@@ -112,6 +112,10 @@
          @include xl {
             font-size: 22px;
          }
+
+         @include xxl{
+            padding-left: 0;
+         }
       }
 
       &-info {

@@ -5,8 +5,8 @@
    "author": "Nikita Suchkov",
    "license": "MIT",
    "browserslist": "> 0.25%, last 1 versions, not dead",
-   "repository": "",
-   "homepage": "",
+   "repository": "https://github.com/suchkovcode/dentistry",
+   "homepage": "https://dentistry.suchkov.cc",
    "private": true,
    "scripts": {
       "start": "cross-env NODE_ENV=development webpack serve",

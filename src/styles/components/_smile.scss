@@ -188,6 +188,8 @@
    }
 
    @include lg {
+      padding: 80px 30px;
+
       .container {
          display: grid;
          grid-template-columns: 1fr 1fr 1fr;
@@ -200,5 +202,9 @@
             gap: 30px;
          }
       }
+   }
+
+   @include xl {
+      padding: 100px 30px;
    }
 }

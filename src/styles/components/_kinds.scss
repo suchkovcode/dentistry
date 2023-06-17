@@ -1,0 +1,229 @@
+.kinds {
+   overflow-x: hidden;
+   position: relative;
+   padding: 30px 15px;
+   border-radius: 30px;
+   background: radial-gradient(83.98% 349.85% at 93.78% 95.78%, #baf0f1 0%, #f2f9f9 52.08%, #e5eefa 100%);
+
+   &__title {
+      max-width: 450px;
+      margin: 0 auto;
+      margin-bottom: 15px;
+      font: 400 22px/1.2 "Overpass";
+
+      @include md {
+         font-size: 28px;
+      }
+
+      @include lg {
+         max-width: 920px;
+         margin-bottom: 30px;
+         font-size: 34px;
+      }
+
+      @include xl {
+         max-width: 1280px;
+         font-size: 38px;
+      }
+
+      @include xxl {
+         font-size: 40px;
+      }
+
+      @include xxxl {
+         max-width: 100%;
+      }
+   }
+
+   &__stages {
+      position: relative;
+      display: flex;
+      flex-flow: column;
+      gap: 40px;
+      max-width: 450px;
+      margin: 0 auto;
+
+      &-item {
+         position: relative;
+
+         @include lg {
+            flex: 0 0 calc(50% - 20px);
+            height: 100%;
+            max-width: 440px;
+         }
+
+         @include xl {
+            max-width: 400px;
+         }
+
+         @include xxxl {
+            flex: 0 0 calc(33% - 25px);
+            max-width: 100%;
+         }
+      }
+
+      &-img {
+         width: 100%;
+         height: auto;
+         margin-bottom: 15px;
+
+         @include lg {
+            max-width: 380px;
+            margin-left: auto;
+         }
+      }
+
+      @include lg {
+         flex-flow: row;
+         flex-wrap: wrap;
+         max-width: 920px;
+         margin: 0 auto;
+      }
+
+      @include xl {
+         justify-content: center;
+         max-width: 100%;
+      }
+   }
+
+   &__card {
+      position: relative;
+      width: 100%;
+      min-width: 360px;
+      padding: 0 20px 20px 20px;
+      background-image: url("/src/assets/img/png/card__bg.png");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+
+      &-title {
+         padding-top: 8px;
+         padding-left: 10px;
+         font: 700 14px/1.2 "Overpass";
+
+         @include sm {
+            padding-left: 20px;
+            font-size: 18px;
+         }
+
+         @include lg {
+            font-size: 20px;
+         }
+
+         @include xl {
+            font-size: 22px;
+         }
+      }
+
+      &-info {
+         margin-top: 37px;
+         margin-bottom: 30px;
+         padding: 15px 20px;
+         border-radius: 14px;
+         background-color: var(--color_green_card);
+         color: var(--color_base);
+
+         @include xxl {
+            margin-top: 56px;
+         }
+      }
+
+      &-subtitle {
+         margin-bottom: 5px;
+         font: 400 14px/1.2 "Overpass";
+
+         @include xxxl {
+            font-size: 16px;
+         }
+      }
+
+      &-list {
+         margin-left: 15px;
+         list-style: disc;
+         list-style-type: disc;
+      }
+
+      &-item {
+         margin-bottom: 5px;
+         font: 400 14px/1.2 "Overpass";
+         list-style: disc;
+         list-style-type: disc;
+
+         @include xxxl {
+            font-size: 16px;
+         }
+      }
+
+      &-bullets {
+         display: flex;
+         flex-flow: column;
+         gap: 15px;
+      }
+
+      &-bullet {
+         display: flex;
+         align-items: center;
+         gap: 10px;
+         font: 400 14px/1.2 "Overpass";
+
+         @include lg {
+            align-items: flex-start;
+         }
+
+         @include xxxl {
+            font-size: 16px;
+         }
+      }
+
+      &-icon {
+         display: block;
+         width: 21px;
+         height: 21px;
+         min-width: 21px;
+         min-height: 21px;
+      }
+
+      &::before {
+         content: "";
+         position: absolute;
+         top: 5px;
+         left: 0;
+         display: block;
+         width: 20px;
+         height: 20px;
+         border: 1px solid #fff;
+         border-radius: 20px;
+         background: rgba(255, 255, 255, 65%);
+         box-shadow: 102px 147px 72px rgba(25, 121, 123, 0.01), 58px 83px 61px rgba(25, 121, 123, 0.04), 26px 37px 45px rgba(25, 121, 123, 0.07), 6px 9px 25px rgba(25, 121, 123, 0.08), 0px 0px 0px rgba(25, 121, 123, 0.08);
+         backdrop-filter: blur(28px);
+      }
+
+      @include lg {
+         min-height: 410px;
+      }
+
+      @include lg {
+         min-height: 455px;
+      }
+
+      @include xxl {
+         min-height: 550px;
+         padding: 0 40px 40px 40px;
+      }
+   }
+
+   @include md {
+      padding: 50px 30px;
+   }
+
+   @include lg {
+      padding: 80px 30px;
+   }
+
+   @include xl {
+      padding: 100px 30px;
+   }
+
+   @include xxl {
+      padding: 120px 30px;
+   }
+}

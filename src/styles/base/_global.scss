@@ -8,11 +8,16 @@ body {
 }
 
 .container {
-   max-width: 1366px;
+   position: relative;
+   max-width: 450px;
    margin: 0 auto;
 
-   @include xl {
-      position: relative;
+   @include md {
+      max-width: 650px;
+   }
+
+   @include lg {
+      max-width: 100%;
    }
 
    @include xxxl {

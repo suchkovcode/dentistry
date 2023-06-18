@@ -89,7 +89,6 @@
    &__card {
       position: relative;
       width: 100%;
-      min-width: 360px;
       padding: 0 20px 20px 20px;
       background-image: url("/src/assets/img/png/card__bg.png");
       background-size: 100% 100%;
@@ -101,6 +100,7 @@
          font: 700 14px/1.2 "Overpass";
 
          @include sm {
+            min-width: 360px;
             padding-left: 20px;
             font-size: 18px;
          }
@@ -113,7 +113,7 @@
             font-size: 22px;
          }
 
-         @include xxl{
+         @include xxl {
             padding-left: 0;
          }
       }

@@ -87,9 +87,6 @@ module.exports = {
       hot: true,
       liveReload: false,
    },
-   externals: {
-      jquery: "jQuery",
-   },
    plugins: [
       new HtmlWebpackPlugin({
          filename: "index.html",

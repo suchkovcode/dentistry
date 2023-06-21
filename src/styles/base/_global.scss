@@ -29,3 +29,17 @@ body {
    max-width: 2000px;
    margin: 0 auto;
 }
+
+a {
+   display: inline-block;
+   border-bottom: 1px solid var(--color_link);
+   text-decoration: none;
+   transition: all 0.2s ease-in-out;
+   color: var(--color_link);
+
+   &:hover {
+      border-bottom: 1px solid vvar(--color_link_hover);
+      transition: all 0.2s ease-in-out;
+      color: var(--color_link_hover);
+   }
+}

@@ -1,3 +1,9 @@
+@mixin xs() {
+   @media all and (min-width: 475px) {
+      @content;
+   }
+}
+
 @mixin sm() {
    @media all and (min-width: 576px) {
       @content;

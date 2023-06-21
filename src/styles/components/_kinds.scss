@@ -1,7 +1,7 @@
 .kinds {
    overflow-x: hidden;
    position: relative;
-   padding: 30px 15px;
+   padding: 30px 15px 100px 15px;
    border-radius: 30px;
    background: radial-gradient(83.98% 349.85% at 93.78% 95.78%, #baf0f1 0%, #f2f9f9 52.08%, #e5eefa 100%);
 
@@ -45,6 +45,7 @@
 
       &-item {
          position: relative;
+         z-index: 100;
 
          @include lg {
             flex: 0 0 calc(50% - 20px);
@@ -216,15 +217,15 @@
    }
 
    @include md {
-      padding: 50px 30px;
+      padding: 50px 30px 100px 30px;
    }
 
    @include lg {
-      padding: 80px 30px;
+      padding: 80px 30px 120px 30px;
    }
 
    @include xl {
-      padding: 100px 30px;
+      padding: 100px 30px 120px 30px;
    }
 
    @include xxl {

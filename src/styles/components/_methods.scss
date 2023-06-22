@@ -23,10 +23,11 @@
       }
 
       @include xl {
-         top: -440px;
+         top: -480px;
          left: -20px;
          width: 105%;
          max-width: 1280px;
+         transform: rotate(0deg);
       }
 
       @include xxl {

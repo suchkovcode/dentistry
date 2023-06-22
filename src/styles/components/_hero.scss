@@ -79,26 +79,6 @@
       }
    }
 
-   &__btn {
-      cursor: pointer;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: 60px;
-      max-width: 300px;
-      padding: 20px;
-      border-radius: 90px;
-      font: 700 16px/1.2 "Overpass";
-      background: linear-gradient(262.49deg, #00bfbf -11.93%, #0a65d1 43.39%);
-      transition: all 0.5s ease-in-out;
-      color: var(--color_base);
-
-      &:hover {
-         background: linear-gradient(262.49deg, #0c55ad 56.25%, #00bfbf 111.56%);
-      }
-   }
-
    &__img {
       display: block;
       width: 100%;

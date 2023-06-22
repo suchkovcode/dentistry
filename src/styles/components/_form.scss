@@ -1,0 +1,159 @@
+.form {
+   position: relative;
+   display: flex;
+   flex-flow: column;
+   gap: 20px;
+
+   &__title {
+      font: 700 16px/1.3 "Overpass";
+      color: var(--color_fonts);
+
+      @include md {
+         font-size: 18px;
+      }
+
+      @include lg {
+         font-size: 20px;
+      }
+
+      @include xl {
+         font-size: 22px;
+      }
+
+      @include xxl {
+         font-size: 24px;
+         flex: 1 0 100%;
+      }
+   }
+
+   &__fields {
+      display: flex;
+      flex-flow: column;
+      gap: 20px;
+
+      @include md {
+         flex-flow: row;
+         flex-wrap: wrap;
+      }
+
+      @include lg {
+         flex-flow: column;
+      }
+
+      @include xxl {
+         flex: 1 0 calc(50% - 10px);
+         flex-flow: row;
+         flex-wrap: wrap;
+      }
+      @include xxxl {
+         column-gap: 30px;
+      }
+   }
+
+   &__fieldset {
+      display: block;
+      margin: 0;
+      padding-left: 15px;
+      border: 1px groove var(--color_border_input);
+      border-radius: 8px;
+
+      @include md {
+         flex: 1 0 calc(50% - 10px);
+      }
+
+      @include xxxl {
+         flex: 1 0 calc(50% - 15px);
+      }
+   }
+
+   &__legend {
+      padding: 0 10px;
+   }
+
+   &__input {
+      display: block;
+      width: 100%;
+      padding: 9px 15px 9px 0;
+      border: none;
+      outline: none;
+      background: none;
+
+      @include lg {
+         padding: 10px 15px 10px 0;
+      }
+   }
+
+   &__policy {
+      position: relative;
+      display: flex;
+      gap: 10px;
+      max-width: 420px;
+      font: 400 14px/1.4 "Overpass";
+      color: var(--color_fonts);
+
+      @include xxl {
+         flex: 1 0 100%;
+      }
+   }
+
+   &__radio {
+      cursor: pointer;
+      position: relative;
+      display: block;
+      width: 20px;
+      height: 20px;
+      min-width: 20px;
+      min-height: 20px;
+      border: 1px solid var(--color_border_input);
+      border-radius: 100%;
+
+      &:checked {
+         border: 1px solid var(--color_blue);
+         background-image: url("/src/assets/img/svg/radion__check.svg");
+         background-position: center;
+         background-repeat: no-repeat;
+         background-color: var(--color_blue);
+      }
+   }
+
+   &__action {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      gap: 15px;
+
+      @include lg {
+         align-items: flex-start;
+      }
+
+      @include xxl {
+         position: relative;
+         bottom: 55px;
+      }
+   }
+
+   &__info {
+      max-width: 380px;
+      text-align: center;
+
+      @include lg {
+         text-align: left;
+      }
+   }
+
+   @include lg {
+      max-width: 50%;
+   }
+
+   @include xxl {
+      flex-flow: row;
+      flex-wrap: wrap;
+      max-width: 850px;
+   }
+
+   @include xxxl {
+      max-width: 1000px;
+      column-gap: 30px;
+      row-gap: 40px;
+   }
+}

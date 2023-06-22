@@ -1,0 +1,182 @@
+.doctor {
+   overflow-x: hidden;
+   position: relative;
+   padding: 30px 15px;
+   border-radius: 30px;
+   background: radial-gradient(83.98% 349.85% at 93.78% 95.78%, #baf0f1 0%, #f2f9f9 52.08%, #e5eefa 100%);
+
+   &__content {
+      display: flex;
+      flex-flow: column;
+      gap: 30px;
+      margin-bottom: 40px;
+
+      @include md {
+         gap: 45px;
+      }
+
+      @include lg {
+         margin-bottom: 0;
+      }
+
+      @include xxl {
+         gap: 60px;
+      }
+   }
+
+   &__header {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      gap: 20px;
+
+      @include md {
+         flex-flow: row;
+      }
+   }
+
+   &__avatar {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-width: 180px;
+      max-height: 180px;
+
+      @include xl {
+         max-width: 210px;
+         max-height: 210px;
+      }
+   }
+
+   &__title {
+      font: 400 18px/1.3 "Overpass";
+      text-align: center;
+
+      @include sm {
+         font-size: 22px;
+      }
+
+      @include md {
+         font-size: 30px;
+         text-align: left;
+      }
+
+      @include lg {
+         max-width: 480px;
+         font-size: 34px;
+      }
+
+      @include xl {
+         max-width: 540px;
+         font-size: 38px;
+      }
+
+      @include xxxl {
+         font-size: 40px;
+      }
+   }
+
+   &__discount {
+      position: relative;
+      max-width: 440px;
+      margin: 0 auto;
+      padding: 30px;
+      border-radius: 20px;
+      background: url("/src/assets/img/svg/doctor__discount-bg.svg"), var(--color_blue);
+      background-position: 45px -15px;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+
+      &-title {
+         margin-bottom: 10px;
+         font: 400 16px/1.3 "Overpass";
+         color: var(--color_base);
+
+         @include sm {
+            font-size: 18px;
+         }
+
+         @include lg {
+            font-size: 20px;
+         }
+
+         @include xl {
+            font-size: 22px;
+         }
+      }
+
+      &-subtitle {
+         margin-bottom: 40px;
+         color: var(--color_bullet_text);
+
+         @include xl {
+            margin-bottom: 60px;
+         }
+      }
+
+      &-picture {
+         position: relative;
+      }
+
+      &-img {
+         position: relative;
+         z-index: 100;
+         display: block;
+         width: 100%;
+         margin: 0 auto;
+         margin-right: -10px;
+         margin-bottom: -30px;
+
+         @include xl {
+            margin-bottom: -40px;
+         }
+
+      }
+
+      &-value {
+         position: absolute;
+         bottom: 85px;
+         left: -45px;
+         z-index: 50;
+         font: 700 70px/1.1 "Overpass";
+         transform: rotate(-90deg);
+         color: var(--color_base);
+
+         @include xs {
+            bottom: 120px;
+            font-size: 90px;
+         }
+      }
+
+      @include md {
+         border-radius: 20px 20px 0 0;
+      }
+
+      @include lg {
+         position: absolute;
+         right: 0;
+         bottom: -50px;
+      }
+
+      @include xl {
+         padding: 40px;
+         border-radius: 25px 25px 0 0;
+      }
+
+      @include xxl {
+         bottom: -60px;
+      }
+   }
+
+   @include md {
+      padding-bottom: 0;
+   }
+
+   @include lg {
+      padding: 50px 30px 50px 30px;
+   }
+
+   @include xxl {
+      padding: 60px 30px 60px 30px;
+   }
+}

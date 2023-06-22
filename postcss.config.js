@@ -19,7 +19,7 @@ module.exports = {
          rejected: false,
          rejectedCss: false,
          safelist: {
-            standard: [],
+            standard: ["active"],
             deep: [],
             greedy: [],
             keyframes: [],

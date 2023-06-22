@@ -1,0 +1,428 @@
+.price {
+   position: relative;
+   padding: 30px 15px;
+
+   &__title {
+      margin-bottom: 20px;
+      font: 400 22px/1.2 "Overpass";
+
+      @include sm {
+         font-size: 26px;
+      }
+
+      @include md {
+         font-size: 28px;
+      }
+
+      @include lg {
+         font-size: 34px;
+      }
+
+      @include xl {
+         font-size: 38px;
+      }
+
+      @include xxl {
+         font-size: 40px;
+      }
+   }
+
+   &__block {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      gap: 30px;
+      margin-bottom: 60px;
+
+      &-item {
+         width: 100%;
+         max-width: 510px;
+         padding: 15px 15px 0 15px;
+         border: 1px solid rgba(186, 240, 241, 100%);
+         border-radius: 24px;
+
+         @include md {
+            flex: 1 0 calc(50% - 15px);
+            max-width: 310px;
+         }
+
+         @include lg {
+            flex: 1 0 calc(33% - 20px);
+            max-width: 100%;
+         }
+      }
+
+      &-logo {
+         display: block;
+         width: 100%;
+         max-width: 320px;
+         margin: 0 auto;
+      }
+
+      @include md {
+         flex-flow: row;
+         flex-wrap: wrap;
+         align-items: flex-start;
+      }
+   }
+
+   &__card {
+      position: relative;
+      width: calc(100% + 30px);
+      margin-left: -15px;
+      padding: 20px;
+      border-radius: 24px;
+      background: radial-gradient(104.62% 88.11% at 40.02% 100%, #2c808b 0%, #2eb0b2 100%), #d9d9d9;
+      box-shadow: 0px 0px 0px 0px rgba(60, 67, 68, 0.2), 7px 9px 25px 0px rgba(60, 67, 68, 0.2), 29px 36px 46px 0px rgba(60, 67, 68, 0.17), 64px 81px 62px 0px rgba(60, 67, 68, 0.1), 115px 143px 73px 0px rgba(60, 67, 68, 0.03), 179px 224px 80px 0px rgba(60, 67, 68, 0);
+
+      &-title {
+         margin-bottom: 15px;
+         font: 400 18px/1.2 "Overpass";
+         color: var(--color_base);
+
+         @include lg {
+            font-size: 20px;
+         }
+
+         @include xl {
+            font-size: 22px;
+         }
+
+         @include xxl {
+            font-size: 24px;
+         }
+      }
+
+      &-cost {
+         color: var(--color_base);
+      }
+
+      &-old {
+         margin-bottom: 10px;
+         font: 400 16px/1.2 "Overpass";
+         text-decoration: line-through;
+
+         @include md {
+            font-size: 18px;
+         }
+
+         @include lg {
+            font-size: 20px;
+         }
+
+         @include xl {
+            font-size: 22px;
+         }
+
+         @include xxl {
+            font-size: 24px;
+         }
+      }
+
+      &-new {
+         font: 700 22px/1.2 "Overpass";
+
+         @include md {
+            font-size: 24px;
+         }
+
+         @include lg {
+            font-size: 28px;
+         }
+
+         @include xl {
+            font-size: 34px;
+         }
+
+         @include xxl {
+            font-size: 40px;
+         }
+      }
+
+      &-info {
+         font: 400 14px/1.2 "Overpass";
+         opacity: 0.9;
+
+         @include lg {
+            font-size: 16px;
+         }
+      }
+
+      &-more {
+         display: none;
+         transition: all 0.8s linear;
+      }
+
+      &-bullet {
+         display: flex;
+         flex-flow: column;
+         gap: 10px;
+         margin-top: 30px;
+         margin-bottom: 20px;
+      }
+
+      &-item {
+         display: flex;
+         align-items: flex-start;
+         gap: 10px;
+         font: 400 14px/1.2 "Overpass";
+         color: var(--color_base);
+      }
+
+      &-icon {
+         display: block;
+         min-width: 15px;
+         min-height: 15px;
+         border-radius: 4px;
+         background: url("/src/assets/img/svg/icon__check.svg"), var(--color_check);
+         background-position: center;
+         background-repeat: no-repeat;
+      }
+
+      &-total {
+         font: 700 22px/1.2 "Overpass";
+         color: var(--color_base);
+
+         @include lg {
+            font-size: 24px;
+         }
+      }
+
+      &-btn {
+         cursor: pointer;
+         position: relative;
+         display: block;
+         width: 100%;
+         margin-top: 20px;
+         padding-right: 10px;
+         outline: none;
+         font: 400 14px/1.2 "Overpass";
+         text-align: right;
+         text-decoration: underline;
+
+         &::after {
+            content: "";
+            position: absolute;
+            top: 4px;
+            right: -5px;
+            display: block;
+            width: 0;
+            height: 0;
+            border-top: 6px solid var(--color_base);
+            border-right: 5px solid transparent;
+            border-left: 5px solid transparent;
+
+            @include xl {
+               top: 7px;
+            }
+         }
+
+         @include xl {
+            font-size: 16px;
+         }
+      }
+
+      &.active {
+         .price__card-more {
+            display: block;
+         }
+
+         .price__card-btn::after {
+            border-top: 0;
+            border-right: 5px solid transparent;
+            border-bottom: 6px solid var(--color_base);
+            border-left: 5px solid transparent;
+         }
+      }
+
+      @include xl {
+         padding: 30px;
+      }
+
+      @include xxl {
+         padding: 40px;
+      }
+   }
+
+   &__action {
+      position: relative;
+      max-width: 350px;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 25px;
+      background: radial-gradient(1183.59% 36.65% at 61.19% 34.15%, #4e8dd8 0%, #0a65d1 100%);
+      color: var(--color_base);
+
+      &-header {
+         @include lg {
+            grid-area: header;
+         }
+      }
+
+      &-title {
+         margin-bottom: 15px;
+         font-size: 26px;
+         font-weight: 700;
+
+         @include md {
+            font-size: 28px;
+         }
+
+         @include xxl {
+            font-size: 34px;
+         }
+
+         @include xxxl {
+            font-size: 40px;
+         }
+      }
+
+      &-subtitle {
+         margin-bottom: 40px;
+         font-size: 18px;
+         font-weight: 400;
+         letter-spacing: -0.5px;
+
+         @include md {
+            font-size: 20px;
+         }
+
+         @include lg {
+            margin-bottom: 0;
+         }
+
+         @include xxl {
+            font-size: 22px;
+         }
+
+         @include xxxl {
+            font-size: 24px;
+         }
+      }
+
+      &-img {
+         position: relative;
+         top: 60px;
+         left: calc(50% - 160px);
+         z-index: 100;
+         width: 120%;
+         height: 100%;
+         max-width: 320px;
+         margin-bottom: 140px;
+         transform: rotate(90deg);
+
+         @include md {
+            top: 90px;
+            margin-bottom: 170px;
+         }
+
+         @include lg {
+            top: initial;
+            left: initial;
+            grid-area: img;
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+            margin-bottom: 0;
+            transform: rotate(0deg);
+         }
+
+         @include xxl {
+            width: 105%;
+            max-width: initial;
+         }
+      }
+
+      &-info {
+         width: calc(100% + 40px);
+         margin-bottom: -20px;
+         margin-left: -20px;
+         padding: 30px 20px;
+         border-radius: 24px;
+         background: radial-gradient(359.49% 117.86% at 93.78% 95.78%, #baf0f1 0%, #f2f9f9 52.08%, #e5eefa 100%);
+         color: var(--color_font);
+
+         @include sm {
+            padding: 40px 30px;
+         }
+
+         @include md {
+            width: calc(100% + 60px);
+            margin-bottom: -30px;
+            margin-left: -30px;
+         }
+
+         @include lg {
+            grid-area: info;
+            margin: 0;
+            margin-left: -20px;
+         }
+
+         @include xl {
+            max-width: 480px;
+         }
+
+         @include xxl {
+            margin-left: 0px;
+            padding: 60px 50px;
+         }
+
+         @include xxxl {
+            margin-left: 5px;
+         }
+      }
+
+      &-text {
+         margin-bottom: 25px;
+         font-size: 16px;
+         font-weight: 400;
+         text-align: center;
+      }
+
+      &-btn {
+         margin: 0 auto;
+      }
+
+      @include md {
+         padding: 30px;
+      }
+
+      @include lg {
+         display: grid;
+         align-items: center;
+         grid-template-areas: "header img info";
+         grid-template-columns: 1fr 1fr 1fr;
+         max-width: 100%;
+         padding: 0 40px;
+         gap: 10px;
+
+         @include xxl {
+            grid-template-columns: 1.3fr 1fr 1fr;
+         }
+      }
+   }
+
+   @include sm {
+      padding: 50px 15px;
+   }
+
+   @include md {
+      padding: 80px 30px 80px 30px;
+   }
+
+   @include lg {
+      padding: 100px 30px 100px 30px;
+   }
+
+   @include xl {
+      padding: 120px 30px 120px 30px;
+   }
+
+   @include xxl {
+      padding: 140px 30px 120px 30px;
+   }
+
+   @include xxxl {
+      padding: 160px 30px 120px 30px;
+   }
+}

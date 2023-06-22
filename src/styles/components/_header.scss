@@ -20,6 +20,8 @@
       display: block;
       width: 100px;
       height: 45px;
+      border-bottom: none;
+      text-decoration: none;
 
       &-icon {
          width: 100%;
@@ -74,7 +76,13 @@
       display: none;
 
       &-item {
+         border-bottom: none;
+         text-decoration: none;
+
          &:hover {
+            border-bottom: none;
+            text-decoration: none;
+
             .header__social-icon {
                color: var(--color_blue);
             }
@@ -151,7 +159,12 @@
       }
 
       &-number {
+         border-bottom: none;
+         text-decoration: none;
+
          &:hover {
+            border-bottom: none;
+            text-decoration: none;
             color: var(--color_blue);
          }
 

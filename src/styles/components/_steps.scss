@@ -1,0 +1,323 @@
+.steps {
+   overflow-x: hidden;
+   position: relative;
+   padding: 30px 15px;
+   border-radius: 30px;
+   background: url("/src/assets/img/svg/steps__bg.svg"), radial-gradient(83.98% 349.85% at 93.78% 95.78%, #baf0f1 0%, #f2f9f9 52.08%, #e5eefa 100%);
+   background-size: cover;
+   background-repeat: no-repeat;
+
+   &__title {
+      margin-bottom: 30px;
+      font-size: 20px;
+      font-weight: 400;
+      text-align: center;
+
+      @include sm {
+         font-size: 24px;
+      }
+
+      @include md {
+         margin-bottom: 50px;
+         font-size: 28px;
+      }
+
+      @include lg {
+         font-size: 34px;
+      }
+
+      @include xl {
+         margin-bottom: 60px;
+         font-size: 38px;
+      }
+
+      @include xxl {
+         font-size: 40px;
+      }
+   }
+
+   &__container {
+      display: flex;
+      flex-flow: column;
+      gap: 30px;
+
+      @include xl {
+         gap: 40px;
+      }
+   }
+
+   &__item {
+      position: relative;
+      width: 100%;
+      max-width: 450px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #fff;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.66);
+      color: var(--color_font);
+      box-shadow: 0px 0px 0px 0px rgba(25, 121, 123, 0.08), 6px 9px 25px 0px rgba(25, 121, 123, 0.08), 26px 37px 45px 0px rgba(25, 121, 123, 0.07), 58px 83px 61px 0px rgba(25, 121, 123, 0.04), 102px 147px 72px 0px rgba(25, 121, 123, 0.01), 160px 230px 78px 0px rgba(25, 121, 123, 0);
+
+      &-position {
+         position: relative;
+
+         @include lg {
+            max-width: 350px;
+         }
+
+         @include xl {
+            max-width: 400px;
+         }
+
+         @include xxl {
+            max-width: 600px;
+         }
+         @include xxxl {
+            max-width: 650px;
+         }
+      }
+
+      &-img {
+         width: calc(100% + 44px);
+         height: auto;
+         margin-top: -22px;
+         margin-bottom: 30px;
+         margin-left: -22px;
+         border-radius: 20px;
+         object-fit: cover;
+
+         @include lg {
+            width: calc(100% + 32px);
+            height: calc(100% + 62px);
+            margin: 0;
+            margin-top: -31px;
+            margin-left: -32px;
+         }
+
+         @include xl {
+            width: calc(100% + 52px);
+            height: calc(100% + 104px);
+            margin-top: -52px;
+            margin-left: -52px;
+         }
+
+         @include xxl {
+            width: calc(100% + 110px);
+            height: calc(100% + 162px);
+            max-width: 600px;
+            margin-top: -81px;
+            margin-left: -81px;
+         }
+
+         @include xxxl {
+            width: calc(100% + 110px);
+            height: calc(100% + 163px);
+            max-width: 650px;
+            margin-top: -82px;
+            margin-left: -81px;
+         }
+      }
+
+      &-index {
+         position: absolute;
+         bottom: 0;
+         left: calc(50% - 10px);
+         font-size: 100px;
+         font-weight: 700;
+         text-shadow: 0px 0px 0px rgba(25, 121, 123, 0.08), 6px 9px 25px rgba(25, 121, 123, 0.08), 26px 37px 45px rgba(25, 121, 123, 0.07), 58px 83px 61px rgba(25, 121, 123, 0.04), 102px 147px 72px rgba(25, 121, 123, 0.01), 160px 230px 78px rgba(25, 121, 123, 0);
+         line-height: 100px;
+         letter-spacing: -4px;
+         transform: translateX(-50%);
+         color: rgba(255, 255, 255, 66%);
+         -webkit-text-stroke: 1px #fff;
+         text-stroke: 1px #fff;
+
+         @include lg {
+            right: 5px;
+            bottom: 40px;
+            left: initial;
+            transform: translateX(0);
+         }
+
+         @include xl {
+            right: -8px;
+            bottom: 25px;
+            font-size: 150px;
+            line-height: 150px;
+         }
+
+         @include xxl {
+            font-size: 200px;
+            line-height: 200px;
+         }
+      }
+
+      &-title {
+         margin-bottom: 20px;
+         font-size: 16px;
+         font-weight: 700;
+
+         @include sm {
+            font-size: 18px;
+         }
+
+         @include lg {
+            font-size: 22px;
+         }
+
+         @include xl {
+            font-size: 24px;
+         }
+      }
+
+      &-bullet {
+         display: flex;
+         flex-flow: column;
+         gap: 10px;
+
+         @include lg {
+            max-width: 480px;
+         }
+
+         @include xl {
+            gap: 15px;
+         }
+
+         @include xxl {
+            max-width: 480px;
+         }
+      }
+
+      &-point {
+         display: flex;
+         align-items: flex-start;
+         gap: 10px;
+         font-size: 14px;
+         font-weight: 400;
+         line-height: 1.2;
+
+         @include sm {
+            font-size: 16px;
+         }
+      }
+
+      &-icon {
+         display: block;
+         min-width: 15px;
+         min-height: 15px;
+         border-radius: 4px;
+         background: url("/src/assets/img/svg/icon__check.svg"), var(--color_check);
+         background-position: center;
+         background-repeat: no-repeat;
+
+         @include xl {
+            min-width: 20px;
+            min-height: 20px;
+            background-position: 6px 6px;
+         }
+
+         @include xxl {
+            min-width: 24px;
+            min-height: 24px;
+            background-position: 5px;
+            background-size: 70% 70%;
+            background-repeat: no-repeat;
+         }
+      }
+
+      &--right {
+         @include xl {
+            margin: 0;
+            margin-right: auto;
+         }
+      }
+
+      &--left {
+         @include lg {
+            flex-flow: row-reverse;
+            justify-content: space-between;
+
+            .steps__item-img {
+               width: calc(100% + 32px);
+               height: calc(100% + 62px);
+               margin: 0;
+               margin-top: -31px;
+               margin-right: -32px;
+               margin-left: initial;
+            }
+
+            .steps__item-index {
+               right: initial;
+               bottom: 70px;
+               left: 0;
+            }
+         }
+
+         @include xl {
+            margin: 0;
+            margin-left: auto;
+
+            .steps__item-img {
+               width: calc(100% + 52px);
+               height: calc(100% + 104px);
+               margin-top: -52px;
+               margin-right: -52px;
+               margin-left: initial;
+            }
+         }
+
+         @include xxl {
+            .steps__item-img {
+               width: calc(100% + 82px);
+               height: calc(100% + 164px);
+               margin-top: -82px;
+               margin-right: -83px;
+            }
+
+
+            .steps__item-index {
+               bottom: 25px;
+            }
+         }
+      }
+
+      @include lg {
+         display: flex;
+         gap: 30px;
+         max-width: 1050px !important;
+         padding: 30px;
+      }
+
+      @include xl {
+         gap: 60px;
+         max-width: 1150px !important;
+         padding: 50px;
+      }
+
+      @include xxl {
+         max-width: 1250px !important;
+         max-height: 450px;
+         padding: 80px;
+      }
+
+      @include xxxl {
+         max-width: 1320px !important;
+      }
+   }
+
+   @include md {
+      padding: 50px 30px;
+   }
+
+   @include xl {
+      padding: 80px 30px;
+   }
+
+   @include xxl {
+      padding: 100px 30px;
+   }
+
+   @include xxxl {
+      padding: 110px 30px;
+   }
+}

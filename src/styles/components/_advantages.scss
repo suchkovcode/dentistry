@@ -1,7 +1,6 @@
 .advantages {
    overflow-x: hidden;
    position: relative;
-   margin-bottom: 30px;
    padding: 30px 15px 0 15px;
    border-radius: 30px;
    background: url("/src/assets/img/svg/advantages__bg.svg");
@@ -144,12 +143,9 @@
       height: auto;
       max-width: 400px;
       margin: 0 auto;
-
-      @include lg {
-         max-width: 500px;
-      }
-
+      
       @include xxl {
+         max-width: 500px;
          align-self: flex-end;
          width: 130%;
          max-width: 600px;

@@ -17,7 +17,10 @@
       "docs:build": "jsdoc --configure jsdoc.json --verbose"
    },
    "lint-staged": {
-      "*.js": ["prettier --write", "eslint --cache --fix --color"],
+      "*.js": [
+         "prettier --write",
+         "eslint --cache --fix --color"
+      ],
       "*.scss": "stylelint --fix --color"
    },
    "devDependencies": {
@@ -77,6 +80,8 @@
       "eslint": "^8.43.0",
       "eslint-plugin-import": "^2.27.5",
       "eslint-plugin-prettier": "^4.2.1",
-      "eslint-config-prettier": "^8.8.0"
+      "eslint-config-prettier": "^8.8.0",
+
+      "swiper": "^9.4.1"
    }
 }

@@ -40,7 +40,11 @@
       <stop offset="0.630208" stop-color="#4AD1D2"/>
       </radialGradient>
       </defs>
-      </svg>
-
+   </symbol>
+   <symbol id="arrow-left" viewBox="0 0 23 18">
+      <path d="M22.001 8.5H1.00098M1.00098 8.5L9.50098 1M1.00098 8.5L9.50098 17" stroke="#0A65D1" stroke-linecap="round" stroke-linejoin="round"/>
+   </symbol>
+   <symbol id="arrow-right" viewBox="0 0 23 18">
+      <path d="M0.999023 8.5H21.999M21.999 8.5L13.499 1M21.999 8.5L13.499 17" stroke="#0A65D1" stroke-linecap="round" stroke-linejoin="round"/>
    </symbol>
 </svg>

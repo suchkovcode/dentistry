@@ -1,5 +1,8 @@
 // @ts-nocheck
 /* eslint-disable no-unused-expressions */
+
+import Swiper, { Navigation, Autoplay } from "swiper";
+
 window.addEventListener("DOMContentLoaded", () => {
    const cardMoreTogge = () => {
       const btnToggle = document.querySelectorAll(".price__card-btn");
@@ -12,10 +15,39 @@ window.addEventListener("DOMContentLoaded", () => {
             const { index, open, close } = event.currentTarget.dataset;
             moreContent[index].classList.toggle("active");
             moreContent[index].classList.contains("active")
-               ? (element.textContent = close)
-               : (element.textContent = open);
+               ? (element.textContent = close) : (element.textContent = open);
          });
       });
    };
    cardMoreTogge();
+});
+
+const swiper = new Swiper(".swiper", {
+   modules: [Navigation, Autoplay],
+   speed: 500,
+   grabCursor: true,
+
+   autoplay: {
+      delay: 5000,
+   },
+   navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+   },
+
+   breakpoints: {
+      320: {
+         slidesPerView: 1,
+      },
+
+      768: {
+         slidesPerView: 2,
+         spaceBetween: 30,
+      },
+
+      1200: {
+         slidesPerView: 3,
+         spaceBetween: 30,
+      },
+   },
 });

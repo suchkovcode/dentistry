@@ -1,0 +1,112 @@
+.slider {
+   padding: 30px 15px;
+
+   &__title {
+      margin-bottom: 30px;
+      font-size: 20px;
+      font-weight: 400;
+      text-align: center;
+      line-height: 1.2;
+
+      @include sm {
+         font-size: 24px;
+      }
+
+      @include md {
+         font-size: 28px;
+      }
+
+      @include lg {
+         margin-bottom: 0;
+         font-size: 38px;
+         text-align: left;
+      }
+
+      @include xl {
+         font-size: 40px;
+      }
+   }
+
+   &__nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 20px;
+
+      @include md {
+         justify-content: flex-end;
+      }
+
+      @include lg {
+         margin-bottom: 30px;
+      }
+
+      @include xl {
+         margin-bottom: 40px;
+      }
+   }
+
+   &__button-prev,
+   &__button-next {
+      position: relative;
+      cursor: pointer;
+      display: block;
+      width: 34px;
+      height: 34px;
+      border-radius: 12px;
+      background: radial-gradient(145.47% 527.72% at 127.78% 125%, #baf0f1 0%, #f2f9f9 52.08%, #e5eefa 100%), linear-gradient(0deg, #d1f4f5, #d1f4f5);
+
+      @include md {
+         width: 44px;
+         height: 44px;
+         border-radius: 14px;
+      }
+
+      @include xl {
+         width: 54px;
+         height: 54px;
+         border-radius: 18px;
+      }
+   }
+
+   &__button-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 18px;
+      height: 16px;
+      transform: translateX(-50%) translateY(-50%);
+
+      @include xl {
+         width: 21px;
+         height: 16px;
+      }
+   }
+
+   &__slide {
+      border-radius: 30px;
+   }
+
+   &__slide-img {
+      width: 100%;
+      height: auto;
+      border-radius: 30px;
+   }
+
+   @include md {
+      padding: 50px 30px;
+   }
+
+   @include lg {
+      padding: 80px 30px;
+   }
+
+   @include xl {
+      padding: 100px 30px;
+   }
+
+   @include xxl {
+      padding: 110px 30px;
+   }
+}

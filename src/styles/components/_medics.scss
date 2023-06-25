@@ -269,4 +269,8 @@
    @include lg {
       padding: 80px 30px;
    }
+
+   @include xl {
+      padding: 100px 30px;
+   }
 }

@@ -163,6 +163,19 @@
       }
    }
 
+   &--second {
+      .action__doctor {
+
+         @include xxl {
+            max-width: 340px;
+         }
+
+         @include xxxl {
+            max-width: 380px;
+         }
+      }
+   }
+
    @include md {
       padding: 50px 30px 0 30px;
    }

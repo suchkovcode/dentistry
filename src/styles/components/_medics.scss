@@ -28,6 +28,14 @@
          @include lg {
             width: 85px;
          }
+
+         @include xl {
+            width: 95px;
+         }
+
+         @include xxl {
+            width: 105px;
+         }
       }
 
       &-text {
@@ -40,6 +48,16 @@
          @include lg {
             max-width: 480px;
             font-size: 20px;
+         }
+
+         @include xl {
+            max-width: 540px;
+            font-size: 22px;
+         }
+
+         @include xxl {
+            max-width: 560px;
+            font-size: 24px;
          }
       }
 

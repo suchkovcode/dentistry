@@ -1,0 +1,91 @@
+.faq {
+   display: flex;
+   flex-flow: column;
+   gap: 20px;
+
+   &__item {
+      cursor: pointer;
+      position: relative;
+      height: fit-content;
+      padding: 20px;
+      border-radius: 20px;
+      background: rgba(243, 243, 243, 100%);
+      transition: all 0.2s ease-in-out;
+
+      &.active {
+         background: radial-gradient(359.49% 117.86% at 93.78% 95.78%, #baf0f1 0%, #f2f9f9 52.08%, #e5eefa 100%);
+
+         & .faq__title-icon {
+            transform: rotate(180deg);
+         }
+      }
+
+      @include lg {
+         min-width: fit-content;
+      }
+
+      @include xl {
+         padding: 25px;
+      }
+
+      @include xxl {
+         padding: 30px;
+      }
+   }
+
+   &__title {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 5px;
+
+      &-icon {
+         width: 14px;
+         height: 24px;
+         min-width: 14px;
+         transition: all 0.2s ease-in-out;
+      }
+
+      @include md {
+         font-size: 18px;
+      }
+
+      @include lg {
+         font-size: 20px;
+      }
+
+      @include xl {
+         font-size: 22px;
+      }
+
+      @include xxl {
+         font-size: 24px;
+      }
+   }
+
+   &__text {
+      margin: 15px 0;
+   }
+
+   &__link {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+   }
+
+   &__icon {
+      display: block;
+      width: 32px;
+      height: 32px;
+   }
+
+   @include lg {
+      flex: 1 0 calc(50% - 10px);
+   }
+
+   @include xl {
+      gap: 20px;
+      flex: 1 0 calc(50% - 15px);
+   }
+}

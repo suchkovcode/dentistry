@@ -1,0 +1,55 @@
+.questions {
+   padding: 30px 15px;
+
+   &__title {
+      margin-bottom: 30px;
+
+      @include lg {
+         margin-bottom: 40px;
+      }
+
+      @include xl {
+         margin-bottom: 60px;
+      }
+   }
+
+   &__container {
+      display: flex;
+      flex-flow: column;
+      gap: 20px;
+      background: url("/src/assets/img/svg/faq__bg.svg");
+      background-position: bottom;
+      background-size: 450px;
+      background-repeat: no-repeat;
+
+      @include lg {
+         flex-flow: row;
+         background-position: 95% 65%;
+      }
+
+      @include xl {
+         gap: 30px;
+      }
+
+      @include xxl {
+         background-position: 90% 85%;
+         background-size: 550px;
+      }
+   }
+
+   @include md {
+      padding: 0 30px 50px 30px;
+   }
+
+   @include lg {
+      padding: 0 30px 80px 30px;
+   }
+
+   @include xl {
+      padding: 0 30px 100px 30px;
+   }
+
+   @include xxl {
+      padding: 0 30px 120px 30px;
+   }
+}

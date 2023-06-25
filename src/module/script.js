@@ -4,7 +4,7 @@
 import Swiper, { Navigation, Autoplay } from "swiper";
 
 window.addEventListener("DOMContentLoaded", () => {
-   const cardMoreTogge = () => {
+   const cardMoreTogge = async () => {
       const btnToggle = document.querySelectorAll(".price__card-btn");
       const moreContent = document.querySelectorAll(".price__card");
 
@@ -20,6 +20,29 @@ window.addEventListener("DOMContentLoaded", () => {
       });
    };
    cardMoreTogge();
+
+   const faqToggle = () => {
+      const faqItem = document.querySelectorAll(".faq__item");
+      console.log(faqItem);
+
+      faqItem[0].classList.add("active");
+      faqItem[0].open = true;
+
+      faqItem.forEach((element) => {
+         element.addEventListener("click", (event) => {
+            const { index } = event.currentTarget.dataset;
+
+            if (event.target.classList.contains("faq__title")) {
+               faqItem.forEach((element) => {
+                  element.classList.remove("active");
+                  element.open = false;
+               });
+               faqItem[index].classList.toggle("active");
+            }
+         });
+      });
+   };
+   faqToggle();
 
    const swiper = new Swiper(".swiper", {
       modules: [Navigation, Autoplay],

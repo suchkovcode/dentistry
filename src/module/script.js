@@ -20,34 +20,35 @@ window.addEventListener("DOMContentLoaded", () => {
       });
    };
    cardMoreTogge();
-});
 
-const swiper = new Swiper(".swiper", {
-   modules: [Navigation, Autoplay],
-   speed: 500,
-   grabCursor: true,
+   const swiper = new Swiper(".swiper", {
+      modules: [Navigation, Autoplay],
+      speed: 500,
+      grabCursor: true,
 
-   autoplay: {
-      delay: 5000,
-   },
-   navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-   },
-
-   breakpoints: {
-      320: {
-         slidesPerView: 1,
+      autoplay: {
+         delay: 5000,
+      },
+      navigation: {
+         nextEl: ".swiper-button-next",
+         prevEl: ".swiper-button-prev",
       },
 
-      768: {
-         slidesPerView: 2,
-         spaceBetween: 30,
-      },
+      breakpoints: {
+         320: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+         },
 
-      1200: {
-         slidesPerView: 3,
-         spaceBetween: 30,
+         768: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+         },
+
+         1200: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+         },
       },
-   },
+   });
 });

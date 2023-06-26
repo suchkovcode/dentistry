@@ -9,25 +9,14 @@
       max-width: 450px;
       margin: 0 auto;
       margin-bottom: 15px;
-      font: 400 22px/1.2 "Overpass";
-
-      @include md {
-         font-size: 28px;
-      }
 
       @include lg {
          max-width: 920px;
          margin-bottom: 30px;
-         font-size: 34px;
       }
 
       @include xl {
          max-width: 1280px;
-         font-size: 38px;
-      }
-
-      @include xxl {
-         font-size: 40px;
       }
 
       @include xxxl {

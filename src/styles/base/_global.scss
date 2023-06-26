@@ -62,6 +62,10 @@ a {
    }
 
    @include xl {
+      font-size: 38px;
+   }
+
+   @include xxl {
       font-size: 40px;
    }
 }

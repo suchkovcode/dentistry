@@ -7,28 +7,20 @@
       max-width: 450px;
       margin: 0 auto;
       margin-bottom: 15px;
-      font: 400 22px/1.2 "Overpass";
 
       @include md {
          max-width: 370px;
          margin: 0 0 15px 0;
-         font-size: 28px;
       }
 
       @include lg {
-         max-width: 440px;
-         font-size: 34px;
          grid-area: title;
+         max-width: 440px;
       }
 
       @include xl {
          max-width: 510px;
          margin: 0;
-         font-size: 38px;
-      }
-
-      @include xxl {
-         font-size: 40px;
       }
    }
 

@@ -10,30 +10,14 @@
 
    &__title {
       margin-bottom: 30px;
-      font-size: 20px;
-      font-weight: 400;
       text-align: center;
-
-      @include sm {
-         font-size: 24px;
-      }
-
-      @include md {
-         font-size: 28px;
-      }
 
       @include lg {
          margin-bottom: 50px;
-         font-size: 34px;
       }
 
       @include lg {
          margin-bottom: 80px;
-         font-size: 38px;
-      }
-
-      @include xxl {
-         font-size: 40px;
       }
    }
 
@@ -143,7 +127,7 @@
       height: auto;
       max-width: 400px;
       margin: 0 auto;
-      
+
       @include xxl {
          max-width: 500px;
          align-self: flex-end;

@@ -4,27 +4,6 @@
 
    &__title {
       margin-bottom: 20px;
-      font: 400 22px/1.2 "Overpass";
-
-      @include sm {
-         font-size: 26px;
-      }
-
-      @include md {
-         font-size: 28px;
-      }
-
-      @include lg {
-         font-size: 34px;
-      }
-
-      @include xl {
-         font-size: 38px;
-      }
-
-      @include xxl {
-         font-size: 40px;
-      }
    }
 
    &__block {

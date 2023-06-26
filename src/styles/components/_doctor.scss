@@ -49,30 +49,18 @@
    }
 
    &__title {
-      font: 400 18px/1.3 "Overpass";
       text-align: center;
 
-      @include sm {
-         font-size: 22px;
-      }
-
       @include md {
-         font-size: 30px;
          text-align: left;
       }
 
       @include lg {
          max-width: 480px;
-         font-size: 34px;
       }
 
       @include xl {
          max-width: 540px;
-         font-size: 38px;
-      }
-
-      @include xxxl {
-         font-size: 40px;
       }
    }
 

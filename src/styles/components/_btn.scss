@@ -1,4 +1,17 @@
-.btn {
+.btn-primary {
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 50px;
+   padding: 15px 25px;
+   border-radius: 50px;
+   font: 700 16px/16px "Overpass";
+   background-color: var(--color_base);
+   color: var(--color_font);
+}
+
+.btn-secondary {
    cursor: pointer;
    display: flex;
    justify-content: center;

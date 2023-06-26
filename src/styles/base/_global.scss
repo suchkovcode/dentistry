@@ -128,3 +128,34 @@ a {
       color: var(--color_grey);
    }
 }
+
+.develop {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   width: fit-content;
+   margin: 0 auto;
+   padding: 10px 20px;
+   border-bottom: none;
+   border-radius: 5px;
+   line-height: 1;
+   letter-spacing: -0.30px;
+   white-space: nowrap;
+   background: rgba(12, 12, 14, 25%);
+   color: var(--color_base);
+
+   &__logo {
+      width: 100%;
+      height: auto;
+      max-width: 80px;
+   }
+
+   &:hover {
+      border-bottom: none;
+      color: var(--color_base);
+   }
+
+   @include xl {
+      margin: 0;
+   }
+}

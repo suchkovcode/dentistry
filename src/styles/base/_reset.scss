@@ -214,7 +214,7 @@ html {
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
    text-size-adjust: 100%;
-   color: #404A6C;
+   color: #404a6c;
    scroll-behavior: smooth;
    touch-action: manipulation;
    -webkit-overflow-scrolling: touch;
@@ -223,4 +223,13 @@ html {
 body {
    position: relative;
    min-width: 330px;
+}
+
+details {
+   outline: 0;
+   outline-offset: 0;
+}
+
+details summary::-webkit-details-marker {
+   display: none;
 }

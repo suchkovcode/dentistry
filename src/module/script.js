@@ -23,7 +23,6 @@ window.addEventListener("DOMContentLoaded", () => {
 
    const faqToggle = () => {
       const faqItem = document.querySelectorAll(".faq__item");
-      console.log(faqItem);
 
       faqItem[0].classList.add("active");
       faqItem[0].open = true;

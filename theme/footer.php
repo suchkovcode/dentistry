@@ -40,12 +40,9 @@
                   <span class="footer__adress-title">Красноармейский район:</span>
                   <span class="footer__adress-street">бульв. Энгельса, 27Б </span>
                </li>
-               <li>
-                  <svg class="footer__adress-line">
-                     <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-footer-line"></use>
-                  </svg>
-               </li>
-
+               <svg class="footer__adress-line">
+                  <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-footer-line"></use>
+               </svg>
             </ul>
             <p class="footer__time">8:00-20:00 без выходных</p>
          </div>
@@ -53,13 +50,13 @@
             <p class="footer__title footer__third-title">Контакты</p>
             <div class="footer__contact">
                <p class="footer__badge">Единый колл-центр:</p>
-               <a class="footer__contact-item" href="tel:8(8442)297029">
+               <a class="footer__contact-item" href="tel:88442297029">
                   <svg class="footer__contact-icon">
                      <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-phone"></use>
                   </svg>
                   8 (8442) 297 029
                </a>
-               <a class="footer__contact-item" href="tel:8(961)0297029">
+               <a class="footer__contact-item" href="tel:89610297029">
                   <svg class="footer__contact-icon">
                      <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-phone"></use>
                   </svg>

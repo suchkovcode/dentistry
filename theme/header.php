@@ -52,7 +52,7 @@
                <span class="header__contact-mark"></span>
                <span class="header__contact-text"> Сейчас работаем</span>
             </p>
-            <a class="header__contact-number" href="tel:8(8442)297029">
+            <a class="header__contact-number" href="tel:88442297029">
                <svg class="header__contact-icon">
                   <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-phone"></use>
                </svg>

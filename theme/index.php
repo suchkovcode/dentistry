@@ -341,7 +341,7 @@
                </div>
                <div class="form__action">
                   <p class="form__info">Во время визита в клинику <b>вы получите намного больше информации,</b> чем в интернете</p>
-                  <button class="btn form__btn" type="submit">Записаться на консультацию</button>
+                  <button class="btn-secondary form__btn" type="submit">Записаться на консультацию</button>
                </div>
             </form>
          </div>

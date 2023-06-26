@@ -96,8 +96,15 @@ a {
    gap: 10px;
 
    &__item {
+      cursor: pointer;
+      position: relative;
+      display: block;
+      width: 45px;
+      height: 45px;
       border-bottom: none;
+      border-radius: 100%;
       text-decoration: none;
+      background-color: var(--color_base);
 
       &:hover {
          border-bottom: none;
@@ -107,29 +114,17 @@ a {
             color: var(--color_blue);
          }
       }
-
-      @include md {
-         cursor: pointer;
-         position: relative;
-         display: block;
-         width: 45px;
-         height: 45px;
-         border-radius: 100%;
-         background-color: var(--color_base);
-      }
    }
 
    &__icon {
-      @include md {
-         position: absolute;
-         top: 50%;
-         left: 50%;
-         display: block;
-         width: 20px;
-         height: 20px;
-         transform: translateX(-50%) translateY(-50%);
-         transition: all 0.2s ease-in-out;
-         color: var(--color_grey);
-      }
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      display: block;
+      width: 20px;
+      height: 20px;
+      transform: translateX(-50%) translateY(-50%);
+      transition: all 0.2s ease-in-out;
+      color: var(--color_grey);
    }
 }

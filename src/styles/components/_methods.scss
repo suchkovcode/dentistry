@@ -48,8 +48,8 @@
       max-width: 450px;
       margin: 0 auto;
       padding: 30px 15px;
-      border-radius: 12px;
-      background: radial-gradient(52.5% 90.49% at 40.02% 100%, #2c808b 0%, #2eb0b3 100%);
+      border-radius: var(--radius_section);
+      background: var(--color_bg_gradient_green);
       transform: translateX(-50%);
 
       @include sm {
@@ -79,7 +79,7 @@
    &__title {
       max-width: 620px;
       margin: 0 auto 30px auto;
-      font: 400 16px/1.3 "Overpass";
+      font-weight: 400;
       text-align: center;
       color: var(--color_base);
 
@@ -90,6 +90,10 @@
       @include xl {
          margin: 0 auto 40px auto;
          font-size: 22px;
+      }
+
+      @include xxl {
+         font-size: 24px;
       }
    }
 
@@ -121,6 +125,7 @@
       border-radius: 20px;
       background: rgba(14, 14, 14, 12%);
 
+
       @include sm {
          flex-flow: row;
          align-items: center;
@@ -138,21 +143,39 @@
    &__bullet-icon {
       width: 60px;
       height: 60px;
+
+      @include lg {
+         width: 80px;
+         height: 80px;
+      }
+
+      @include xl {
+         width: 90px;
+         height: 90px;
+      }
+
+      @include xxl {
+         width: 100px;
+         height: 100px;
+      }
    }
 
    &__bullet-title {
-      max-width: 200px;
       margin-bottom: 5px;
-      font: 700 16px/1.2 "Overpass";
+      font-weight: 700;
       color: var(--color_base);
 
       @include lg {
          font-size: 18px;
       }
+
+      @include xxl {
+         font-size: 20px;
+      }
    }
 
    &__bullet-text {
-      font: 400 14px/1.2 "Overpass";
+      font-size: 14px;
       color: var(--color_bullet_text);
 
       @include lg {

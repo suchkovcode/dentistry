@@ -44,7 +44,7 @@
                   <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-footer-line"></use>
                </svg>
             </ul>
-            <p class="footer__time">8:00-20:00 без выходных</p>
+            <p class="footer__time"><strong>8:00-20:00 без выходных</strong></p>
          </div>
          <div class="footer__third">
             <p class="footer__title footer__third-title">Контакты</p>

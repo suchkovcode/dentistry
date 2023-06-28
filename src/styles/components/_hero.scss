@@ -4,7 +4,7 @@
    height: 100%;
    padding: 0 15px;
    padding-bottom: 15px;
-   border-radius: 30px;
+   border-radius: var(--radius_section);
    background: url("/src/assets/img/svg/hero__bg.svg"), var(--color_bg_gradient);
    background-size: cover;
    background-repeat: no-repeat;

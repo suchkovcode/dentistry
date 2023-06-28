@@ -35,7 +35,7 @@ a {
    }
 
    @include xxxl {
-      max-width: 1560px;
+      max-width: 1600px;
    }
 }
 
@@ -48,6 +48,7 @@ a {
    font-size: 20px;
    font-weight: 400;
    line-height: 1.2;
+   letter-spacing: -1.2px;
 
    @include sm {
       font-size: 24px;

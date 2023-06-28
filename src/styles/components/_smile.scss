@@ -85,7 +85,9 @@
 
       &-title {
          margin-bottom: 15px;
-         font: 400 20px/1.2 "Overpass";
+         font-size: 20px;
+         font-weight: 400;
+         letter-spacing: -0.50px;
 
          @include xl {
             margin-bottom: 30px;
@@ -105,6 +107,7 @@
 
       @include lg {
          grid-area: rating;
+         max-width: 440px;
       }
    }
 
@@ -122,6 +125,7 @@
 
          &:hover {
             border-bottom: 1px solid #e0e0e0;
+
             .smile__company-link {
                background: var(--color_blue);
                color: var(--color_base);
@@ -181,6 +185,12 @@
          background: radial-gradient(145.47% 527.72% at 127.78% 125%, #baf0f1 0%, #f2f9f9 52.08%, #e5eefa 100%), #d1f4f5;
          transition: all 0.2s ease-in-out;
          color: var(--color_blue);
+
+         @include xxl {
+            width: 54px;
+            height: 54px;
+            border-radius: 18px;
+         }
       }
    }
 
@@ -199,8 +209,18 @@
             "grid grid rating";
          gap: 20px;
 
+
+         @include xl {
+            column-gap: 30px;
+            row-gap: 30px;
+         }
+
          @include xxl {
-            gap: 30px;
+            column-gap: 40px;
+         }
+
+         @include xxxl {
+            column-gap: 65px;
          }
       }
    }

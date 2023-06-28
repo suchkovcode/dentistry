@@ -5,7 +5,7 @@
    padding: 0 15px;
    padding-bottom: 15px;
    border-radius: 30px;
-   background: url("/src/assets/img/svg/hero__bg.svg"), radial-gradient(83.98% 349.85% at 93.78% 95.78%, #baf0f1 0%, #f2f9f9 52.08%, #e5eefa 100%);
+   background: url("/src/assets/img/svg/hero__bg.svg"), var(--color_bg_gradient);
    background-size: cover;
    background-repeat: no-repeat;
 
@@ -99,10 +99,12 @@
       }
 
       @include xxl {
+         right: -30px;
          max-width: 1000px;
       }
 
       @include xxxl {
+         right: -50px;
          max-width: 1150px;
       }
    }

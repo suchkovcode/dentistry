@@ -2,8 +2,8 @@
    overflow-x: hidden;
    position: relative;
    padding: 30px 15px 100px 15px;
-   border-radius: 30px;
-   background: radial-gradient(83.98% 349.85% at 93.78% 95.78%, #baf0f1 0%, #f2f9f9 52.08%, #e5eefa 100%);
+   border-radius: var(--radius_section);
+   background: var(--color_bg_gradient);
 
    &__title {
       max-width: 450px;
@@ -35,6 +35,8 @@
       &-item {
          position: relative;
          z-index: 100;
+
+         // backdrop-filter: blur(55px);
 
          @include lg {
             flex: 0 0 calc(50% - 20px);
@@ -80,9 +82,12 @@
       position: relative;
       width: 100%;
       padding: 0 20px 20px 20px;
+      border-radius: 18px;
       background-image: url("/src/assets/img/png/card__bg.png");
       background-size: 100% 100%;
       background-repeat: no-repeat;
+      filter: drop-shadow(160px 230px 80px rgba(25, 121, 123, 0)) drop-shadow(100px 150px 70px rgba(25, 121, 123, 0.01)) drop-shadow(60px 80px 60px rgba(25, 121, 123, 0.01)) drop-shadow(25px 35px 45px rgba(25, 121, 123, 0.07)) drop-shadow(5px 10px 25px rgba(25, 121, 123, 0.08)) drop-shadow(0 0 0 rgba(25, 121, 123, 0.08));
+      backdrop-filter: blur(55px);
 
       &-title {
          padding-top: 8px;

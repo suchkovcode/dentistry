@@ -87,7 +87,7 @@ add_action('wp_head', function () {
    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/assets/static/favicon-32x32.png">
    <link rel="icon" type="image/png" sizes="48x48" href="<?php echo get_template_directory_uri(); ?>/assets/static/favicon-48x48.png">
    <link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/assets/static/manifest.webmanifest">
-   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css?v1">
+   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css?v4">
 <?php
 }, 0);
 

@@ -83,6 +83,11 @@ a {
       height: inherit;
    }
 
+   &:hover {
+      border-bottom: none;
+      text-decoration: none;
+   }
+
    @include lg {
       width: 140px;
       height: 65px;

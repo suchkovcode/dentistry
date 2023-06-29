@@ -7,12 +7,12 @@
                В имплантации <br />
                цена не главное
             </h1>
-            <p class="hero__subtitle">
+            <p class="title hero__subtitle">
                Главное гарантия 25 лет, <br />
                мы уверены в своей работе
             </p>
             <p class="hero__info">
-               <b>Оставьте заявку, мы перезвоним в течении 5 минут</b>
+               <strong>Оставьте заявку, мы перезвоним в течении 5 минут</strong>
                и поможем выбрать удобное время для записи
             </p>
             <button class="btn-secondary hero__btn">Записаться на консультацию</button>
@@ -24,7 +24,7 @@
                   <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-check"></use>
                </svg>
                <h2 class="hero__bullet-title">
-                  <b>Качество лечения</b><br />
+                  <strong>Качество лечения</strong><br />
                   на уровне мировых стандартов
                </h2>
             </div>
@@ -33,7 +33,7 @@
                   <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-check"></use>
                </svg>
                <h2 class="hero__bullet-title">
-                  <b>Международная пожизненная гарантия</b><br />
+                  <strong>Международная пожизненная гарантия</strong><br />
                   на имплантаты
                </h2>
             </div>
@@ -42,7 +42,7 @@
                   <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-check"></use>
                </svg>
                <h2 class="hero__bullet-title">
-                  <b>Имплантация </b><br />
+                  <strong>Имплантация </strong><br />
                   без боли
                </h2>
             </div>
@@ -51,7 +51,7 @@
                   <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-check"></use>
                </svg>
                <h2 class="hero__bullet-title">
-                  <b>Большой опыт работы </b><br />
+                  <strong>Большой опыт работы </strong><br />
                   со сложными случаями
                </h2>
             </div>
@@ -60,7 +60,7 @@
    </section>
    <section class="smile">
       <div class="container">
-         <h2 class="title smile__title"><b>Делаем улыбки здоровыми и красивыми</b> уже более 30 лет </h2>
+         <h2 class="title smile__title"><strong>Делаем улыбки здоровыми и красивыми</strong> уже более 30 лет </h2>
          <div class="smile__grid">
             <img class="smile__grid-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smile__hero-1.png" alt="Картинка улыбки" width="130" height="260" data-index="0" />
             <img class="smile__grid-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smile__hero-2.png" alt="Картинка улыбки" width="130" height="190" data-index="1" />
@@ -70,7 +70,7 @@
          <div class="smile__reating">
             <h2 class="smile__reating-title">
                Наша стоматология входит <br />
-               <b>в ТОП-10</b> стоматологий области
+               <strong>в ТОП-10</strong> стоматологий области
             </h2>
             <p class="smile__reating-subtitle">
                Рейтинг <br />
@@ -94,7 +94,7 @@
                      </svg>
                   </span>
                </a>
-               <a class="smile__company-item" href="#">
+               <a class="smile__company-item" href="">
                   <img class="smile__company-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/rating__hero-2.png" alt="Лого компании" width="55" height="55" />
                   <span class="smile__company-info">
                      <span class="smile__company-count">
@@ -111,7 +111,7 @@
                      </svg>
                   </span>
                </a>
-               <a class="smile__company-item" href="#">
+               <a class="smile__company-item" href="">
                   <img class="smile__company-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/rating__hero-3.png" alt="Лого компании" width="55" height="55" />
                   <span class="smile__company-info">
                      <span class="smile__company-count">
@@ -152,7 +152,7 @@
    <section class="kinds">
       <div class="container">
          <h2 class="title kinds__title">
-            <b>Виды имплантации зубов</b> <br />
+            <strong>Виды имплантации зубов</strong> <br />
             в сети стоматологий «Ольга»
          </h2>
          <div class="kinds__stages">
@@ -285,12 +285,12 @@
    <section class="methods">
       <div class="container">
          <div class="methods__container">
-            <h2 class="methods__title"><b>При наличии противопоказаний к классической имплантации,</b> мы предлагаем вам альтернативные методы восстановления зубного ряда:</h2>
+            <h2 class="methods__title"><strong>При наличии противопоказаний к классической имплантации,</strong> мы предлагаем вам альтернативные методы восстановления зубного ряда:</h2>
             <div class="methods__bullet">
                <div class="methods__bullet-item">
                   <img class="methods__bullet-icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/bullet__icon-1.png" alt="Картинка буллета" width="90" height="90" />
                   <div class="methods__bullet-content">
-                     <h3 class="methods__bullet-title">Протезирование «все на 4/все на 6»</h3>
+                     <h3 class="methods__bullet-title">Протезирование <br> «все на 4/все на 6»</h3>
                      <p class="methods__bullet-text">при полной адентии и атрофии кости</p>
                   </div>
                </div>
@@ -318,7 +318,7 @@
          <div class="doctor__content">
             <div class="doctor__header">
                <img class="doctor__avatar" src="<?php echo get_template_directory_uri(); ?>/assets/img/doctor__avatar.png" alt="Аватар фоктора" width="180" height="180" />
-               <h2 class="title doctor__title"><b>Выбрать оптимальный метод имплантации</b> поможет врач-имплантолог <b>Байцеров В. А.</b></h2>
+               <h2 class="title doctor__title"><strong>Выбрать оптимальный метод имплантации</strong> поможет врач-имплантолог <strong>Байцеров В. А.</strong></h2>
             </div>
             <form class="form" action="#" method="post">
                <h3 class="form__title">
@@ -336,11 +336,11 @@
                   </fieldset>
                   <div class="form__policy">
                      <input class="form__radio" type="checkbox" name="privacy" value="" required />
-                     <span> Я даю свое согласие на обработку персональных данных и соглашаюсь с <a href="#">политикой конфиденциальности </a> </span>
+                     <span> Я даю свое согласие на обработку персональных данных и соглашаюсь с <a href="">политикой конфиденциальности </a> </span>
                   </div>
                </div>
                <div class="form__action">
-                  <p class="form__info">Во время визита в клинику <b>вы получите намного больше информации,</b> чем в интернете</p>
+                  <p class="form__info">Во время визита в клинику <strong>вы получите намного больше информации,</strong> чем в интернете</p>
                   <button class="btn-secondary form__btn" type="submit">Записаться на консультацию</button>
                </div>
             </form>
@@ -362,15 +362,15 @@
    </section>
    <section class="price">
       <div class="container">
-         <h2 class="title price__title"><b>Точные</b> цены</h2>
+         <h2 class="title price__title"><strong>Точные</strong> цены</h2>
          <div class="price__block">
             <div class="price__block-item">
                <img class="price__block-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/price__logo-1.png" alt="Логотип компании" width="240" height="90" />
                <div class="price__card">
-                  <h3 class="price__card-title"><b> Straumann</b> (Швейцария)</h3>
+                  <h3 class="price__card-title"><strong> Straumann</strong> (Швейцария)</h3>
                   <div class="price__card-cost">
                      <p class="price__card-old">58 000 руб</p>
-                     <p class="price__card-new">54 000 руб</p>
+                     <p class="title price__card-new">54 000 руб</p>
                      <p class="price__card-info">Цена за имплант с установкой</p>
                   </div>
                   <div class="price__card-more">
@@ -408,10 +408,10 @@
             <div class="price__block-item">
                <img class="price__block-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/price__logo-2.png" alt="Логотип компании" width="245" height="90" />
                <div class="price__card">
-                  <h3 class="price__card-title"><b>Nobel</b> (Швейцария)</h3>
+                  <h3 class="price__card-title"><strong>Nobel</strong> (Швейцария)</h3>
                   <div class="price__card-cost">
                      <p class="price__card-old">63 000 руб</p>
-                     <p class="price__card-new">58 000 руб</p>
+                     <p class="title price__card-new">58 000 руб</p>
                      <p class="price__card-info">Цена за имплант с установкой</p>
                   </div>
                   <div class="price__card-more">
@@ -449,10 +449,10 @@
             <div class="price__block-item">
                <img class="price__block-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/price__logo-3.png" alt="Логотип компании" width="245" height="90" />
                <div class="price__card">
-                  <h3 class="price__card-title"><b>Dentium SuperLine </b> (Корея)</h3>
+                  <h3 class="price__card-title"><strong>Dentium SuperLine </strong> (Корея)</h3>
                   <div class="price__card-cost">
                      <p class="price__card-old">35 000 руб</p>
-                     <p class="price__card-new">29 000 руб</p>
+                     <p class="title price__card-new">29 000 руб</p>
                      <p class="price__card-info">Цена за имплант с установкой</p>
                   </div>
                   <div class="price__card-more">
@@ -491,12 +491,11 @@
          <div class="price__action">
             <div class="price__action-header">
                <h2 class="price__action-title">Мы зафиксировали цены!</h2>
-               <p class="price__action-subtitle"><b>Мы все еще держим цены 2022 года,</b> чтобы вы могли лечиться с выгодой!</p>
+               <p class="price__action-subtitle"><strong>Мы все еще держим цены 2022 года,</strong> чтобы вы могли лечиться с выгодой!</p>
             </div>
-
             <img class="price__action-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/price__action-img.png" alt="Логотип компании" width="180" height="80" />
             <div class="price__action-info">
-               <p class="price__action-text"><b>Успейте до повышения цен</b> и воспользуйтесь нашими спецпредложениями.</p>
+               <p class="price__action-text"><strong>Успейте до повышения цен</strong> и воспользуйтесь нашими спецпредложениями.</p>
                <button class="btn-secondary price__action-btn">Узнать о спецпредложениях</button>
             </div>
          </div>
@@ -505,7 +504,7 @@
    <section class="steps">
       <div class="container">
          <h2 class="title steps__title">
-            <b>Имплантация зубов</b><br />
+            <strong>Имплантация зубов</strong><br />
             проходит в несколько этапов:
          </h2>
          <div class="steps__container">
@@ -522,19 +521,19 @@
                   <ul class="steps__item-bullet">
                      <li class="steps__item-point">
                         <span class="steps__item-icon"></span>
-                        <span> Высокоточная компьютерная <b>3D-томограмма</b></span>
+                        <span> Высокоточная компьютерная <strong>3D-томограмма</strong></span>
                      </li>
                      <li class="steps__item-point">
                         <span class="steps__item-icon"></span>
-                        <span> Полное обследование, назначение анализов и составление <b>плана лечения</b></span>
+                        <span> Полное обследование, назначение анализов и составление <strong>плана лечения</strong></span>
                      </li>
                      <li class="steps__item-point">
                         <span class="steps__item-icon"></span>
-                        <span> <b>Подбор</b> вида имплантации и импланта, который <b>подойдет вам на 100%</b> </span>
+                        <span> <strong>Подбор</strong> вида имплантации и импланта, который <strong>подойдет вам на 100%</strong> </span>
                      </li>
                      <li class="steps__item-point">
                         <span class="steps__item-icon"></span>
-                        <span> <b> Обследование необходимо</b> для грамотного составления плана лечения </span>
+                        <span> <strong> Обследование необходимо</strong> для грамотного составления плана лечения </span>
                      </li>
                   </ul>
                </div>
@@ -552,19 +551,19 @@
                   <ul class="steps__item-bullet">
                      <li class="steps__item-point">
                         <span class="steps__item-icon"></span>
-                        <span> <b>2-х этапная анестезия </b>для комфортного и безболезненного проведения операции</span>
+                        <span> <strong>2-х этапная анестезия </strong>для комфортного и безболезненного проведения операции</span>
                      </li>
                      <li class="steps__item-point">
                         <span class="steps__item-icon"></span>
-                        <span> <b>Врач хирург-имплантолог</b> проводит операцию по установке импланта</span>
+                        <span> <strong>Врач хирург-имплантолог</strong> проводит операцию по установке импланта</span>
                      </li>
                      <li class="steps__item-point">
                         <span class="steps__item-icon"></span>
-                        <span> <b>Наложение швов,</b> фиксация временной коронки при необходимости </span>
+                        <span> <strong>Наложение швов,</strong> фиксация временной коронки при необходимости </span>
                      </li>
                      <li class="steps__item-point">
                         <span class="steps__item-icon"></span>
-                        <span> Эта процедура по ощущениям сравнима <b>с простым удалением зуба</b> </span>
+                        <span> Эта процедура по ощущениям сравнима <strong>с простым удалением зуба</strong> </span>
                      </li>
                   </ul>
                </div>
@@ -582,29 +581,30 @@
                   <ul class="steps__item-bullet">
                      <li class="steps__item-point">
                         <span class="steps__item-icon"></span>
-                        <span> В этот период хирург назначает <b>несколько контрольных визитов</b> (в зависимости от клинического случая)</span>
+                        <span> В этот период хирург назначает <strong>несколько контрольных визитов</strong> (в зависимости от клинического случая)</span>
                      </li>
                      <li class="steps__item-point">
                         <span class="steps__item-icon"></span>
-                        <span> Пациент выполняет <b>рекомендации врача</b> весь период приживления</span>
+                        <span> Пациент выполняет <strong>рекомендации врача</strong> весь период приживления</span>
                      </li>
                      <li class="steps__item-point">
                         <span class="steps__item-icon"></span>
-                        <span> <b>После полного заживления</b> стоматолог-ортопед фиксирует постоянную коронку или протез </span>
+                        <span> <strong>После полного заживления</strong> стоматолог-ортопед фиксирует постоянную коронку или протез </span>
                      </li>
                      <li class="steps__item-point">
                         <span class="steps__item-icon"></span>
-                        <span> Процесс установки коронки/протеза абсолютно <b>безболезненный</b> </span>
+                        <span> Процесс установки коронки/протеза абсолютно <strong>безболезненный</strong> </span>
                      </li>
                   </ul>
                </div>
             </div>
          </div>
       </div>
+      <img class="steps__bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/steps__bg.svg" alt="Фоновая картинка" width="290" height="180">
    </section>
    <section class="advantages">
       <div class="container">
-         <h2 class="title advantages__title"><b>Преимущества</b> имплантации</h2>
+         <h2 class="title advantages__title"><strong>Преимущества</strong> имплантации</h2>
          <div class="advantages__content">
             <ul class="advantages__bullet advantages__bullet--first">
                <li class="advantages__bullet-item">
@@ -726,7 +726,7 @@
    <section class="slider">
       <div class="container">
          <h2 class="title slider__title">
-            <b> Как изменились улыбки</b> <br />
+            <strong> Как изменились улыбки</strong> <br />
             наших пациентов
          </h2>
          <div class="swiper slider__swiper">
@@ -752,6 +752,15 @@
                <div class="swiper-slide slider__slide">
                   <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-3.png" alt="Слайдер" width="280" height="190" />
                </div>
+               <div class="swiper-slide slider__slide">
+                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-1.png" alt="Слайдер" width="280" height="190" />
+               </div>
+               <div class="swiper-slide slider__slide">
+                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-2.png" alt="Слайдер" width="280" height="190" />
+               </div>
+               <div class="swiper-slide slider__slide">
+                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-3.png" alt="Слайдер" width="280" height="190" />
+               </div>
             </div>
          </div>
       </div>
@@ -759,7 +768,7 @@
    <section class="action">
       <div class="container">
          <h2 class="title action__title">
-            <b> Если у Вас есть вопросы, не ждите -</b>
+            <strong> Если у Вас есть вопросы, не ждите -</strong>
             звоните и записывайтесь на консультацию
          </h2>
          <form class="form action__form" action="#" method="post">
@@ -778,11 +787,11 @@
                </fieldset>
                <div class="form__policy">
                   <input class="form__radio" type="checkbox" name="privacy" value="" required />
-                  <span> Я даю свое согласие на обработку персональных данных и соглашаюсь с <a href="#">политикой конфиденциальности </a> </span>
+                  <span> Я даю свое согласие на обработку персональных данных и соглашаюсь с <a href="">политикой конфиденциальности </a> </span>
                </div>
             </div>
             <div class="form__action">
-               <p class="form__info">Во время визита в клинику <b>вы получите намного больше информации,</b> чем в интернете</p>
+               <p class="form__info">Во время визита в клинику <strong>вы получите намного больше информации,</strong> чем в интернете</p>
                <button class="btn-secondary form__btn" type="submit">Записаться на консультацию</button>
             </div>
          </form>
@@ -800,12 +809,12 @@
       <div class="container">
          <div class="medics__header">
             <h2 class="title medics__title">
-               <b>Стоматология</b><br />
+               <strong>Стоматология</strong><br />
                с самыми лучшими врачами
             </h2>
             <div class="medics__description">
                <img class="medics__description-icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__icon.svg" alt="Иконка" width="50" height="55" />
-               <p class="medics__description-text"><b> Наши врачи занимают первые места</b> в рейтинге стоматологов-хирургов Волгоградской области</p>
+               <p class="medics__description-text"><strong> Наши врачи занимают первые места</strong> в рейтинге стоматологов-хирургов Волгоградской области</p>
             </div>
          </div>
          <div class="medics__slider">
@@ -847,7 +856,6 @@
                      <div class="medics__slide-bg">
                         <img class="medics__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__hero-3.png" alt="Доктор" width="280" height="190" />
                      </div>
-
                      <h3 class="medics__slide-title">
                         Байцеров <br />
                         Владимир Александрович
@@ -858,7 +866,6 @@
                      <div class="medics__slide-bg">
                         <img class="medics__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__hero-4.png" alt="Доктор" width="280" height="190" />
                      </div>
-
                      <h3 class="medics__slide-title">
                         Трубников <br />
                         Игорь Олегович
@@ -876,17 +883,18 @@
             <img class="medics__phone-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/phone__hero.png" alt="" width="250" height="200" />
          </div>
       </div>
+      <img class="medics__bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__bg.svg" alt="Фоновая картинка" width="290" height="215">
    </section>
    <section class="questions">
       <div class="container">
          <h2 class="title questions__title">
-            <b>Вопрос-ответ</b> <br />
+            <strong>Вопрос-ответ</strong> <br />
             по имплантации:
          </h2>
          <div class="questions__container">
             <div class="faq">
                <details class="faq__item" data-index="0">
-                  <summary>
+                  <summary class="faq__summary">
                      <h3 class="faq__title">
                         Можно ли ставить имплант при полном отсутствии зубов?
                         <svg class="faq__title-icon">
@@ -894,14 +902,15 @@
                         </svg>
                      </h3>
                   </summary>
-
                   <div class="faq__more">
                      <p class="faq__text">
-                        Принимая во внимание показатели успешности, новая модель организационной деятельности играет определяющее значение для новых предложений. В своём стремлении повысить качество жизни, они забывают, что синтетическое тестирование способствует повышению качества анализа существующих паттернов поведения. Разнообразный и богатый опыт говорит нам, что постоянный количественный рост и сфера нашей активности говорит о
+                        Принимая во внимание показатели успешности, новая модель организационной деятельности играет определяющее значение для новых предложений. В своём стремлении повысить качество жизни, они
+                        забывают, что синтетическое тестирование способствует повышению качества анализа существующих паттернов поведения. Разнообразный и богатый опыт говорит нам, что постоянный количественный
+                        рост и сфера нашей активности говорит о
                         возможностях инновационных методов управления процессами.
                      </p>
                      <div class="faq__link">
-                        <a href="#">Смотреть видео-ответ</a>
+                        <a href="">Смотреть видео-ответ</a>
                         <svg class="faq__icon">
                            <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq"></use>
                         </svg>
@@ -909,7 +918,7 @@
                   </div>
                </details>
                <details class="faq__item" data-index="1">
-                  <summary>
+                  <summary class="faq__summary">
                      <h3 class="faq__title">
                         Возможно ли отторжение имплантов?
                         <svg class="faq__title-icon">
@@ -919,11 +928,13 @@
                   </summary>
                   <div class="faq__more">
                      <p class="faq__text">
-                        Принимая во внимание показатели успешности, новая модель организационной деятельности играет определяющее значение для новых предложений. В своём стремлении повысить качество жизни, они забывают, что синтетическое тестирование способствует повышению качества анализа существующих паттернов поведения. Разнообразный и богатый опыт говорит нам, что постоянный количественный рост и сфера нашей активности говорит о
+                        Принимая во внимание показатели успешности, новая модель организационной деятельности играет определяющее значение для новых предложений. В своём стремлении повысить качество жизни, они
+                        забывают, что синтетическое тестирование способствует повышению качества анализа существующих паттернов поведения. Разнообразный и богатый опыт говорит нам, что постоянный количественный
+                        рост и сфера нашей активности говорит о
                         возможностях инновационных методов управления процессами.
                      </p>
                      <div class="faq__link">
-                        <a href="#">Смотреть видео-ответ</a>
+                        <a href="">Смотреть видео-ответ</a>
                         <svg class="faq__icon">
                            <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq"></use>
                         </svg>
@@ -931,7 +942,7 @@
                   </div>
                </details>
                <details class="faq__item" data-index="2">
-                  <summary>
+                  <summary class="faq__summary">
                      <h3 class="faq__title">
                         Больно ли проводить имплантацию?
                         <svg class="faq__title-icon">
@@ -941,11 +952,13 @@
                   </summary>
                   <div class="faq__more">
                      <p class="faq__text">
-                        Принимая во внимание показатели успешности, новая модель организационной деятельности играет определяющее значение для новых предложений. В своём стремлении повысить качество жизни, они забывают, что синтетическое тестирование способствует повышению качества анализа существующих паттернов поведения. Разнообразный и богатый опыт говорит нам, что постоянный количественный рост и сфера нашей активности говорит о
+                        Принимая во внимание показатели успешности, новая модель организационной деятельности играет определяющее значение для новых предложений. В своём стремлении повысить качество жизни, они
+                        забывают, что синтетическое тестирование способствует повышению качества анализа существующих паттернов поведения. Разнообразный и богатый опыт говорит нам, что постоянный количественный
+                        рост и сфера нашей активности говорит о
                         возможностях инновационных методов управления процессами.
                      </p>
                      <div class="faq__link">
-                        <a href="#">Смотреть видео-ответ</a>
+                        <a href="">Смотреть видео-ответ</a>
                         <svg class="faq__icon">
                            <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq"></use>
                         </svg>
@@ -953,7 +966,7 @@
                   </div>
                </details>
                <details class="faq__item" data-index="3">
-                  <summary>
+                  <summary class="faq__summary">
                      <h3 class="faq__title">
                         Можно ли ставить имплант сразу после удаления зуба?
                         <svg class="faq__title-icon">
@@ -963,11 +976,13 @@
                   </summary>
                   <div class="faq__more">
                      <p class="faq__text">
-                        Принимая во внимание показатели успешности, новая модель организационной деятельности играет определяющее значение для новых предложений. В своём стремлении повысить качество жизни, они забывают, что синтетическое тестирование способствует повышению качества анализа существующих паттернов поведения. Разнообразный и богатый опыт говорит нам, что постоянный количественный рост и сфера нашей активности говорит о
+                        Принимая во внимание показатели успешности, новая модель организационной деятельности играет определяющее значение для новых предложений. В своём стремлении повысить качество жизни, они
+                        забывают, что синтетическое тестирование способствует повышению качества анализа существующих паттернов поведения. Разнообразный и богатый опыт говорит нам, что постоянный количественный
+                        рост и сфера нашей активности говорит о
                         возможностях инновационных методов управления процессами.
                      </p>
                      <div class="faq__link">
-                        <a href="#">Смотреть видео-ответ</a>
+                        <a href="">Смотреть видео-ответ</a>
                         <svg class="faq__icon">
                            <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq"></use>
                         </svg>
@@ -975,7 +990,7 @@
                   </div>
                </details>
                <details class="faq__item" data-index="4">
-                  <summary>
+                  <summary class="faq__summary">
                      <h3 class="faq__title">
                         Сколько времени длится установка импланта?
                         <svg class="faq__title-icon">
@@ -985,11 +1000,13 @@
                   </summary>
                   <div class="faq__more">
                      <p class="faq__text">
-                        Принимая во внимание показатели успешности, новая модель организационной деятельности играет определяющее значение для новых предложений. В своём стремлении повысить качество жизни, они забывают, что синтетическое тестирование способствует повышению качества анализа существующих паттернов поведения. Разнообразный и богатый опыт говорит нам, что постоянный количественный рост и сфера нашей активности говорит о
+                        Принимая во внимание показатели успешности, новая модель организационной деятельности играет определяющее значение для новых предложений. В своём стремлении повысить качество жизни, они
+                        забывают, что синтетическое тестирование способствует повышению качества анализа существующих паттернов поведения. Разнообразный и богатый опыт говорит нам, что постоянный количественный
+                        рост и сфера нашей активности говорит о
                         возможностях инновационных методов управления процессами.
                      </p>
                      <div class="faq__link">
-                        <a href="#">Смотреть видео-ответ</a>
+                        <a href="">Смотреть видео-ответ</a>
                         <svg class="faq__icon">
                            <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq"></use>
                         </svg>
@@ -997,7 +1014,7 @@
                   </div>
                </details>
                <details class="faq__item" data-index="5">
-                  <summary>
+                  <summary class="faq__summary">
                      <h3 class="faq__title">
                         Будут ли импланты ощущаться во рту?
                         <svg class="faq__title-icon">
@@ -1007,11 +1024,13 @@
                   </summary>
                   <div class="faq__more">
                      <p class="faq__text">
-                        Принимая во внимание показатели успешности, новая модель организационной деятельности играет определяющее значение для новых предложений. В своём стремлении повысить качество жизни, они забывают, что синтетическое тестирование способствует повышению качества анализа существующих паттернов поведения. Разнообразный и богатый опыт говорит нам, что постоянный количественный рост и сфера нашей активности говорит о
+                        Принимая во внимание показатели успешности, новая модель организационной деятельности играет определяющее значение для новых предложений. В своём стремлении повысить качество жизни, они
+                        забывают, что синтетическое тестирование способствует повышению качества анализа существующих паттернов поведения. Разнообразный и богатый опыт говорит нам, что постоянный количественный
+                        рост и сфера нашей активности говорит о
                         возможностях инновационных методов управления процессами.
                      </p>
                      <div class="faq__link">
-                        <a href="#">Смотреть видео-ответ</a>
+                        <a href="">Смотреть видео-ответ</a>
                         <svg class="faq__icon">
                            <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq"></use>
                         </svg>
@@ -1021,7 +1040,7 @@
             </div>
             <div class="faq">
                <details class="faq__item" data-index="6">
-                  <summary>
+                  <summary class="faq__summary">
                      <h3 class="faq__title">
                         Сколько стоит имплантация?
                         <svg class="faq__title-icon">
@@ -1031,11 +1050,13 @@
                   </summary>
                   <div class="faq__more">
                      <p class="faq__text">
-                        Принимая во внимание показатели успешности, новая модель организационной деятельности играет определяющее значение для новых предложений. В своём стремлении повысить качество жизни, они забывают, что синтетическое тестирование способствует повышению качества анализа существующих паттернов поведения. Разнообразный и богатый опыт говорит нам, что постоянный количественный рост и сфера нашей активности говорит о
+                        Принимая во внимание показатели успешности, новая модель организационной деятельности играет определяющее значение для новых предложений. В своём стремлении повысить качество жизни, они
+                        забывают, что синтетическое тестирование способствует повышению качества анализа существующих паттернов поведения. Разнообразный и богатый опыт говорит нам, что постоянный количественный
+                        рост и сфера нашей активности говорит о
                         возможностях инновационных методов управления процессами.
                      </p>
                      <div class="faq__link">
-                        <a href="#">Смотреть видео-ответ</a>
+                        <a href="">Смотреть видео-ответ</a>
                         <svg class="faq__icon">
                            <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq"></use>
                         </svg>
@@ -1043,7 +1064,7 @@
                   </div>
                </details>
                <details class="faq__item" data-index="7">
-                  <summary>
+                  <summary class="faq__summary">
                      <h3 class="faq__title">
                         Какой срок службы импланта?
                         <svg class="faq__title-icon">
@@ -1053,11 +1074,13 @@
                   </summary>
                   <div class="faq__more">
                      <p class="faq__text">
-                        Принимая во внимание показатели успешности, новая модель организационной деятельности играет определяющее значение для новых предложений. В своём стремлении повысить качество жизни, они забывают, что синтетическое тестирование способствует повышению качества анализа существующих паттернов поведения. Разнообразный и богатый опыт говорит нам, что постоянный количественный рост и сфера нашей активности говорит о
+                        Принимая во внимание показатели успешности, новая модель организационной деятельности играет определяющее значение для новых предложений. В своём стремлении повысить качество жизни, они
+                        забывают, что синтетическое тестирование способствует повышению качества анализа существующих паттернов поведения. Разнообразный и богатый опыт говорит нам, что постоянный количественный
+                        рост и сфера нашей активности говорит о
                         возможностях инновационных методов управления процессами.
                      </p>
                      <div class="faq__link">
-                        <a href="#">Смотреть видео-ответ</a>
+                        <a href="">Смотреть видео-ответ</a>
                         <svg class="faq__icon">
                            <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq"></use>
                         </svg>
@@ -1065,7 +1088,7 @@
                   </div>
                </details>
                <details class="faq__item" data-index="8">
-                  <summary>
+                  <summary class="faq__summary">
                      <h3 class="faq__title">
                         Зачем нужна костная пластика или синус-лифтинг?
                         <svg class="faq__title-icon">
@@ -1075,11 +1098,13 @@
                   </summary>
                   <div class="faq__more">
                      <p class="faq__text">
-                        Принимая во внимание показатели успешности, новая модель организационной деятельности играет определяющее значение для новых предложений. В своём стремлении повысить качество жизни, они забывают, что синтетическое тестирование способствует повышению качества анализа существующих паттернов поведения. Разнообразный и богатый опыт говорит нам, что постоянный количественный рост и сфера нашей активности говорит о
+                        Принимая во внимание показатели успешности, новая модель организационной деятельности играет определяющее значение для новых предложений. В своём стремлении повысить качество жизни, они
+                        забывают, что синтетическое тестирование способствует повышению качества анализа существующих паттернов поведения. Разнообразный и богатый опыт говорит нам, что постоянный количественный
+                        рост и сфера нашей активности говорит о
                         возможностях инновационных методов управления процессами.
                      </p>
                      <div class="faq__link">
-                        <a href="#">Смотреть видео-ответ</a>
+                        <a href="">Смотреть видео-ответ</a>
                         <svg class="faq__icon">
                            <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq"></use>
                         </svg>
@@ -1087,7 +1112,7 @@
                   </div>
                </details>
                <details class="faq__item" data-index="9">
-                  <summary>
+                  <summary class="faq__summary">
                      <h3 class="faq__title">
                         Есть какая-то гарантия на имплантацию?
                         <svg class="faq__title-icon">
@@ -1097,11 +1122,13 @@
                   </summary>
                   <div class="faq__more">
                      <p class="faq__text">
-                        Принимая во внимание показатели успешности, новая модель организационной деятельности играет определяющее значение для новых предложений. В своём стремлении повысить качество жизни, они забывают, что синтетическое тестирование способствует повышению качества анализа существующих паттернов поведения. Разнообразный и богатый опыт говорит нам, что постоянный количественный рост и сфера нашей активности говорит о
+                        Принимая во внимание показатели успешности, новая модель организационной деятельности играет определяющее значение для новых предложений. В своём стремлении повысить качество жизни, они
+                        забывают, что синтетическое тестирование способствует повышению качества анализа существующих паттернов поведения. Разнообразный и богатый опыт говорит нам, что постоянный количественный
+                        рост и сфера нашей активности говорит о
                         возможностях инновационных методов управления процессами.
                      </p>
                      <div class="faq__link">
-                        <a href="#">Смотреть видео-ответ</a>
+                        <a href="">Смотреть видео-ответ</a>
                         <svg class="faq__icon">
                            <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq"></use>
                         </svg>
@@ -1115,13 +1142,12 @@
    <section class="action action--second">
       <div class="container">
          <h2 class="title action__title">
-            <b> Если у Вас есть вопросы, не ждите -</b>
+            <strong> Если у Вас есть вопросы, не ждите -</strong>
             звоните и записывайтесь на консультацию
          </h2>
          <form class="form action__form" action="#" method="post">
             <h3 class="form__title">
-               Запишитесь на осмотр <br />
-               и консультацию к специалисту
+               Задайте ваш вопрос врачу
             </h3>
             <div class="form__fields">
                <fieldset class="form__fieldset">
@@ -1134,11 +1160,11 @@
                </fieldset>
                <div class="form__policy">
                   <input class="form__radio" type="checkbox" name="privacy" value="" required />
-                  <span> Я даю свое согласие на обработку персональных данных и соглашаюсь с <a href="#">политикой конфиденциальности </a> </span>
+                  <span> Я даю свое согласие на обработку персональных данных и соглашаюсь с <a href="">политикой конфиденциальности </a> </span>
                </div>
             </div>
             <div class="form__action">
-               <p class="form__info">Во время визита в клинику <b>вы получите намного больше информации,</b> чем в интернете</p>
+               <p class="form__info">Во время визита в клинику <strong>вы получите намного больше информации,</strong> чем в интернете</p>
                <button class="btn-secondary form__btn" type="submit">Записаться на консультацию</button>
             </div>
          </form>
@@ -1149,7 +1175,7 @@
                   Амельченкова <br />
                   Алиса Владиславовна
                </p>
-               <p class="action__doctor-position">Врач-имплантолог</p>
+               <p class="action__doctor-position">Хирург-имплантолог</p>
             </div>
          </div>
       </div>

@@ -11,6 +11,12 @@
       }
    }
 
+   &__swiper {
+      @include lg {
+         margin-top: -45px;
+      }
+   }
+
    &__nav {
       display: flex;
       justify-content: center;

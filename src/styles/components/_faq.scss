@@ -85,6 +85,11 @@
       gap: 10px;
    }
 
+   &__btn {
+      cursor: pointer;
+      color: var(--color_font);
+   }
+
    &__icon {
       display: block;
       width: 32px;

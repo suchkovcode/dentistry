@@ -125,6 +125,13 @@
       height: 34px;
       border-radius: 12px;
       background: radial-gradient(145.47% 527.72% at 127.78% 125%, #baf0f1 0%, #f2f9f9 52.08%, #e5eefa 100%), linear-gradient(0deg, #d1f4f5, #d1f4f5);
+      transition: all 0.2s ease-in-out;
+      color: var(--color_blue);
+
+      &:hover {
+         background: var(--color_blue);
+         color: var(--color_base);
+      }
 
       @include md {
          width: 44px;
@@ -167,7 +174,6 @@
             cursor: pointer;
             background: var(--color_blue);
          }
-
 
          @include xxl {
             height: 420px;
@@ -220,9 +226,8 @@
       }
 
       @include xxxl {
-         margin-right: clamp(5.93rem, -19.4005rem + 26.3860vw, 7.81rem);
+         margin-right: clamp(5.93rem, -19.4005rem + 26.386vw, 7.81rem);
       }
-
    }
 
    &__phone {
@@ -279,7 +284,6 @@
 
       @include xl {
          flex: 1 0 calc(30% - 30px);
-
       }
 
       @include xxl {

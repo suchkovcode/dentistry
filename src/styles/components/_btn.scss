@@ -8,6 +8,12 @@
    font: 700 16px/16px "Overpass";
    background-color: var(--color_base);
    color: var(--color_font);
+
+   &:hover,
+   &:visited, 
+   &:active {
+      line-height: 16px;
+   }
 }
 
 .btn-secondary {
@@ -26,5 +32,6 @@
 
    &:hover {
       background: linear-gradient(262.49deg, #0c55ad 56.25%, #00bfbf 111.56%);
+      line-height: 1.2;
    }
 }

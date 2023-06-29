@@ -56,7 +56,7 @@
                <svg class="header__contact-icon">
                   <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-phone"></use>
                </svg>
-               8 (8442) 297 029
+               <span> 8 (8442) 297 029</span>
             </a>
          </div>
          <button class="btn btn-primary"><span>Заказать звонок</span></button>

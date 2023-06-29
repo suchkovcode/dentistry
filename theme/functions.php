@@ -87,7 +87,11 @@ add_action('wp_head', function () {
    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/assets/static/favicon-32x32.png">
    <link rel="icon" type="image/png" sizes="48x48" href="<?php echo get_template_directory_uri(); ?>/assets/static/favicon-48x48.png">
    <link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/assets/static/manifest.webmanifest">
-   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css?v5">
+   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/anim.css">
+   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/base.min.css">
+   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/blocks.css">
+   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/modules.css">
+   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css?v8">
 <?php
 }, 0);
 
@@ -102,6 +106,8 @@ add_action('admin_head', function () {
 add_action('wp_enqueue_scripts', function () {
    wp_deregister_script('jquery');
    wp_enqueue_script('jquery', get_template_directory_uri() . '/assets/js/jquery-3.7.0.js', false, "3.7.0", true);
+   wp_enqueue_script('base', get_template_directory_uri() . '/assets/js/base.min.js', false, "2.0.0", true);
+   wp_enqueue_script('validate', get_template_directory_uri() . '/assets/js/validate.min.js', false, "2.0.0", true);
    wp_enqueue_script('sctipt', '/wp-content/themes/dentistry/app.min.js', array(), null, true);
    wp_dequeue_style('wp-block-library');
    wp_dequeue_style('wp-block-library-theme');

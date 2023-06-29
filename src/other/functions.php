@@ -99,6 +99,7 @@ add_action('admin_head', function () {
 
 add_action('wp_enqueue_scripts', function () {
    wp_deregister_script('jquery');
+   wp_register_script('jquery', get_template_directory_uri() . '/vendor/js/jquery-3.7.0.js', false, "3.7.0", true);
    wp_dequeue_style('wp-block-library');
    wp_dequeue_style('wp-block-library-theme');
    wp_dequeue_style('wc-block-style');

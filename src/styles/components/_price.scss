@@ -331,10 +331,16 @@
          @include md {
             width: calc(100% + 60px);
             margin-bottom: -30px;
+            margin-left: -30px;
          }
 
          @include lg {
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
             grid-area: info;
+            width: 100%;
+            height: 100%;
             margin: 0;
          }
 
@@ -369,8 +375,9 @@
          grid-template-areas: "header img info";
          grid-template-columns: 1fr 1fr 1fr;
          gap: 10px;
+         height: 265px;
          max-width: 100%;
-         padding: 0 40px 0 40px;
+         padding: 0 0 0 40px;
 
          @include xxl {
             grid-template-columns: 1.3fr 1fr 1fr;

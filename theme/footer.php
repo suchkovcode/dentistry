@@ -2,23 +2,23 @@
    <div class="container">
       <div class="footer__top">
          <div class="footer__first">
-            <a class="logo footer__logo" href="#">
+            <a class="logo footer__logo" href="">
                <svg class="logo__icon">
                   <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#logo"></use>
                </svg>
             </a>
             <div class="social footer__social">
-               <a class="social__item" href="#">
+               <a class="social__item" href="">
                   <svg class="social__icon">
                      <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#social-icon-od"></use>
                   </svg>
                </a>
-               <a class="social__item" href="#">
+               <a class="social__item" href="">
                   <svg class="social__icon">
                      <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#social-icon-vk"></use>
                   </svg>
                </a>
-               <a class="social__item" href="#">
+               <a class="social__item" href="">
                   <svg class="social__icon">
                      <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#social-icon-youtube"></use>
                   </svg>
@@ -42,7 +42,7 @@
                </li>
                <li class="footer__adress-line">
                   <svg class="footer__adress-icon">
-                     <use xlink:href="?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-footer-line"></use>
+                     <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-footer-line"></use>
                   </svg>
                </li>
             </ul>
@@ -52,34 +52,34 @@
             <p class="footer__title footer__third-title">Контакты</p>
             <div class="footer__contact">
                <p class="footer__badge">Единый колл-центр:</p>
-               <a class="footer__contact-item" href="tel:88442297029">
+               <a class="footer__contact-item" href="">
                   <svg class="footer__contact-icon">
                      <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-phone"></use>
                   </svg>
                   8 (8442) 297 029
                </a>
-               <a class="footer__contact-item" href="tel:89610297029">
+               <a class="footer__contact-item" href="">
                   <svg class="footer__contact-icon">
                      <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-phone"></use>
                   </svg>
                   8 (961) 029 70 29
                </a>
-               <a class="footer__contact-item" href="mailto:online@olgavlg.ru">
+               <a class="footer__contact-item" href="">
                   <svg class="footer__contact-icon">
                      <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-mail"></use>
                   </svg>
                   online@olgavlg.ru
                </a>
             </div>
-            <button class="btn-primary footer__btn">Заказать звонок</button>
+            <button class="btn btn-primary footer__btn"><span>Заказать звонок</span></button>
          </div>
       </div>
       <div class="footer__center">
          <img class="footer__map" src="<?php echo get_template_directory_uri(); ?>/assets/img/footer__map.png" alt="Тестовая карта для фона" width="200" height="200" />
       </div>
       <div class="footer__bottom">
-         <p class="footer__info">Сайт не является публичной офертой. 2023г. / <a class="footer__policy" href="#">Политика конфиденциальности</a></p>
-         <a class="develop" href="#">
+         <p class="footer__info">Сайт не является публичной офертой. 2023г. / <a class="footer__policy" href="">Политика конфиденциальности</a></p>
+         <a class="develop" href="">
             Создание сайта
             <img class="develop__logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/develop__logo.png" alt="Логотип" width="200" height="200" />
          </a>

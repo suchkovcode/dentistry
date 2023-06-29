@@ -15,7 +15,7 @@
                <strong>Оставьте заявку, мы перезвоним в течении 5 минут</strong>
                и поможем выбрать удобное время для записи
             </p>
-            <button class="btn-secondary hero__btn">Записаться на консультацию</button>
+            <button class="btn btn-secondary hero__btn"><span>Записаться на консультацию</span></button>
          </div>
          <img class="hero__img" src="<?php echo get_template_directory_uri(); ?>/assets/img/hero__img.png" alt="Главная картинки" width="280" height="190" />
          <div class="hero__bullet">
@@ -341,7 +341,7 @@
                </div>
                <div class="form__action">
                   <p class="form__info">Во время визита в клинику <strong>вы получите намного больше информации,</strong> чем в интернете</p>
-                  <button class="btn-secondary form__btn" type="submit">Записаться на консультацию</button>
+                  <button class="btn btn-secondary form__btn" type="submit"><span>Записаться на консультацию</span></button>
                </div>
             </form>
          </div>
@@ -496,7 +496,7 @@
             <img class="price__action-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/price__action-img.png" alt="Логотип компании" width="180" height="80" />
             <div class="price__action-info">
                <p class="price__action-text"><strong>Успейте до повышения цен</strong> и воспользуйтесь нашими спецпредложениями.</p>
-               <button class="btn-secondary price__action-btn">Узнать о спецпредложениях</button>
+               <button class="btn btn-secondary price__action-btn"><span>Узнать о спецпредложениях</span></button>
             </div>
          </div>
       </div>
@@ -792,7 +792,7 @@
             </div>
             <div class="form__action">
                <p class="form__info">Во время визита в клинику <strong>вы получите намного больше информации,</strong> чем в интернете</p>
-               <button class="btn-secondary form__btn" type="submit">Записаться на консультацию</button>
+               <button class="btn btn-secondary form__btn" type="submit"><span>Записаться на консультацию</span></button>
             </div>
          </form>
          <div class="action__doctor">
@@ -874,12 +874,12 @@
                   </div>
                </div>
             </div>
-            <button class="btn-secondary medics__btn">Записаться на прием</button>
+            <button class="btn btn-secondary medics__btn"><span>Записаться на прием</span></button>
          </div>
          <div class="medics__phone">
             <h4 class="medics__phone-title">Какой вид имплантации выбрать?</h4>
             <p class="medics__phone-subtitle">Дадим грамотную консультацию и поможем определиться</p>
-            <button class="btn-secondary medics__phone-btn">Заказать обратный звонок</button>
+            <button class="btn btn-secondary medics__phone-btn"><span>Заказать обратный звонок</span></button>
             <img class="medics__phone-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/phone__hero.png" alt="" width="250" height="200" />
          </div>
       </div>
@@ -898,7 +898,7 @@
                      <h3 class="faq__title">
                         Можно ли ставить имплант при полном отсутствии зубов?
                         <svg class="faq__title-icon">
-                           <use xlink:href="/src/assets/img/svg/sprite.svg#icon-faq-toggle"></use>
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq-toggle"></use>
                         </svg>
                      </h3>
                   </summary>
@@ -910,9 +910,9 @@
                         возможностях инновационных методов управления процессами.
                      </p>
                      <div class="faq__link">
-                        <button class="faq__btn">Смотреть видео-ответ</button>
+                        <button class="btn faq__btn"><span>Смотреть видео-ответ</span></button>
                         <svg class="faq__icon">
-                           <use xlink:href="/src/assets/img/svg/sprite.svg#icon-faq"></use>
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq"></use>
                         </svg>
                      </div>
                   </div>
@@ -922,7 +922,7 @@
                      <h3 class="faq__title">
                         Возможно ли отторжение имплантов?
                         <svg class="faq__title-icon">
-                           <use xlink:href="/src/assets/img/svg/sprite.svg#icon-faq-toggle"></use>
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq-toggle"></use>
                         </svg>
                      </h3>
                   </summary>
@@ -934,9 +934,9 @@
                         возможностях инновационных методов управления процессами.
                      </p>
                      <div class="faq__link">
-                        <button class="faq__btn">Смотреть видео-ответ</button>
+                        <button class="btn faq__btn"><span>Смотреть видео-ответ</span></button>
                         <svg class="faq__icon">
-                           <use xlink:href="/src/assets/img/svg/sprite.svg#icon-faq"></use>
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq"></use>
                         </svg>
                      </div>
                   </div>
@@ -946,7 +946,7 @@
                      <h3 class="faq__title">
                         Больно ли проводить имплантацию?
                         <svg class="faq__title-icon">
-                           <use xlink:href="/src/assets/img/svg/sprite.svg#icon-faq-toggle"></use>
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq-toggle"></use>
                         </svg>
                      </h3>
                   </summary>
@@ -958,9 +958,9 @@
                         возможностях инновационных методов управления процессами.
                      </p>
                      <div class="faq__link">
-                        <button class="faq__btn">Смотреть видео-ответ</button>
+                        <button class="btn faq__btn"><span>Смотреть видео-ответ</span></button>
                         <svg class="faq__icon">
-                           <use xlink:href="/src/assets/img/svg/sprite.svg#icon-faq"></use>
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq"></use>
                         </svg>
                      </div>
                   </div>
@@ -970,7 +970,7 @@
                      <h3 class="faq__title">
                         Можно ли ставить имплант сразу после удаления зуба?
                         <svg class="faq__title-icon">
-                           <use xlink:href="/src/assets/img/svg/sprite.svg#icon-faq-toggle"></use>
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq-toggle"></use>
                         </svg>
                      </h3>
                   </summary>
@@ -982,9 +982,9 @@
                         возможностях инновационных методов управления процессами.
                      </p>
                      <div class="faq__link">
-                        <button class="faq__btn">Смотреть видео-ответ</button>
+                        <button class="btn faq__btn"><span>Смотреть видео-ответ</span></button>
                         <svg class="faq__icon">
-                           <use xlink:href="/src/assets/img/svg/sprite.svg#icon-faq"></use>
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq"></use>
                         </svg>
                      </div>
                   </div>
@@ -994,7 +994,7 @@
                      <h3 class="faq__title">
                         Сколько времени длится установка импланта?
                         <svg class="faq__title-icon">
-                           <use xlink:href="/src/assets/img/svg/sprite.svg#icon-faq-toggle"></use>
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq-toggle"></use>
                         </svg>
                      </h3>
                   </summary>
@@ -1006,9 +1006,9 @@
                         возможностях инновационных методов управления процессами.
                      </p>
                      <div class="faq__link">
-                        <button class="faq__btn">Смотреть видео-ответ</button>
+                        <button class="btn faq__btn"><span>Смотреть видео-ответ</span></button>
                         <svg class="faq__icon">
-                           <use xlink:href="/src/assets/img/svg/sprite.svg#icon-faq"></use>
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq"></use>
                         </svg>
                      </div>
                   </div>
@@ -1018,7 +1018,7 @@
                      <h3 class="faq__title">
                         Будут ли импланты ощущаться во рту?
                         <svg class="faq__title-icon">
-                           <use xlink:href="/src/assets/img/svg/sprite.svg#icon-faq-toggle"></use>
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq-toggle"></use>
                         </svg>
                      </h3>
                   </summary>
@@ -1030,9 +1030,9 @@
                         возможностях инновационных методов управления процессами.
                      </p>
                      <div class="faq__link">
-                        <button class="faq__btn">Смотреть видео-ответ</button>
+                        <button class="btn faq__btn"><span>Смотреть видео-ответ</span></button>
                         <svg class="faq__icon">
-                           <use xlink:href="/src/assets/img/svg/sprite.svg#icon-faq"></use>
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq"></use>
                         </svg>
                      </div>
                   </div>
@@ -1044,7 +1044,7 @@
                      <h3 class="faq__title">
                         Сколько стоит имплантация?
                         <svg class="faq__title-icon">
-                           <use xlink:href="/src/assets/img/svg/sprite.svg#icon-faq-toggle"></use>
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq-toggle"></use>
                         </svg>
                      </h3>
                   </summary>
@@ -1056,9 +1056,9 @@
                         возможностях инновационных методов управления процессами.
                      </p>
                      <div class="faq__link">
-                        <button class="faq__btn">Смотреть видео-ответ</button>
+                        <button class="btn faq__btn"><span>Смотреть видео-ответ</span></button>
                         <svg class="faq__icon">
-                           <use xlink:href="/src/assets/img/svg/sprite.svg#icon-faq"></use>
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq"></use>
                         </svg>
                      </div>
                   </div>
@@ -1068,7 +1068,7 @@
                      <h3 class="faq__title">
                         Какой срок службы импланта?
                         <svg class="faq__title-icon">
-                           <use xlink:href="/src/assets/img/svg/sprite.svg#icon-faq-toggle"></use>
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq-toggle"></use>
                         </svg>
                      </h3>
                   </summary>
@@ -1080,9 +1080,9 @@
                         возможностях инновационных методов управления процессами.
                      </p>
                      <div class="faq__link">
-                        <button class="faq__btn">Смотреть видео-ответ</button>
+                        <button class="btn faq__btn"><span>Смотреть видео-ответ</span></button>
                         <svg class="faq__icon">
-                           <use xlink:href="/src/assets/img/svg/sprite.svg#icon-faq"></use>
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq"></use>
                         </svg>
                      </div>
                   </div>
@@ -1092,7 +1092,7 @@
                      <h3 class="faq__title">
                         Зачем нужна костная пластика или синус-лифтинг?
                         <svg class="faq__title-icon">
-                           <use xlink:href="/src/assets/img/svg/sprite.svg#icon-faq-toggle"></use>
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq-toggle"></use>
                         </svg>
                      </h3>
                   </summary>
@@ -1104,9 +1104,9 @@
                         возможностях инновационных методов управления процессами.
                      </p>
                      <div class="faq__link">
-                        <button class="faq__btn">Смотреть видео-ответ</button>
+                        <button class="btn faq__btn"><span>Смотреть видео-ответ</span></button>
                         <svg class="faq__icon">
-                           <use xlink:href="/src/assets/img/svg/sprite.svg#icon-faq"></use>
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq"></use>
                         </svg>
                      </div>
                   </div>
@@ -1116,7 +1116,7 @@
                      <h3 class="faq__title">
                         Есть какая-то гарантия на имплантацию?
                         <svg class="faq__title-icon">
-                           <use xlink:href="/src/assets/img/svg/sprite.svg#icon-faq-toggle"></use>
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq-toggle"></use>
                         </svg>
                      </h3>
                   </summary>
@@ -1128,9 +1128,9 @@
                         возможностях инновационных методов управления процессами.
                      </p>
                      <div class="faq__link">
-                        <button class="faq__btn">Смотреть видео-ответ</button>
+                        <button class="btn faq__btn"><span>Смотреть видео-ответ</span></button>
                         <svg class="faq__icon">
-                           <use xlink:href="/src/assets/img/svg/sprite.svg#icon-faq"></use>
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-faq"></use>
                         </svg>
                      </div>
                   </div>
@@ -1165,7 +1165,7 @@
             </div>
             <div class="form__action">
                <p class="form__info">Во время визита в клинику <strong>вы получите намного больше информации,</strong> чем в интернете</p>
-               <button class="btn-secondary form__btn" type="submit">Записаться на консультацию</button>
+               <button class="btn btn-secondary form__btn" type="submit"><span>Записаться на консультацию</span> </button>
             </div>
          </form>
          <div class="action__doctor">

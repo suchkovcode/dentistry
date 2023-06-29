@@ -9,7 +9,7 @@
 <body>
    <header class="header">
       <div class="header__left">
-         <a class="logo" href="#">
+         <a class="logo" href="">
             <svg class="logo__icon">
                <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#logo"></use>
             </svg>
@@ -31,17 +31,17 @@
       </div>
       <div class="header__right">
          <div class="social header__social">
-            <a class="social__item" href="#">
+            <a class="social__item" href="">
                <svg class="social__icon">
                   <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#social-icon-od"></use>
                </svg>
             </a>
-            <a class="social__item" href="#">
+            <a class="social__item" href="">
                <svg class="social__icon">
                   <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#social-icon-vk"></use>
                </svg>
             </a>
-            <a class="social__item" href="#">
+            <a class="social__item" href="">
                <svg class="social__icon">
                   <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#social-icon-youtube"></use>
                </svg>
@@ -52,13 +52,13 @@
                <span class="header__contact-mark"></span>
                <span class="header__contact-text"> Сейчас работаем</span>
             </p>
-            <a class="header__contact-number" href="tel:88442297029">
+            <a class="header__contact-number" href="">
                <svg class="header__contact-icon">
                   <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-phone"></use>
                </svg>
                8 (8442) 297 029
             </a>
          </div>
-         <button class="btn-primary">Заказать звонок</button>
+         <button class="btn btn-primary"><span>Заказать звонок</span></button>
       </div>
    </header>

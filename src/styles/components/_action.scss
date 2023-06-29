@@ -165,13 +165,24 @@
 
    &--second {
       .action__doctor {
-
          @include xxl {
-            max-width: 340px;
+            max-width: 380px;
          }
 
          @include xxxl {
-            max-width: 380px;
+            max-width: 410px;
+         }
+      }
+
+      .action__doctor-regalia {
+         @include xxl {
+            bottom: 55px;
+            left: 135px;
+         }
+
+         @include xxxl {
+            bottom: 75px;
+            left: 155px;
          }
       }
    }

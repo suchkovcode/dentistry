@@ -1,5 +1,16 @@
 .medics {
+   position: relative;
    padding: 30px 15px;
+
+   &__bg {
+      position: absolute;
+      right: -15px;
+      bottom: -55px;
+      z-index: -1;
+      width: 100%;
+      height: auto;
+      max-width: 780px;
+   }
 
    &__header {
       display: flex;
@@ -107,8 +118,8 @@
 
    &__button-prev,
    &__button-next {
-      position: relative;
       cursor: pointer;
+      position: relative;
       display: block;
       width: 34px;
       height: 34px;
@@ -148,14 +159,30 @@
       &-bg {
          margin-bottom: 20px;
          padding-top: 10px;
-         border-radius: 70px 70px 70px 25px;
-         background: var(--unnamed, radial-gradient(359.49% 117.86% at 93.78% 95.78%, #baf0f1 0%, #f2f9f9 52.08%, #e5eefa 100%));
+         border-radius: 100px 100px 100px 30px;
+         background: radial-gradient(359.49% 117.86% at 93.78% 95.78%, #baf0f1 0%, #f2f9f9 52.08%, #e5eefa 100%);
+         transition: all 0.2s ease-in-out;
+
+         &:hover {
+            cursor: pointer;
+            background: var(--color_blue);
+         }
+
+
+         @include xxl {
+            height: 420px;
+         }
       }
 
       &-img {
          width: 100%;
          height: auto;
-         border-radius: 70px 70px 70px 25px;
+         border-radius: 100px 100px 100px 30px;
+
+         @include xxl {
+            height: 100%;
+            object-fit: cover;
+         }
       }
 
       &-title {
@@ -187,6 +214,15 @@
          max-width: 220px;
          margin-right: 15px;
       }
+
+      @include xxl {
+         margin-right: clamp(4.065rem, -15.1335rem + 21.9412vw, 5.93rem);
+      }
+
+      @include xxxl {
+         margin-right: clamp(5.93rem, -19.4005rem + 26.3860vw, 7.81rem);
+      }
+
    }
 
    &__phone {
@@ -224,6 +260,7 @@
 
       &-img {
          width: 100%;
+         height: auto;
          margin-left: -20px;
 
          @include xxl {
@@ -242,10 +279,13 @@
 
       @include xl {
          flex: 1 0 calc(30% - 30px);
+
       }
 
       @include xxl {
+         height: 510px;
          max-width: 380px;
+         margin-top: -50px;
          padding: 40px;
       }
    }

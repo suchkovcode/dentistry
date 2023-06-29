@@ -34,6 +34,7 @@
       &-logo {
          display: block;
          width: 100%;
+         height: auto;
          max-width: 320px;
          margin: 0 auto;
       }
@@ -50,8 +51,9 @@
       width: calc(100% + 30px);
       margin-left: -15px;
       padding: 20px;
-      border-radius: 24px;
+      border-radius: var(--radius_section);
       background: radial-gradient(104.62% 88.11% at 40.02% 100%, #2c808b 0%, #2eb0b2 100%), #d9d9d9;
+      transition: all 0.2s ease-in-out;
       box-shadow: 0px 0px 0px 0px rgba(60, 67, 68, 0.2), 7px 9px 25px 0px rgba(60, 67, 68, 0.2), 29px 36px 46px 0px rgba(60, 67, 68, 0.17), 64px 81px 62px 0px rgba(60, 67, 68, 0.1), 115px 143px 73px 0px rgba(60, 67, 68, 0.03), 179px 224px 80px 0px rgba(60, 67, 68, 0);
 
       &-title {
@@ -78,8 +80,9 @@
 
       &-old {
          margin-bottom: 10px;
-         font: 400 16px/1.2 "Overpass";
+         font-size: 16px;
          text-decoration: line-through;
+         line-height: 1.2;
 
          @include md {
             font-size: 18px;
@@ -99,27 +102,11 @@
       }
 
       &-new {
-         font: 700 22px/1.2 "Overpass";
-
-         @include md {
-            font-size: 24px;
-         }
-
-         @include lg {
-            font-size: 28px;
-         }
-
-         @include xl {
-            font-size: 34px;
-         }
-
-         @include xxl {
-            font-size: 40px;
-         }
+         font-weight: 700;
       }
 
       &-info {
-         font: 400 14px/1.2 "Overpass";
+         font-size: 14px;
          opacity: 0.9;
 
          @include lg {
@@ -144,8 +131,13 @@
          display: flex;
          align-items: flex-start;
          gap: 10px;
-         font: 400 14px/1.2 "Overpass";
+         font-size: 14px;
+         letter-spacing: -0.30px;
          color: var(--color_base);
+
+         @include xl {
+            font-size: 16px;
+         }
       }
 
       &-icon {
@@ -156,10 +148,19 @@
          background: url("/src/assets/img/svg/icon__check.svg"), var(--color_check);
          background-position: center;
          background-repeat: no-repeat;
+
+         @include xl {
+            min-width: 24px;
+            min-height: 24px;
+            border-radius: 6px;
+            background-size: 60% 60%;
+         }
       }
 
       &-total {
-         font: 700 22px/1.2 "Overpass";
+         font-size: 22px;
+         font-weight: 700;
+         line-height: 1.2;
          color: var(--color_base);
 
          @include lg {
@@ -202,6 +203,8 @@
       }
 
       &.active {
+         background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), radial-gradient(104.62% 88.11% at 40.02% 100.00%, #2C808B 0%, #2EB0B2 100%);
+
          .price__card-more {
             display: block;
          }
@@ -228,8 +231,8 @@
       max-width: 350px;
       margin: 0 auto;
       padding: 20px;
-      border-radius: 25px;
-      background: radial-gradient(1183.59% 36.65% at 61.19% 34.15%, #4e8dd8 0%, #0a65d1 100%);
+      border-radius: var(--radius_section);
+      background: radial-gradient(circle, rgba(78,141,216,1) 0%, rgba(10,101,209,1) 100%);;
       color: var(--color_base);
 
       &-header {
@@ -317,7 +320,7 @@
          margin-bottom: -20px;
          margin-left: -20px;
          padding: 30px 20px;
-         border-radius: 23px;
+         border-radius: var(--radius_section);
          background: radial-gradient(359.49% 117.86% at 93.78% 95.78%, #baf0f1 0%, #f2f9f9 52.08%, #e5eefa 100%);
          color: var(--color_font);
 
@@ -328,13 +331,11 @@
          @include md {
             width: calc(100% + 60px);
             margin-bottom: -30px;
-            margin-left: -30px;
          }
 
          @include lg {
             grid-area: info;
             margin: 0;
-            margin-left: -20px;
          }
 
          @include xl {
@@ -342,13 +343,9 @@
          }
 
          @include xxl {
-            margin-left: 0px;
             padding: 60px 50px;
          }
 
-         @include xxxl {
-            margin-left: 5px;
-         }
       }
 
       &-text {
@@ -371,9 +368,9 @@
          align-items: center;
          grid-template-areas: "header img info";
          grid-template-columns: 1fr 1fr 1fr;
-         max-width: 100%;
-         padding: 0 40px;
          gap: 10px;
+         max-width: 100%;
+         padding: 0 40px 0 40px;
 
          @include xxl {
             grid-template-columns: 1.3fr 1fr 1fr;

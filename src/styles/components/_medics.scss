@@ -217,16 +217,16 @@
       }
 
       @include xl {
-         max-width: 220px;
-         margin-right: 15px;
+         max-width: 240px;
+         margin-right: 0;
       }
 
       @include xxl {
-         margin-right: clamp(4.065rem, -15.1335rem + 21.9412vw, 5.93rem);
+         margin-right: clamp(3.125rem, -12.9544rem + 18.3765vw, 4.687rem);
       }
 
       @include xxxl {
-         margin-right: clamp(5.93rem, -19.4005rem + 26.386vw, 7.81rem);
+         margin-right: clamp(4.687rem, -20.5762rem + 26.3158vw, 6.562rem);
       }
    }
 

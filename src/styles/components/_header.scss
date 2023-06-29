@@ -20,6 +20,7 @@
       display: none;
 
       &-item {
+
          @include xxxl {
             display: flex;
             flex-flow: column;
@@ -99,6 +100,10 @@
       &-number {
          border-bottom: none;
          text-decoration: none;
+
+         & span {
+            white-space: nowrap;
+         }
 
          &:hover {
             border-bottom: none;

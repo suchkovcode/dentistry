@@ -36,8 +36,6 @@
          position: relative;
          z-index: 100;
 
-         // backdrop-filter: blur(55px);
-
          @include lg {
             flex: 0 0 calc(50% - 20px);
             height: 100%;
@@ -86,8 +84,9 @@
       background-image: url("/src/assets/img/png/card__bg.png");
       background-size: 100% 100%;
       background-repeat: no-repeat;
-      filter: drop-shadow(160px 230px 80px rgba(25, 121, 123, 0)) drop-shadow(100px 150px 70px rgba(25, 121, 123, 0.01)) drop-shadow(60px 80px 60px rgba(25, 121, 123, 0.01)) drop-shadow(25px 35px 45px rgba(25, 121, 123, 0.07)) drop-shadow(5px 10px 25px rgba(25, 121, 123, 0.08)) drop-shadow(0 0 0 rgba(25, 121, 123, 0.08));
+      filter: var(--color_shadow);
       backdrop-filter: blur(55px);
+      -webkit-backdrop-filter: blur(55px);
 
       &-title {
          padding-top: 8px;
@@ -191,9 +190,9 @@
          height: 20px;
          border: 1px solid #fff;
          border-radius: 20px;
-         background: rgba(255, 255, 255, 65%);
-         box-shadow: 102px 147px 72px rgba(25, 121, 123, 0.01), 58px 83px 61px rgba(25, 121, 123, 0.04), 26px 37px 45px rgba(25, 121, 123, 0.07), 6px 9px 25px rgba(25, 121, 123, 0.08), 0px 0px 0px rgba(25, 121, 123, 0.08);
          backdrop-filter: blur(28px);
+         -webkit-backdrop-filter: blur(28px);
+         background: rgba(255, 255, 255, 65%);
       }
 
       @include lg {

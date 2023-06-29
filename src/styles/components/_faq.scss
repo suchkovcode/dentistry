@@ -35,6 +35,8 @@
       align-items: center;
       gap: 5px;
       padding: 20px;
+      font-family: "Overpass";
+      font-weight: 700;
 
       &-icon {
          width: 14px;
@@ -88,6 +90,11 @@
    &__btn {
       cursor: pointer;
       color: var(--color_font);
+
+      & span {
+         min-width: none;
+         padding: 0;
+      }
    }
 
    &__icon {

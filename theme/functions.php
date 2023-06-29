@@ -103,17 +103,13 @@ add_action('wp_enqueue_scripts', function () {
    wp_deregister_style('wpml-legacy-dropdown-0');
    wp_deregister_script('jquery');
    wp_enqueue_script('sctipt', '/wp-content/themes/dentistry/app.min.js', array(), null, true);
+   wp_register_script('jquery', get_template_directory_uri() . '/assets/vendor/js/jquery-3.7.0.js', false, "3.7.0", true);
    wp_dequeue_style('wp-block-library');
    wp_dequeue_style('wp-block-library-theme');
    wp_dequeue_style('cms-navigation-style-base');
    wp_dequeue_style('cms-navigation-style');
    wp_dequeue_style('wc-block-style');
    wp_dequeue_style('classic-theme-styles');
-   wp_dequeue_style('wpml-tm-admin-bar');
-   wp_dequeue_style('wpml-tm-admin-bar-csswpml-legacy-dropdown-0');
-   wp_dequeue_style('typed-cursor');
-   wp_dequeue_style('html-forms');
-   wp_dequeue_style('wpml-legacy-dropdown-0');
 });
 
 

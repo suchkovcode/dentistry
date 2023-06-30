@@ -111,7 +111,12 @@ img {
    display: block;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
    font-family: "Overpass";
 }
 
@@ -225,6 +230,7 @@ html {
 }
 
 body {
+   overflow-x: hidden;
    position: relative;
    min-width: 330px;
 }

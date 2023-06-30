@@ -21,6 +21,10 @@ a {
    }
 }
 
+.main {
+   overflow-x: hidden;
+}
+
 .container {
    position: relative;
    max-width: 450px;

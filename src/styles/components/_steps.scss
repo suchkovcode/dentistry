@@ -52,10 +52,9 @@
       border-radius: 20px;
       background: rgba(255, 255, 255, 50%);
       color: var(--color_font);
-      filter: var(--color_shadow);
+      // filter: var(--color_shadow);
       backdrop-filter: blur(28px);
       -webkit-backdrop-filter: blur(28px);
-
 
       &-position {
          position: relative;
@@ -79,6 +78,7 @@
       &-img {
          width: calc(100% + 44px);
          height: auto;
+         max-width: none;
          max-height: none;
          margin-top: -22px;
          margin-bottom: 30px;

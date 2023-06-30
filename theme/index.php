@@ -731,13 +731,13 @@
          </h2>
          <div class="swiper slider__swiper">
             <div class="slider__nav">
-               <div class="swiper-button-prev slider__button-prev">
-                  <svg class="slider__button-icon">
+               <div class="swiper-button-prev btn-prev">
+                  <svg class="btn-icon">
                      <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#arrow-left"></use>
                   </svg>
                </div>
-               <div class="swiper-button-next slider__button-next">
-                  <svg class="slider__button-icon">
+               <div class="swiper-button-next btn-next">
+                  <svg class="btn-icon">
                      <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#arrow-right"></use>
                   </svg>
                </div>
@@ -820,13 +820,13 @@
          <div class="medics__slider">
             <div class="swiper medics__swiper">
                <div class="medics__nav">
-                  <div class="swiper-button-prev medics__button-prev">
-                     <svg class="medics__button-icon">
+                  <div class="swiper-button-prev  btn-prev">
+                     <svg class="btn-icon">
                         <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#arrow-left"></use>
                      </svg>
                   </div>
-                  <div class="swiper-button-next medics__button-next">
-                     <svg class="medics__button-icon">
+                  <div class="swiper-button-next btn-next">
+                     <svg class="btn-icon">
                         <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#arrow-right"></use>
                      </svg>
                   </div>

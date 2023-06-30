@@ -10,7 +10,7 @@
    color: var(--color_font);
 
    &:hover,
-   &:visited, 
+   &:visited,
    &:active {
       line-height: 16px;
    }
@@ -33,5 +33,43 @@
    &:hover {
       background: linear-gradient(262.49deg, #0c55ad 56.25%, #00bfbf 111.56%);
       line-height: 1.2;
+   }
+}
+
+.btn-prev,
+.btn-next {
+   cursor: pointer;
+   position: relative;
+   display: block;
+   width: 44px;
+   height: 44px;
+   border-radius: 14px;
+   background: radial-gradient(145.47% 527.72% at 127.78% 125%, #baf0f1 0%, #f2f9f9 52.08%, #e5eefa 100%), linear-gradient(0deg, #d1f4f5, #d1f4f5);
+   transition: all 0.2s ease-in-out;
+   color: var(--color_blue);
+
+   &:hover {
+      background: var(--color_blue);
+      color: var(--color_base);
+   }
+
+   @include xl {
+      width: 54px;
+      height: 54px;
+      border-radius: 18px;
+   }
+}
+
+.btn-icon {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 18px;
+   height: 16px;
+   transform: translateX(-50%) translateY(-50%);
+
+   @include xl {
+      width: 21px;
+      height: 16px;
    }
 }

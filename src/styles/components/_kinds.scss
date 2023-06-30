@@ -84,7 +84,8 @@
       background-image: url("/src/assets/img/png/card__bg.png");
       background-size: 100% 100%;
       background-repeat: no-repeat;
-      // filter: var(--color_shadow);
+      filter: var(--color_shadow);
+      box-shadow: 0px 0px 0px 0px rgba(25, 121, 123, 0.08), 6px 9px 25px 0px rgba(25, 121, 123, 0.08), 26px 37px 45px 0px rgba(25, 121, 123, 0.07), 58px 83px 61px 0px rgba(25, 121, 123, 0.04), 102px 147px 72px 0px rgba(25, 121, 123, 0.01), 160px 230px 78px 0px rgba(25, 121, 123, 0.00);
       backdrop-filter: blur(55px);
       -webkit-backdrop-filter: blur(55px);
 

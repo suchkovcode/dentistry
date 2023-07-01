@@ -76,6 +76,7 @@
       display: block;
       width: 100%;
       height: auto;
+      max-height: min-content;
 
       @include md {
          max-width: 650px;
@@ -105,7 +106,7 @@
 
       @include xxxl {
          right: -50px;
-         max-width: 1150px;
+         max-width: 1200px;
       }
    }
 

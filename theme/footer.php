@@ -75,13 +75,13 @@
          </div>
       </div>
       <div class="footer__center">
-         <img class="footer__map" src="<?php echo get_template_directory_uri(); ?>/assets/img/footer__map.png" alt="Тестовая карта для фона" width="200" height="200" />
+         <img class="footer__map" src="<?php echo get_template_directory_uri(); ?>/assets/img/footer__map.png" loading="lazy" alt="Тестовая карта для фона" width="200" height="200" />
       </div>
       <div class="footer__bottom">
          <p class="footer__info">Сайт не является публичной офертой. 2023г. / <a class="footer__policy" href="">Политика конфиденциальности</a></p>
          <a class="develop" href="">
             Создание сайта
-            <img class="develop__logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/develop__logo.png" alt="Логотип" width="200" height="200" />
+            <img class="develop__logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/develop__logo.png" loading="lazy" alt="Логотип" width="200" height="200" />
          </a>
       </div>
    </div>

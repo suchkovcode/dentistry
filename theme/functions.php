@@ -91,7 +91,7 @@ add_action('wp_head', function () {
    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/base.min.css">
    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/blocks.css">
    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/modules.css">
-   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css?v17">
+   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css?v19">
 <?php
 }, 0);
 

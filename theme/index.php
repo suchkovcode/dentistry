@@ -62,10 +62,10 @@
       <div class="container">
          <h2 class="title smile__title"><strong>Делаем улыбки здоровыми и красивыми</strong> уже более 30 лет </h2>
          <div class="smile__grid">
-            <img class="smile__grid-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smile__hero-1.png" alt="Картинка улыбки" width="130" height="260" data-index="0" />
-            <img class="smile__grid-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smile__hero-2.png" alt="Картинка улыбки" width="130" height="190" data-index="1" />
-            <img class="smile__grid-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smile__hero-3.png" alt="Картинка улыбки" width="130" height="220" data-index="2" />
-            <img class="smile__grid-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smile__hero-4.png" alt="Картинка улыбки" width="130" height="260" data-index="3" />
+            <img class="smile__grid-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smile__hero-1.png" loading="lazy" alt="Картинка улыбки" width="130" height="260" data-index="0" />
+            <img class="smile__grid-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smile__hero-2.png" loading="lazy" alt="Картинка улыбки" width="130" height="190" data-index="1" />
+            <img class="smile__grid-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smile__hero-3.png" loading="lazy" alt="Картинка улыбки" width="130" height="220" data-index="2" />
+            <img class="smile__grid-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smile__hero-4.png" loading="lazy" alt="Картинка улыбки" width="130" height="260" data-index="3" />
          </div>
          <div class="smile__reating">
             <h2 class="smile__reating-title">
@@ -78,7 +78,7 @@
             </p>
             <div class="smile__company">
                <a class="smile__company-item" href="#">
-                  <img class="smile__company-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/rating__hero-1.png" alt="Лого компании" width="55" height="55" />
+                  <img class="smile__company-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/rating__hero-1.png" loading="lazy" alt="Лого компании" width="55" height="55" />
                   <span class="smile__company-info">
                      <span class="smile__company-count">
                         <svg class="smile__company-icon">
@@ -95,7 +95,7 @@
                   </span>
                </a>
                <a class="smile__company-item" href="">
-                  <img class="smile__company-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/rating__hero-2.png" alt="Лого компании" width="55" height="55" />
+                  <img class="smile__company-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/rating__hero-2.png" loading="lazy" alt="Лого компании" width="55" height="55" />
                   <span class="smile__company-info">
                      <span class="smile__company-count">
                         <svg class="smile__company-icon">
@@ -112,7 +112,7 @@
                   </span>
                </a>
                <a class="smile__company-item" href="">
-                  <img class="smile__company-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/rating__hero-3.png" alt="Лого компании" width="55" height="55" />
+                  <img class="smile__company-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/rating__hero-3.png" loading="lazy" alt="Лого компании" width="55" height="55" />
                   <span class="smile__company-info">
                      <span class="smile__company-count">
                         <svg class="smile__company-icon">
@@ -129,7 +129,7 @@
                   </span>
                </a>
                <a class="smile__company-item" href="#">
-                  <img class="smile__company-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/rating__hero-4.png" alt="Лого компании" width="55" height="55" />
+                  <img class="smile__company-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/rating__hero-4.png" loading="lazy" alt="Лого компании" width="55" height="55" />
                   <span class="smile__company-info">
                      <span class="smile__company-count">
                         <svg class="smile__company-icon">
@@ -157,7 +157,7 @@
          </h2>
          <div class="kinds__stages">
             <div class="kinds__stages-item" data-index="0">
-               <img class="kinds__stages-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/kinds__hero-1.png" alt="Картинка зубов" width="280" height="130" />
+               <img class="kinds__stages-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/kinds__hero-1.png" loading="lazy" alt="Картинка зубов" width="280" height="130" />
                <div class="kinds__card">
                   <h3 class="kinds__card-title">Одномоментная</h3>
                   <div class="kinds__card-info">
@@ -201,7 +201,7 @@
                </div>
             </div>
             <div class="kinds__stages-item" data-index="1">
-               <img class="kinds__stages-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/kinds__hero-2.png" alt="Картинка зубов" width="280" height="130" />
+               <img class="kinds__stages-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/kinds__hero-2.png" loading="lazy" alt="Картинка зубов" width="280" height="130" />
                <div class="kinds__card">
                   <h3 class="kinds__card-title">Двухэтапная</h3>
                   <div class="kinds__card-info">
@@ -246,7 +246,7 @@
                </div>
             </div>
             <div class="kinds__stages-item" data-index="2">
-               <img class="kinds__stages-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/kinds__hero-3.png" alt="Картинка зубов" width="280" height="130" />
+               <img class="kinds__stages-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/kinds__hero-3.png" loading="lazy" alt="Картинка зубов" width="280" height="130" />
                <div class="kinds__card">
                   <h3 class="kinds__card-title">«Все на 4/все на 6»</h3>
                   <div class="kinds__card-info">
@@ -288,21 +288,21 @@
             <h2 class="methods__title"><strong>При наличии противопоказаний к классической имплантации,</strong> мы предлагаем вам альтернативные методы восстановления зубного ряда:</h2>
             <div class="methods__bullet">
                <div class="methods__bullet-item">
-                  <img class="methods__bullet-icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/bullet__icon-1.png" alt="Картинка буллета" width="90" height="90" />
+                  <img class="methods__bullet-icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/bullet__icon-1.png" loading="lazy" alt="Картинка буллета" width="90" height="90" />
                   <div class="methods__bullet-content">
                      <h3 class="methods__bullet-title">Протезирование <br> «все на 4/все на 6»</h3>
                      <p class="methods__bullet-text">при полной адентии и атрофии кости</p>
                   </div>
                </div>
                <div class="methods__bullet-item">
-                  <img class="methods__bullet-icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/bullet__icon-2.png" alt="Картинка буллета" width="90" height="90" />
+                  <img class="methods__bullet-icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/bullet__icon-2.png" loading="lazy" alt="Картинка буллета" width="90" height="90" />
                   <div class="methods__bullet-content">
                      <h3 class="methods__bullet-title">Съемные зубные протезы</h3>
                      <p class="methods__bullet-text">при частичной и полной адентии</p>
                   </div>
                </div>
                <div class="methods__bullet-item">
-                  <img class="methods__bullet-icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/bullet__icon-3.png" alt="Картинка буллета" width="90" height="90" />
+                  <img class="methods__bullet-icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/bullet__icon-3.png" loading="lazy" alt="Картинка буллета" width="90" height="90" />
                   <div class="methods__bullet-content">
                      <h3 class="methods__bullet-title">Бюгельное протезирование</h3>
                      <p class="methods__bullet-text">при частичной адентии</p>
@@ -311,13 +311,13 @@
             </div>
          </div>
       </div>
-      <img class="methods__bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/smear.svg" alt="Фоновая картинка" width="300" height="300" />
+      <img class="methods__bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/smear.svg" loading="lazy" alt="Фоновая картинка" width="300" height="300" />
    </section>
    <section class="doctor">
       <div class="container">
          <div class="doctor__content">
             <div class="doctor__header">
-               <img class="doctor__avatar" src="<?php echo get_template_directory_uri(); ?>/assets/img/doctor__avatar.png" alt="Аватар фоктора" width="180" height="180" />
+               <img class="doctor__avatar" src="<?php echo get_template_directory_uri(); ?>/assets/img/doctor__avatar.png" loading="lazy" alt="Аватар фоктора" width="180" height="180" />
                <h2 class="title doctor__title"><strong>Выбрать оптимальный метод имплантации</strong> поможет врач-имплантолог <strong>Байцеров В. А.</strong></h2>
             </div>
             <form class="form" action="#" method="post">
@@ -354,7 +354,7 @@
             </h2>
             <p class="doctor__discount-subtitle">при имплантации в нашей клинике</p>
             <div class="doctor__discount-picture">
-               <img class="doctor__discount-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/doctor__discount.png" alt="Фото скидки" width="200" height="200" />
+               <img class="doctor__discount-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/doctor__discount.png" loading="lazy" alt="Фото скидки" width="200" height="200" />
                <p class="doctor__discount-value">50%</p>
             </div>
          </div>
@@ -365,7 +365,7 @@
          <h2 class="title price__title"><strong>Точные</strong> цены</h2>
          <div class="price__block">
             <div class="price__block-item">
-               <img class="price__block-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/price__logo-1.png" alt="Логотип компании" width="240" height="90" />
+               <img class="price__block-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/price__logo-1.png" loading="lazy" alt="Логотип компании" width="240" height="90" />
                <div class="price__card">
                   <h3 class="price__card-title"><strong> Straumann</strong> (Швейцария)</h3>
                   <div class="price__card-cost">
@@ -376,28 +376,52 @@
                   <div class="price__card-more">
                      <ul class="price__card-bullet">
                         <li class="price__card-item">
-                           <span class="price__card-icon"></span>
-                           1250 Р - Совместная консультация имплантолога с ортопедом
+                           <svg class="price__card-icon">
+                              <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                           </svg>
+                           <span>
+                              1250 Р - Совместная консультация имплантолога с ортопедом
+                           </span>
                         </li>
                         <li class="price__card-item">
-                           <span class="price__card-icon"></span>
-                           от 950 Р - Диагностика
+                           <svg class="price__card-icon">
+                              <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                           </svg>
+                           <span>
+                              от 950 Р - Диагностика
+                           </span>
                         </li>
                         <li class="price__card-item">
-                           <span class="price__card-icon"></span>
-                           от 29 000 Р - Цена за 1 имплантат с установкой
+                           <svg class="price__card-icon">
+                              <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                           </svg>
+                           <span>
+                              от 29 000 Р - Цена за 1 имплантат с установкой
+                           </span>
                         </li>
                         <li class="price__card-item">
-                           <span class="price__card-icon"></span>
-                           от 30 000 Р - Коронка с установкой (безметалловая коронка из диоксида циркония)
+                           <svg class="price__card-icon">
+                              <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                           </svg>
+                           <span>
+                              от 30 000 Р - Коронка с установкой (безметалловая коронка из диоксида циркония)
+                           </span>
                         </li>
                         <li class="price__card-item">
-                           <span class="price__card-icon"></span>
-                           Имплантация без боли
+                           <svg class="price__card-icon">
+                              <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                           </svg>
+                           <span>
+                              Имплантация без боли
+                           </span>
                         </li>
                         <li class="price__card-item">
-                           <span class="price__card-icon"></span>
-                           Возможность приема пищи сразу после имплантации
+                           <svg class="price__card-icon">
+                              <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                           </svg>
+                           <span>
+                              Возможность приема пищи сразу после имплантации
+                           </span>
                         </li>
                      </ul>
                      <p class="price__card-total">Цена: от 62 000 Р</p>
@@ -406,7 +430,7 @@
                </div>
             </div>
             <div class="price__block-item">
-               <img class="price__block-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/price__logo-2.png" alt="Логотип компании" width="245" height="90" />
+               <img class="price__block-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/price__logo-2.png" loading="lazy" alt="Логотип компании" width="245" height="90" />
                <div class="price__card">
                   <h3 class="price__card-title"><strong>Nobel</strong> (Швейцария)</h3>
                   <div class="price__card-cost">
@@ -417,28 +441,52 @@
                   <div class="price__card-more">
                      <ul class="price__card-bullet">
                         <li class="price__card-item">
-                           <span class="price__card-icon"></span>
-                           1250 Р - Совместная консультация имплантолога с ортопедом
+                           <svg class="price__card-icon">
+                              <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                           </svg>
+                           <span>
+                              1250 Р - Совместная консультация имплантолога с ортопедом
+                           </span>
                         </li>
                         <li class="price__card-item">
-                           <span class="price__card-icon"></span>
-                           от 950 Р - Диагностика
+                           <svg class="price__card-icon">
+                              <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                           </svg>
+                           <span>
+                              от 950 Р - Диагностика
+                           </span>
                         </li>
                         <li class="price__card-item">
-                           <span class="price__card-icon"></span>
-                           от 29 000 Р - Цена за 1 имплантат с установкой
+                           <svg class="price__card-icon">
+                              <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                           </svg>
+                           <span>
+                              от 29 000 Р - Цена за 1 имплантат с установкой
+                           </span>
                         </li>
                         <li class="price__card-item">
-                           <span class="price__card-icon"></span>
-                           от 30 000 Р - Коронка с установкой (безметалловая коронка из диоксида циркония)
+                           <svg class="price__card-icon">
+                              <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                           </svg>
+                           <span>
+                              от 30 000 Р - Коронка с установкой (безметалловая коронка из диоксида циркония)
+                           </span>
                         </li>
                         <li class="price__card-item">
-                           <span class="price__card-icon"></span>
-                           Имплантация без боли
+                           <svg class="price__card-icon">
+                              <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                           </svg>
+                           <span>
+                              Имплантация без боли
+                           </span>
                         </li>
                         <li class="price__card-item">
-                           <span class="price__card-icon"></span>
-                           Возможность приема пищи сразу после имплантации
+                           <svg class="price__card-icon">
+                              <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                           </svg>
+                           <span>
+                              Возможность приема пищи сразу после имплантации
+                           </span>
                         </li>
                      </ul>
                      <p class="price__card-total">Цена: от 62 000 Р</p>
@@ -447,7 +495,7 @@
                </div>
             </div>
             <div class="price__block-item">
-               <img class="price__block-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/price__logo-3.png" alt="Логотип компании" width="245" height="90" />
+               <img class="price__block-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/price__logo-3.png" loading="lazy" alt="Логотип компании" width="245" height="90" />
                <div class="price__card">
                   <h3 class="price__card-title"><strong>Dentium SuperLine </strong> (Корея)</h3>
                   <div class="price__card-cost">
@@ -458,28 +506,52 @@
                   <div class="price__card-more">
                      <ul class="price__card-bullet">
                         <li class="price__card-item">
-                           <span class="price__card-icon"></span>
-                           1250 Р - Совместная консультация имплантолога с ортопедом
+                           <svg class="price__card-icon">
+                              <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                           </svg>
+                           <span>
+                              1250 Р - Совместная консультация имплантолога с ортопедом
+                           </span>
                         </li>
                         <li class="price__card-item">
-                           <span class="price__card-icon"></span>
-                           от 950 Р - Диагностика
+                           <svg class="price__card-icon">
+                              <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                           </svg>
+                           <span>
+                              от 950 Р - Диагностика
+                           </span>
                         </li>
                         <li class="price__card-item">
-                           <span class="price__card-icon"></span>
-                           от 29 000 Р - Цена за 1 имплантат с установкой
+                           <svg class="price__card-icon">
+                              <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                           </svg>
+                           <span>
+                              от 29 000 Р - Цена за 1 имплантат с установкой
+                           </span>
                         </li>
                         <li class="price__card-item">
-                           <span class="price__card-icon"></span>
-                           от 30 000 Р - Коронка с установкой (безметалловая коронка из диоксида циркония)
+                           <svg class="price__card-icon">
+                              <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                           </svg>
+                           <span>
+                              от 30 000 Р - Коронка с установкой (безметалловая коронка из диоксида циркония)
+                           </span>
                         </li>
                         <li class="price__card-item">
-                           <span class="price__card-icon"></span>
-                           Имплантация без боли
+                           <svg class="price__card-icon">
+                              <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                           </svg>
+                           <span>
+                              Имплантация без боли
+                           </span>
                         </li>
                         <li class="price__card-item">
-                           <span class="price__card-icon"></span>
-                           Возможность приема пищи сразу после имплантации
+                           <svg class="price__card-icon">
+                              <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                           </svg>
+                           <span>
+                              Возможность приема пищи сразу после имплантации
+                           </span>
                         </li>
                      </ul>
                      <p class="price__card-total">Цена: от 62 000 Р</p>
@@ -493,7 +565,7 @@
                <h2 class="price__action-title">Мы зафиксировали цены!</h2>
                <p class="price__action-subtitle"><strong>Мы все еще держим цены 2022 года,</strong> чтобы вы могли лечиться с выгодой!</p>
             </div>
-            <img class="price__action-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/price__action-img.png" alt="Логотип компании" width="180" height="80" />
+            <img class="price__action-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/price__action-img.png" loading="lazy" alt="Логотип компании" width="180" height="80" />
             <div class="price__action-info">
                <p class="price__action-text"><strong>Успейте до повышения цен</strong> и воспользуйтесь нашими спецпредложениями.</p>
                <button class="btn btn-secondary price__action-btn"><span>Узнать о спецпредложениях</span></button>
@@ -510,7 +582,7 @@
          <div class="steps__container">
             <div class="steps__item steps__item--right">
                <div class="steps__item-position">
-                  <img class="steps__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/steps__hero-1.png" alt="Картинка шага" width="270" height="190" />
+                  <img class="steps__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/steps__hero-1.png" loading="lazy" alt="Картинка шага" width="270" height="190" />
                   <p class="steps__item-index">1</p>
                </div>
                <div class="steps__item-content">
@@ -520,19 +592,27 @@
                   </h3>
                   <ul class="steps__item-bullet">
                      <li class="steps__item-point">
-                        <span class="steps__item-icon"></span>
+                        <svg class="steps__item-icon">
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                        </svg>
                         <span> Высокоточная компьютерная <strong>3D-томограмма</strong></span>
                      </li>
                      <li class="steps__item-point">
-                        <span class="steps__item-icon"></span>
+                        <svg class="steps__item-icon">
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                        </svg>
                         <span> Полное обследование, назначение анализов и составление <strong>плана лечения</strong></span>
                      </li>
                      <li class="steps__item-point">
-                        <span class="steps__item-icon"></span>
+                        <svg class="steps__item-icon">
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                        </svg>
                         <span> <strong>Подбор</strong> вида имплантации и импланта, который <strong>подойдет вам на 100%</strong> </span>
                      </li>
                      <li class="steps__item-point">
-                        <span class="steps__item-icon"></span>
+                        <svg class="steps__item-icon">
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                        </svg>
                         <span> <strong> Обследование необходимо</strong> для грамотного составления плана лечения </span>
                      </li>
                   </ul>
@@ -540,7 +620,7 @@
             </div>
             <div class="steps__item steps__item--left">
                <div class="steps__item-position">
-                  <img class="steps__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/steps__hero-2.png" alt="Картинка шага" width="270" height="190" />
+                  <img class="steps__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/steps__hero-2.png" loading="lazy" alt="Картинка шага" width="270" height="190" />
                   <p class="steps__item-index">2</p>
                </div>
                <div class="steps__item-content">
@@ -550,19 +630,27 @@
                   </h3>
                   <ul class="steps__item-bullet">
                      <li class="steps__item-point">
-                        <span class="steps__item-icon"></span>
+                        <svg class="steps__item-icon">
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                        </svg>
                         <span> <strong>2-х этапная анестезия </strong>для комфортного и безболезненного проведения операции</span>
                      </li>
                      <li class="steps__item-point">
-                        <span class="steps__item-icon"></span>
+                        <svg class="steps__item-icon">
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                        </svg>
                         <span> <strong>Врач хирург-имплантолог</strong> проводит операцию по установке импланта</span>
                      </li>
                      <li class="steps__item-point">
-                        <span class="steps__item-icon"></span>
+                        <svg class="steps__item-icon">
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                        </svg>
                         <span> <strong>Наложение швов,</strong> фиксация временной коронки при необходимости </span>
                      </li>
                      <li class="steps__item-point">
-                        <span class="steps__item-icon"></span>
+                        <svg class="steps__item-icon">
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                        </svg>
                         <span> Эта процедура по ощущениям сравнима <strong>с простым удалением зуба</strong> </span>
                      </li>
                   </ul>
@@ -570,7 +658,7 @@
             </div>
             <div class="steps__item steps__item--right">
                <div class="steps__item-position">
-                  <img class="steps__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/steps__hero-3.png" alt="Картинка шага" width="270" height="190" />
+                  <img class="steps__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/steps__hero-3.png" loading="lazy" alt="Картинка шага" width="270" height="190" />
                   <p class="steps__item-index">3</p>
                </div>
                <div class="steps__item-content">
@@ -580,19 +668,27 @@
                   </h3>
                   <ul class="steps__item-bullet">
                      <li class="steps__item-point">
-                        <span class="steps__item-icon"></span>
+                        <svg class="steps__item-icon">
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                        </svg>
                         <span> В этот период хирург назначает <strong>несколько контрольных визитов</strong> (в зависимости от клинического случая)</span>
                      </li>
                      <li class="steps__item-point">
-                        <span class="steps__item-icon"></span>
+                        <svg class="steps__item-icon">
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                        </svg>
                         <span> Пациент выполняет <strong>рекомендации врача</strong> весь период приживления</span>
                      </li>
                      <li class="steps__item-point">
-                        <span class="steps__item-icon"></span>
+                        <svg class="steps__item-icon">
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                        </svg>
                         <span> <strong>После полного заживления</strong> стоматолог-ортопед фиксирует постоянную коронку или протез </span>
                      </li>
                      <li class="steps__item-point">
-                        <span class="steps__item-icon"></span>
+                        <svg class="steps__item-icon">
+                           <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
+                        </svg>
                         <span> Процесс установки коронки/протеза абсолютно <strong>безболезненный</strong> </span>
                      </li>
                   </ul>
@@ -600,7 +696,7 @@
             </div>
          </div>
       </div>
-      <img class="steps__bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/steps__bg.svg" alt="Фоновая картинка" width="290" height="180">
+      <img class="steps__bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/steps__bg.svg" loading="lazy" alt="Фоновая картинка" width="290" height="180">
    </section>
    <section class="advantages">
       <div class="container">
@@ -662,7 +758,7 @@
                   <span class="advantages__bullet-text">Для проведения операций используем специально подготовленные и оборудованные помещения</span>
                </li>
             </ul>
-            <img class="advantages__hero" src="<?php echo get_template_directory_uri(); ?>/assets/img/advantages__hero.png" alt="Фото улыбки" width="180" height="240" />
+            <img class="advantages__hero" src="<?php echo get_template_directory_uri(); ?>/assets/img/advantages__hero.png" loading="lazy" alt="Фото улыбки" width="180" height="240" />
             <ul class="advantages__bullet advantages__bullet--second">
                <li class="advantages__bullet-item">
                   <span class="advantages__bullet-header">
@@ -744,22 +840,22 @@
             </div>
             <div class="swiper-wrapper slider__wrapper">
                <div class="swiper-slide slider__slide">
-                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-1.png" alt="Слайдер" width="280" height="190" />
+                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-1.png" loading="lazy" alt="Слайдер" width="280" height="190" />
                </div>
                <div class="swiper-slide slider__slide">
-                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-2.png" alt="Слайдер" width="280" height="190" />
+                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-2.png" loading="lazy" alt="Слайдер" width="280" height="190" />
                </div>
                <div class="swiper-slide slider__slide">
-                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-3.png" alt="Слайдер" width="280" height="190" />
+                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-3.png" loading="lazy" alt="Слайдер" width="280" height="190" />
                </div>
                <div class="swiper-slide slider__slide">
-                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-1.png" alt="Слайдер" width="280" height="190" />
+                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-1.png" loading="lazy" alt="Слайдер" width="280" height="190" />
                </div>
                <div class="swiper-slide slider__slide">
-                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-2.png" alt="Слайдер" width="280" height="190" />
+                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-2.png" loading="lazy" alt="Слайдер" width="280" height="190" />
                </div>
                <div class="swiper-slide slider__slide">
-                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-3.png" alt="Слайдер" width="280" height="190" />
+                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-3.png" loading="lazy" alt="Слайдер" width="280" height="190" />
                </div>
             </div>
          </div>
@@ -796,14 +892,14 @@
             </div>
          </form>
          <div class="action__doctor">
-            <img class="action__doctor-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/action__doctor-1.png" alt="Фото доктора" width="280" height="470" />
+            <img class="action__doctor-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/action__doctor-1.png" loading="lazy" alt="Фото доктора" width="280" height="470" />
             <div class="action__doctor-regalia">
                <p class="action__doctor-name">Мадоян Армен Гагикович</p>
                <p class="action__doctor-position">Врач-имплантолог</p>
             </div>
          </div>
       </div>
-      <img class="action__bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/action__bg-1.svg" alt="Фоновая картинка" width="280" height="280" />
+      <img class="action__bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/action__bg-1.svg" loading="lazy" alt="Фоновая картинка" width="280" height="280" />
    </section>
    <section class="medics">
       <div class="container">
@@ -813,7 +909,7 @@
                с самыми лучшими врачами
             </h2>
             <div class="medics__description">
-               <img class="medics__description-icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__icon.svg" alt="Иконка" width="50" height="55" />
+               <img class="medics__description-icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__icon.svg" loading="lazy" alt="Иконка" width="50" height="55" />
                <p class="medics__description-text"><strong> Наши врачи занимают первые места</strong> в рейтинге стоматологов-хирургов Волгоградской области</p>
             </div>
          </div>
@@ -834,7 +930,7 @@
                <div class="swiper-wrapper medics__wrapper">
                   <div class="swiper-slide medics__slide" data-index="0">
                      <div class="medics__slide-bg">
-                        <img class="medics__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__hero-1.png" alt="Доктор" width="280" height="190" />
+                        <img class="medics__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__hero-1.png" loading="lazy" alt="Доктор" width="280" height="190" />
                      </div>
                      <h3 class="medics__slide-title">
                         Мельникова <br />
@@ -844,7 +940,7 @@
                   </div>
                   <div class="swiper-slide medics__slide" data-index="1">
                      <div class="medics__slide-bg">
-                        <img class="medics__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__hero-2.png" alt="Доктор" width="280" height="190" />
+                        <img class="medics__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__hero-2.png" loading="lazy" alt="Доктор" width="280" height="190" />
                      </div>
                      <h3 class="medics__slide-title">
                         Мадоян <br />
@@ -854,7 +950,7 @@
                   </div>
                   <div class="swiper-slide medics__slide" data-index="2">
                      <div class="medics__slide-bg">
-                        <img class="medics__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__hero-3.png" alt="Доктор" width="280" height="190" />
+                        <img class="medics__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__hero-3.png" loading="lazy" alt="Доктор" width="280" height="190" />
                      </div>
                      <h3 class="medics__slide-title">
                         Байцеров <br />
@@ -864,7 +960,7 @@
                   </div>
                   <div class="swiper-slide medics__slide" data-index="3">
                      <div class="medics__slide-bg">
-                        <img class="medics__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__hero-4.png" alt="Доктор" width="280" height="190" />
+                        <img class="medics__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__hero-4.png" loading="lazy" alt="Доктор" width="280" height="190" />
                      </div>
                      <h3 class="medics__slide-title">
                         Трубников <br />
@@ -880,10 +976,10 @@
             <h4 class="medics__phone-title">Какой вид имплантации выбрать?</h4>
             <p class="medics__phone-subtitle">Дадим грамотную консультацию и поможем определиться</p>
             <button class="btn btn-secondary medics__phone-btn"><span>Заказать обратный звонок</span></button>
-            <img class="medics__phone-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/phone__hero.png" alt="" width="250" height="200" />
+            <img class="medics__phone-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/phone__hero.png" loading="lazy" alt="" width="250" height="200" />
          </div>
       </div>
-      <img class="medics__bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__bg.svg" alt="Фоновая картинка" width="290" height="215">
+      <img class="medics__bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__bg.svg" loading="lazy" alt="Фоновая картинка" width="290" height="215">
    </section>
    <section class="questions">
       <div class="container">
@@ -1169,7 +1265,7 @@
             </div>
          </form>
          <div class="action__doctor">
-            <img class="action__doctor-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/action__doctor-2.png" alt="Фото доктора" width="280" height="470" />
+            <img class="action__doctor-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/action__doctor-2.png" loading="lazy" alt="Фото доктора" width="280" height="470" />
             <div class="action__doctor-regalia">
                <p class="action__doctor-name">
                   Амельченкова <br />
@@ -1179,7 +1275,7 @@
             </div>
          </div>
       </div>
-      <img class="action__bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/action__bg-1.svg" alt="Фоновая картинка" width="280" height="280" />
+      <img class="action__bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/action__bg-1.svg" loading="lazy" alt="Фоновая картинка" width="280" height="280" />
    </section>
 </main>
 <?php get_footer(); ?>

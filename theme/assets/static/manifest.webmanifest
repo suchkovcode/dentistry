@@ -1,9 +1,9 @@
 {
-  "name": "example",
-  "short_name": "example",
-  "description": "example",
+  "name": "Dentistry",
+  "short_name": "Dentistry",
+  "description": "Dentistry",
   "dir": "auto",
-  "lang": "en-US",
+  "lang": "ru-RU",
   "display": "standalone",
   "orientation": "any",
   "start_url": "/",

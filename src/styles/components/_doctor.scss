@@ -2,8 +2,8 @@
    overflow-x: hidden;
    position: relative;
    padding: 30px 15px;
-   border-radius: 30px;
-   background: radial-gradient(83.98% 349.85% at 93.78% 95.78%, #baf0f1 0%, #f2f9f9 52.08%, #e5eefa 100%);
+   border-radius: var(--radius_section);
+   background: var(--color_bg_gradient);
 
    &__content {
       display: flex;
@@ -69,7 +69,7 @@
       max-width: 440px;
       margin: 0 auto;
       padding: 30px;
-      border-radius: 20px;
+      border-radius: 25px;
       background: url("/src/assets/img/svg/doctor__discount-bg.svg"), var(--color_blue);
       background-position: 45px -15px;
       background-size: 100% 100%;
@@ -149,7 +149,7 @@
       }
 
       @include md {
-         border-radius: 20px 20px 0 0;
+         border-radius: 25px 25px 0 0;
       }
 
       @include lg {
@@ -160,7 +160,6 @@
 
       @include xl {
          padding: 40px;
-         border-radius: 25px 25px 0 0;
       }
 
       @include xxl {

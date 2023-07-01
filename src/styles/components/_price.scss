@@ -142,16 +142,22 @@
 
       &-icon {
          display: block;
+         width: 15px;
+         height: 15px;
          min-width: 15px;
          min-height: 15px;
+         padding: 3px;
          border-radius: 4px;
-         background: url("/src/assets/img/svg/icon__check.svg"), var(--color_check);
+         background: var(--color_check);
          background-position: center;
          background-repeat: no-repeat;
 
          @include xl {
+            width: 24px;
+            height: 24px;
             min-width: 24px;
             min-height: 24px;
+            padding: 5px;
             border-radius: 6px;
             background-size: 60% 60%;
          }
@@ -375,7 +381,7 @@
          grid-template-areas: "header img info";
          grid-template-columns: 1fr 1fr 1fr;
          gap: 10px;
-         height: 265px;
+         height: fit-content;
          max-width: 100%;
          padding: 0 0 0 40px;
 

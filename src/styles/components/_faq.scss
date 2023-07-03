@@ -89,11 +89,19 @@
 
    &__btn {
       cursor: pointer;
-      color: var(--color_font);
+      color: var(--color_blue);
 
       & span {
          min-width: none;
          padding: 0;
+      }
+
+      &:hover {
+         color: var(--color_blue_hover);
+
+         ~ .faq__icon {
+            color: var(--color_blue_hover);
+         }
       }
    }
 
@@ -101,6 +109,7 @@
       display: block;
       width: 32px;
       height: 32px;
+      color: var(--color_blue);
    }
 
    @include lg {

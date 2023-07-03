@@ -231,10 +231,10 @@
 
       .container {
          display: grid;
-         grid-template-columns: 1fr 1fr 1fr;
+         grid-template-columns: 2fr 1fr;
          grid-template-areas:
-            "title title title"
-            "grid grid rating";
+            "title title"
+            "grid rating";
          gap: 20px;
 
 
@@ -248,6 +248,7 @@
          }
 
          @include xxxl {
+            grid-template-columns: 2.4fr 1fr;
             column-gap: 65px;
          }
       }

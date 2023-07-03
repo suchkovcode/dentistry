@@ -18,7 +18,7 @@
       }
 
       @include xl {
-         margin-top: 220px;
+         margin-top: 200px;
       }
    }
 
@@ -88,14 +88,21 @@
          right: 0;
       }
 
+
+      @include lg-2 {
+         top: initial;
+         bottom: -30px;
+         max-width: 750px;
+      }
+
+      @include lg-3 {
+         max-width: 850px;
+      }
+
       @include xl {
          top: initial;
          right: 0;
          bottom: -30px;
-         max-width: 800px;
-      }
-
-      @include xl {
          max-width: 900px;
       }
 
@@ -106,7 +113,7 @@
 
       @include xxxl {
          right: -50px;
-         max-width: 1200px;
+         max-width: 1100px;
       }
    }
 
@@ -168,7 +175,11 @@
       }
 
       @include lg {
-         margin-top: 140px;
+         margin-top: 40px;
+      }
+
+      @include lg-2 {
+
       }
    }
 

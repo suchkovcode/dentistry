@@ -152,8 +152,4 @@
    @include lg {
       top: 40px;
    }
-
-   @include xxxl {
-      width: calc(100% - 80px);
-   }
 }

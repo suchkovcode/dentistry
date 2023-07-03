@@ -66,8 +66,19 @@
    }
 
    &__second {
+      max-width: 320px;
+      margin: 0 auto;
+
       @include md {
          grid-area: second;
+      }
+
+      @include xl {
+         margin: 0;
+      }
+
+      @include xxl {
+         max-width: 100%;
       }
    }
 
@@ -106,8 +117,17 @@
       line-height: 1.2;
 
       @include xl {
+         padding-left: 15px;
          font-size: 22px;
          text-align: left;
+      }
+
+      @include xxl {
+         padding-left: 0;
+
+         &--padding {
+            padding-left: 15px;
+         }
       }
    }
 
@@ -120,7 +140,21 @@
       &-item {
          display: flex;
          flex-flow: column;
+         align-items: center;
          gap: 5px;
+         padding-left: 15px;
+
+         @include xl {
+            align-items: flex-start;
+         }
+
+         @include xxl {
+            padding-left: 0;
+
+            &--padding {
+               padding-left: 15px;
+            }
+         }
       }
 
       &-title {
@@ -135,31 +169,19 @@
       &-line {
          display: block;
          width: 100%;
+
+         @include xxl {
+            flex: 1 0 100%;
+         }
       }
 
       &-icon {
          display: block;
          width: 100%;
          height: auto;
-         max-width: 300px;
-         max-height: 20px;
+         max-height: 35px;
          margin: 0 auto 10px auto;
          fill: none;
-
-         @include xl {
-            width: calc(100% + 30px);
-            max-width: 400px;
-            margin-left: -30px;
-         }
-
-         @include xxl {
-            max-width: none;
-            max-height: 26px;
-         }
-
-         @include xxxl {
-            max-height: 30px;
-         }
       }
 
       @include xl {
@@ -171,28 +193,16 @@
          flex-flow: row;
          flex-wrap: wrap;
          gap: 10px;
-         max-width: 615px;
          text-align: left;
       }
 
       @include xxxl {
-         max-width: 680px;
          column-gap: 40px;
       }
    }
 
    &__time {
       text-align: center;
-
-      @include xxl {
-         max-width: 615px;
-         margin: 0 auto;
-      }
-
-      @include xxxl {
-         max-width: 680px;
-         margin-left: -25px;
-      }
    }
 
    &__badge {

@@ -146,18 +146,6 @@ module.exports = {
                toType: "dir",
                force: true,
             },
-            // {
-            //    from: "./src/vendor/css/",
-            //    to: "assets/vendor/css/",
-            //    toType: "dir",
-            //    force: true,
-            // },
-            // {
-            //    from: "./src/js/",
-            //    to: "assets/js/",
-            //    toType: "dir",
-            //    force: true,
-            // },
          ],
       }),
    ],

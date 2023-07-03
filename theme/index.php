@@ -369,8 +369,8 @@
                <div class="price__card">
                   <h3 class="price__card-title"><strong> Straumann</strong> (Швейцария)</h3>
                   <div class="price__card-cost">
-                     <p class="price__card-old">58 000 руб</p>
-                     <p class="title price__card-new">54 000 руб</p>
+                     <p class="price__card-old">58 000 </p>
+                     <p class="title price__card-new">54 000 </p>
                      <p class="price__card-info">Цена за имплант с установкой</p>
                   </div>
                   <div class="price__card-more">
@@ -380,7 +380,7 @@
                               <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
                            </svg>
                            <span>
-                              1250 Р - Совместная консультация имплантолога с ортопедом
+                              1250 - Совместная консультация имплантолога с ортопедом
                            </span>
                         </li>
                         <li class="price__card-item">
@@ -388,7 +388,7 @@
                               <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
                            </svg>
                            <span>
-                              от 950 Р - Диагностика
+                              от 950 - Диагностика
                            </span>
                         </li>
                         <li class="price__card-item">
@@ -396,7 +396,7 @@
                               <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
                            </svg>
                            <span>
-                              от 29 000 Р - Цена за 1 имплантат с установкой
+                              от 29 000 - Цена за 1 имплантат с установкой
                            </span>
                         </li>
                         <li class="price__card-item">
@@ -404,7 +404,7 @@
                               <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
                            </svg>
                            <span>
-                              от 30 000 Р - Коронка с установкой (безметалловая коронка из диоксида циркония)
+                              от 30 000 - Коронка с установкой (безметалловая коронка из диоксида циркония)
                            </span>
                         </li>
                         <li class="price__card-item">
@@ -424,7 +424,7 @@
                            </span>
                         </li>
                      </ul>
-                     <p class="price__card-total">Цена: от 62 000 Р</p>
+                     <p class="price__card-total">Цена: от 62 000 </p>
                   </div>
                   <button class="price__card-btn" data-open="Полная стоимость" data-close="Свернуть" data-index="0">Полная стоимость</button>
                </div>
@@ -434,8 +434,8 @@
                <div class="price__card">
                   <h3 class="price__card-title"><strong>Nobel</strong> (Швейцария)</h3>
                   <div class="price__card-cost">
-                     <p class="price__card-old">63 000 руб</p>
-                     <p class="title price__card-new">58 000 руб</p>
+                     <p class="price__card-old">63 000 </p>
+                     <p class="title price__card-new">58 000 </p>
                      <p class="price__card-info">Цена за имплант с установкой</p>
                   </div>
                   <div class="price__card-more">
@@ -445,7 +445,7 @@
                               <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
                            </svg>
                            <span>
-                              1250 Р - Совместная консультация имплантолога с ортопедом
+                              1250 - Совместная консультация имплантолога с ортопедом
                            </span>
                         </li>
                         <li class="price__card-item">
@@ -453,7 +453,7 @@
                               <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
                            </svg>
                            <span>
-                              от 950 Р - Диагностика
+                              от 950 - Диагностика
                            </span>
                         </li>
                         <li class="price__card-item">
@@ -461,7 +461,7 @@
                               <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
                            </svg>
                            <span>
-                              от 29 000 Р - Цена за 1 имплантат с установкой
+                              от 29 000 - Цена за 1 имплантат с установкой
                            </span>
                         </li>
                         <li class="price__card-item">
@@ -469,7 +469,7 @@
                               <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
                            </svg>
                            <span>
-                              от 30 000 Р - Коронка с установкой (безметалловая коронка из диоксида циркония)
+                              от 30 000 - Коронка с установкой (безметалловая коронка из диоксида циркония)
                            </span>
                         </li>
                         <li class="price__card-item">
@@ -489,7 +489,7 @@
                            </span>
                         </li>
                      </ul>
-                     <p class="price__card-total">Цена: от 62 000 Р</p>
+                     <p class="price__card-total">Цена: от 62 000 </p>
                   </div>
                   <button class="price__card-btn" data-open="Полная стоимость" data-close="Свернуть" data-index="1">Полная стоимость</button>
                </div>
@@ -499,8 +499,8 @@
                <div class="price__card">
                   <h3 class="price__card-title"><strong>Dentium SuperLine </strong> (Корея)</h3>
                   <div class="price__card-cost">
-                     <p class="price__card-old">35 000 руб</p>
-                     <p class="title price__card-new">29 000 руб</p>
+                     <p class="price__card-old">35 000 </p>
+                     <p class="title price__card-new">29 000 </p>
                      <p class="price__card-info">Цена за имплант с установкой</p>
                   </div>
                   <div class="price__card-more">
@@ -510,7 +510,7 @@
                               <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
                            </svg>
                            <span>
-                              1250 Р - Совместная консультация имплантолога с ортопедом
+                              1250 - Совместная консультация имплантолога с ортопедом
                            </span>
                         </li>
                         <li class="price__card-item">
@@ -518,7 +518,7 @@
                               <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
                            </svg>
                            <span>
-                              от 950 Р - Диагностика
+                              от 950 - Диагностика
                            </span>
                         </li>
                         <li class="price__card-item">
@@ -526,7 +526,7 @@
                               <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
                            </svg>
                            <span>
-                              от 29 000 Р - Цена за 1 имплантат с установкой
+                              от 29 000 - Цена за 1 имплантат с установкой
                            </span>
                         </li>
                         <li class="price__card-item">
@@ -534,7 +534,7 @@
                               <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-checkbox"></use>
                            </svg>
                            <span>
-                              от 30 000 Р - Коронка с установкой (безметалловая коронка из диоксида циркония)
+                              от 30 000 - Коронка с установкой (безметалловая коронка из диоксида циркония)
                            </span>
                         </li>
                         <li class="price__card-item">
@@ -554,7 +554,7 @@
                            </span>
                         </li>
                      </ul>
-                     <p class="price__card-total">Цена: от 62 000 Р</p>
+                     <p class="price__card-total">Цена: от 62 000</p>
                   </div>
                   <button class="price__card-btn" data-open="Полная стоимость" data-close="Свернуть" data-index="2">Свернуть</button>
                </div>
@@ -963,7 +963,7 @@
                         <img class="medics__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__hero-4.png" loading="lazy" alt="Доктор" width="280" height="190" />
                      </div>
                      <h3 class="medics__slide-title">
-                        Трубников <br />
+                        Тников <br />
                         Игорь Олегович
                      </h3>
                      <p class="medics__slide-subtitle">Ведущий хирург-имплантолог клиники Центрального района</p>

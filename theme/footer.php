@@ -56,19 +56,19 @@
                   <svg class="footer__contact-icon">
                      <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-phone"></use>
                   </svg>
-                  8 (8442) 297 029
+                  9 (999) 99 99 99
                </a>
                <a class="footer__contact-item" href="">
                   <svg class="footer__contact-icon">
                      <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-phone"></use>
                   </svg>
-                  8 (961) 029 70 29
+                  0 (000) 00 00 00
                </a>
                <a class="footer__contact-item" href="">
                   <svg class="footer__contact-icon">
                      <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#icon-mail"></use>
                   </svg>
-                  online@olgavlg.ru
+                  info@olgavlg.com
                </a>
             </div>
             <button class="btn btn-primary footer__btn"><span>Заказать звонок</span></button>
@@ -79,10 +79,7 @@
       </div>
       <div class="footer__bottom">
          <p class="footer__info">Сайт не является публичной офертой. 2023г. / <a class="footer__policy" href="">Политика конфиденциальности</a></p>
-         <a class="develop" href="">
-            Создание сайта
-            <img class="develop__logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/develop__logo.png" loading="lazy" alt="Логотип" width="200" height="200" />
-         </a>
+         <a class="develop" href="https://github.com/suchkovcode/">Создание сайта</a>
       </div>
    </div>
 </footer>

@@ -8,7 +8,7 @@ window.addEventListener("DOMContentLoaded", () => {
       const btnToggle = document.querySelectorAll(".price__card-btn");
       const moreContent = document.querySelectorAll(".price__card");
 
-      moreContent[2].classList.add("active");
+      // moreContent[2].classList.add("active");
 
       btnToggle.forEach((element) => {
          element.addEventListener("click", (event) => {

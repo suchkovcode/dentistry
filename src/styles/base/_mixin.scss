@@ -18,6 +18,16 @@
       @content;
    }
 }
+@mixin lg-2() {
+   @media all and (min-width: 1024px) {
+      @content;
+   }
+}
+@mixin lg-3() {
+   @media all and (min-width: 1180px) {
+      @content;
+   }
+}
 @mixin xl() {
    @media all and (min-width: 1200px) {
       @content;

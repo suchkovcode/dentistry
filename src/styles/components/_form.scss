@@ -127,9 +127,13 @@
          align-items: flex-start;
       }
 
+      @include xl {
+         gap: 25px;
+      }
+
       @include xxl {
          position: relative;
-         bottom: 50px;
+         bottom: 60px;
       }
    }
 

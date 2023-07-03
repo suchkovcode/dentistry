@@ -104,6 +104,9 @@
          @include xl {
             margin-bottom: 60px;
          }
+         @include xxl {
+            margin-bottom: 100px;
+         }
       }
 
       &-picture {

@@ -18,7 +18,7 @@
          max-width: 510px;
          padding: 15px 15px 0 15px;
          border: 1px solid rgba(186, 240, 241, 100%);
-         border-radius: 24px;
+         border-radius: var(--radius_section);
 
          @include md {
             flex: 1 0 calc(50% - 15px);

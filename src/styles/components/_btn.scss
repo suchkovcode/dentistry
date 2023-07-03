@@ -5,15 +5,31 @@
    align-items: center;
    height: 50px;
    border-radius: 50px;
-   font: 700 16px/16px "Overpass";
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 16px;
+   letter-spacing: -0.30px;
    background-color: var(--color_base);
    color: var(--color_font);
 
    &:hover,
    &:visited,
+   &:focus,
    &:active {
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      border-radius: 50px;
+      font-size: 16px;
+      font-weight: 700;
       line-height: 16px;
+      letter-spacing: -0.30px;
+      background-color: var(--color_base);
+      color: var(--color_font);
    }
+
 }
 
 .btn-secondary {

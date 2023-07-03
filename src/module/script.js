@@ -1,7 +1,8 @@
 // @ts-nocheck
 /* eslint-disable no-unused-expressions */
 
-import Swiper, { Navigation, Autoplay } from "swiper";
+import Swiper from "swiper";
+import { Navigation, Autoplay } from "swiper/modules";
 
 window.addEventListener("DOMContentLoaded", () => {
    const cardMoreTogge = async () => {
@@ -13,7 +14,8 @@ window.addEventListener("DOMContentLoaded", () => {
             const { index, open, close } = event.currentTarget.dataset;
             moreContent[index].classList.toggle("active");
             moreContent[index].classList.contains("active")
-               ? (element.textContent = close) : (element.textContent = open);
+               ? (element.textContent = close)
+               : (element.textContent = open);
          });
       });
    };

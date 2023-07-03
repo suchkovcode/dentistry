@@ -152,6 +152,18 @@
          font-size: 18px;
          font-weight: 700;
          line-height: 1.2;
+
+         @include xl {
+            font-size: 20px;
+         }
+
+         @include xxl {
+            font-size: 22px;
+         }
+
+         @include xxxl {
+            font-size: 24px;
+         }
       }
 
       &-subtitle {

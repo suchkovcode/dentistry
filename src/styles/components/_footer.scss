@@ -24,13 +24,8 @@
       }
 
       @include lg {
-         margin-bottom: 40px;
          grid-template-areas: "first second third";
          grid-template-columns: auto 1fr 1fr;
-      }
-
-      @include xl {
-         margin-bottom: 60px;
       }
 
       @include xxl {
@@ -38,9 +33,6 @@
       }
    }
 
-   &__center {
-      margin-bottom: 15px;
-   }
 
    &__bottom {
       @include xl {

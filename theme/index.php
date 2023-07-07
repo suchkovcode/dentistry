@@ -1,5 +1,31 @@
 <?php get_header(); ?>
 <main class="main">
+   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" style="width:0;height:0;position:absolute;">
+      <defs>
+         <radialGradient id="paint0_radial_1948_4391" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(127.923 526.183) rotate(86.3001) scale(706.289 1314.47)">
+            <stop stop-color="#08A6A9" />
+            <stop offset="0.630208" stop-color="#4AD1D2" />
+         </radialGradient>
+      </defs>
+      <defs>
+         <radialGradient id="paint0_radial_1948_4211" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1764.45 -341.858) rotate(160.007) scale(1609.91 2969.37)">
+            <stop stop-color="#0A65D1" />
+            <stop offset="1" stop-color="#00DADE" />
+         </radialGradient>
+      </defs>
+      <defs>
+         <radialGradient id="paint0_radial_1948_3932" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1098.92 -121.817) rotate(86.3001) scale(706.289 1314.47)">
+            <stop stop-color="#08A6A9" />
+            <stop offset="0.630208" stop-color="#4AD1D2" />
+         </radialGradient>
+      </defs>
+      <defs>
+         <radialGradient id="paint0_radial_1948_3994" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(2563.26 -227.468) rotate(160.464) scale(2864.13 5181.53)">
+            <stop stop-color="#0A65D1" />
+            <stop offset="1" stop-color="#00DADE" />
+         </radialGradient>
+      </defs>
+   </svg>
    <section class="hero">
       <div class="container">
          <div class="hero__content">
@@ -17,7 +43,7 @@
             </p>
             <button class="btn btn-secondary hero__btn"><span>Записаться на консультацию</span></button>
          </div>
-         <img class="hero__img" src="<?php echo get_template_directory_uri(); ?>/assets/img/hero__img.png" alt="Главная картинки" width="280" height="190" />
+         <img class="hero__img" src="<?php echo get_template_directory_uri(); ?>/assets/img/hero__img.webp" alt="Главная картинки" width="280" height="190" />
          <div class="hero__bullet">
             <div class="hero__bullet-item">
                <svg class="hero__bullet-icon">
@@ -62,10 +88,10 @@
       <div class="container">
          <h2 class="title smile__title"><strong>Делаем улыбки здоровыми и красивыми</strong> уже более 30 лет </h2>
          <div class="smile__grid">
-            <img class="smile__grid-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smile__hero-1.png" loading="lazy" alt="Картинка улыбки" width="130" height="260" data-index="0" />
-            <img class="smile__grid-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smile__hero-2.png" loading="lazy" alt="Картинка улыбки" width="130" height="190" data-index="1" />
-            <img class="smile__grid-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smile__hero-3.png" loading="lazy" alt="Картинка улыбки" width="130" height="220" data-index="2" />
-            <img class="smile__grid-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smile__hero-4.png" loading="lazy" alt="Картинка улыбки" width="130" height="260" data-index="3" />
+            <img class="smile__grid-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smile__hero-1.webp" loading="lazy" alt="Картинка улыбки" width="130" height="260" data-index="0" />
+            <img class="smile__grid-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smile__hero-2.webp" loading="lazy" alt="Картинка улыбки" width="130" height="190" data-index="1" />
+            <img class="smile__grid-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smile__hero-3.webp" loading="lazy" alt="Картинка улыбки" width="130" height="220" data-index="2" />
+            <img class="smile__grid-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smile__hero-4.webp" loading="lazy" alt="Картинка улыбки" width="130" height="260" data-index="3" />
          </div>
          <div class="smile__reating">
             <h2 class="smile__reating-title">
@@ -78,7 +104,7 @@
             </p>
             <div class="smile__company">
                <a class="smile__company-item" href="#">
-                  <img class="smile__company-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/rating__hero-1.png" loading="lazy" alt="Лого компании" width="55" height="55" />
+                  <img class="smile__company-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/rating__hero-1.webp" loading="lazy" alt="Лого компании" width="55" height="55" />
                   <span class="smile__company-info">
                      <span class="smile__company-count">
                         <svg class="smile__company-icon">
@@ -94,8 +120,8 @@
                      </svg>
                   </span>
                </a>
-               <a class="smile__company-item" href="">
-                  <img class="smile__company-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/rating__hero-2.png" loading="lazy" alt="Лого компании" width="55" height="55" />
+               <a class="smile__company-item" href="#">
+                  <img class="smile__company-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/rating__hero-2.webp" loading="lazy" alt="Лого компании" width="55" height="55" />
                   <span class="smile__company-info">
                      <span class="smile__company-count">
                         <svg class="smile__company-icon">
@@ -111,8 +137,8 @@
                      </svg>
                   </span>
                </a>
-               <a class="smile__company-item" href="">
-                  <img class="smile__company-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/rating__hero-3.png" loading="lazy" alt="Лого компании" width="55" height="55" />
+               <a class="smile__company-item" href="#">
+                  <img class="smile__company-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/rating__hero-3.webp" loading="lazy" alt="Лого компании" width="55" height="55" />
                   <span class="smile__company-info">
                      <span class="smile__company-count">
                         <svg class="smile__company-icon">
@@ -129,7 +155,7 @@
                   </span>
                </a>
                <a class="smile__company-item" href="#">
-                  <img class="smile__company-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/rating__hero-4.png" loading="lazy" alt="Лого компании" width="55" height="55" />
+                  <img class="smile__company-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/rating__hero-4.webp" loading="lazy" alt="Лого компании" width="55" height="55" />
                   <span class="smile__company-info">
                      <span class="smile__company-count">
                         <svg class="smile__company-icon">
@@ -157,7 +183,7 @@
          </h2>
          <div class="kinds__stages">
             <div class="kinds__stages-item" data-index="0">
-               <img class="kinds__stages-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/kinds__hero-1.png" loading="lazy" alt="Картинка зубов" width="280" height="130" />
+               <img class="kinds__stages-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/kinds__hero-1.webp" loading="lazy" alt="Картинка зубов" width="280" height="130" />
                <div class="kinds__card">
                   <h3 class="kinds__card-title">Одномоментная</h3>
                   <div class="kinds__card-info">
@@ -201,7 +227,7 @@
                </div>
             </div>
             <div class="kinds__stages-item" data-index="1">
-               <img class="kinds__stages-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/kinds__hero-2.png" loading="lazy" alt="Картинка зубов" width="280" height="130" />
+               <img class="kinds__stages-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/kinds__hero-2.webp" loading="lazy" alt="Картинка зубов" width="280" height="130" />
                <div class="kinds__card">
                   <h3 class="kinds__card-title">Двухэтапная</h3>
                   <div class="kinds__card-info">
@@ -246,7 +272,7 @@
                </div>
             </div>
             <div class="kinds__stages-item" data-index="2">
-               <img class="kinds__stages-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/kinds__hero-3.png" loading="lazy" alt="Картинка зубов" width="280" height="130" />
+               <img class="kinds__stages-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/kinds__hero-3.webp" loading="lazy" alt="Картинка зубов" width="280" height="130" />
                <div class="kinds__card">
                   <h3 class="kinds__card-title">«Все на 4/все на 6»</h3>
                   <div class="kinds__card-info">
@@ -288,21 +314,21 @@
             <h2 class="methods__title"><strong>При наличии противопоказаний к классической имплантации,</strong> мы предлагаем вам альтернативные методы восстановления зубного ряда:</h2>
             <div class="methods__bullet">
                <div class="methods__bullet-item">
-                  <img class="methods__bullet-icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/bullet__icon-1.png" loading="lazy" alt="Картинка буллета" width="90" height="90" />
+                  <img class="methods__bullet-icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/bullet__icon-1.webp" loading="lazy" alt="Картинка буллета" width="90" height="90" />
                   <div class="methods__bullet-content">
                      <h3 class="methods__bullet-title">Протезирование <br> «все на 4/все на 6»</h3>
                      <p class="methods__bullet-text">при полной адентии и атрофии кости</p>
                   </div>
                </div>
                <div class="methods__bullet-item">
-                  <img class="methods__bullet-icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/bullet__icon-2.png" loading="lazy" alt="Картинка буллета" width="90" height="90" />
+                  <img class="methods__bullet-icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/bullet__icon-2.webp" loading="lazy" alt="Картинка буллета" width="90" height="90" />
                   <div class="methods__bullet-content">
                      <h3 class="methods__bullet-title">Съемные зубные протезы</h3>
                      <p class="methods__bullet-text">при частичной и полной адентии</p>
                   </div>
                </div>
                <div class="methods__bullet-item">
-                  <img class="methods__bullet-icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/bullet__icon-3.png" loading="lazy" alt="Картинка буллета" width="90" height="90" />
+                  <img class="methods__bullet-icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/bullet__icon-3.webp" loading="lazy" alt="Картинка буллета" width="90" height="90" />
                   <div class="methods__bullet-content">
                      <h3 class="methods__bullet-title">Бюгельное протезирование</h3>
                      <p class="methods__bullet-text">при частичной адентии</p>
@@ -311,13 +337,15 @@
             </div>
          </div>
       </div>
-      <img class="methods__bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/smear.svg" loading="lazy" alt="Фоновая картинка" width="300" height="300" />
+      <svg class="methods__bg" fill="url(#paint0_radial_1948_4391)">
+         <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#bg-methods"></use>
+      </svg>
    </section>
    <section class="doctor">
       <div class="container">
          <div class="doctor__content">
             <div class="doctor__header">
-               <img class="doctor__avatar" src="<?php echo get_template_directory_uri(); ?>/assets/img/doctor__avatar.png" loading="lazy" alt="Аватар фоктора" width="180" height="180" />
+               <img class="doctor__avatar" src="<?php echo get_template_directory_uri(); ?>/assets/img/doctor__avatar.webp" loading="lazy" alt="Аватар фоктора" width="180" height="180" />
                <h2 class="title doctor__title"><strong>Выбрать оптимальный метод имплантации</strong> поможет врач-имплантолог <strong>Байцеров В. А.</strong></h2>
             </div>
             <form class="form" action="#" method="post">
@@ -336,7 +364,7 @@
                   </fieldset>
                   <div class="form__policy">
                      <input class="form__radio" type="checkbox" name="privacy" value="" required />
-                     <span> Я даю свое согласие на обработку персональных данных и соглашаюсь с <a href="">политикой конфиденциальности </a> </span>
+                     <span> Я даю свое согласие на обработку персональных данных и соглашаюсь с <a href="#">политикой конфиденциальности </a> </span>
                   </div>
                </div>
                <div class="form__action">
@@ -354,7 +382,7 @@
             </h2>
             <p class="doctor__discount-subtitle">при имплантации в нашей клинике</p>
             <div class="doctor__discount-picture">
-               <img class="doctor__discount-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/doctor__discount.png" loading="lazy" alt="Фото скидки" width="200" height="200" />
+               <img class="doctor__discount-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/doctor__discount.webp" loading="lazy" alt="Фото скидки" width="200" height="200" />
                <p class="doctor__discount-value">50%</p>
             </div>
          </div>
@@ -365,7 +393,7 @@
          <h2 class="title price__title"><strong>Точные</strong> цены</h2>
          <div class="price__block">
             <div class="price__block-item">
-               <img class="price__block-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/price__logo-1.png" loading="lazy" alt="Логотип компании" width="240" height="90" />
+               <img class="price__block-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/price__logo-1.webp" loading="lazy" alt="Логотип компании" width="240" height="90" />
                <div class="price__card">
                   <h3 class="price__card-title"><strong> Straumann</strong> (Швейцария)</h3>
                   <div class="price__card-cost">
@@ -430,7 +458,7 @@
                </div>
             </div>
             <div class="price__block-item">
-               <img class="price__block-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/price__logo-2.png" loading="lazy" alt="Логотип компании" width="245" height="90" />
+               <img class="price__block-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/price__logo-2.webp" loading="lazy" alt="Логотип компании" width="245" height="90" />
                <div class="price__card">
                   <h3 class="price__card-title"><strong>Nobel</strong> (Швейцария)</h3>
                   <div class="price__card-cost">
@@ -495,7 +523,7 @@
                </div>
             </div>
             <div class="price__block-item">
-               <img class="price__block-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/price__logo-3.png" loading="lazy" alt="Логотип компании" width="245" height="90" />
+               <img class="price__block-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/price__logo-3.webp" loading="lazy" alt="Логотип компании" width="245" height="90" />
                <div class="price__card">
                   <h3 class="price__card-title"><strong>Dentium SuperLine </strong> (Корея)</h3>
                   <div class="price__card-cost">
@@ -565,7 +593,7 @@
                <h2 class="price__action-title">Мы зафиксировали цены!</h2>
                <p class="price__action-subtitle"><strong>Мы все еще держим цены 2022 года,</strong> чтобы вы могли лечиться с выгодой!</p>
             </div>
-            <img class="price__action-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/price__action-img.png" loading="lazy" alt="Логотип компании" width="180" height="80" />
+            <img class="price__action-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/price__action-img.webp" loading="lazy" alt="Логотип компании" width="180" height="80" />
             <div class="price__action-info">
                <p class="price__action-text"><strong>Успейте до повышения цен</strong> и воспользуйтесь нашими спецпредложениями.</p>
                <button class="btn btn-secondary price__action-btn"><span>Узнать о спецпредложениях</span></button>
@@ -582,7 +610,7 @@
          <div class="steps__container">
             <div class="steps__item steps__item--right">
                <div class="steps__item-position">
-                  <img class="steps__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/steps__hero-1.png" loading="lazy" alt="Картинка шага" width="270" height="190" />
+                  <img class="steps__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/steps__hero-1.webp" loading="lazy" alt="Картинка шага" width="270" height="190" />
                   <p class="steps__item-index">1</p>
                </div>
                <div class="steps__item-content">
@@ -620,7 +648,7 @@
             </div>
             <div class="steps__item steps__item--left">
                <div class="steps__item-position">
-                  <img class="steps__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/steps__hero-2.png" loading="lazy" alt="Картинка шага" width="270" height="190" />
+                  <img class="steps__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/steps__hero-2.webp" loading="lazy" alt="Картинка шага" width="270" height="190" />
                   <p class="steps__item-index">2</p>
                </div>
                <div class="steps__item-content">
@@ -658,7 +686,7 @@
             </div>
             <div class="steps__item steps__item--right">
                <div class="steps__item-position">
-                  <img class="steps__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/steps__hero-3.png" loading="lazy" alt="Картинка шага" width="270" height="190" />
+                  <img class="steps__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/steps__hero-3.webp" loading="lazy" alt="Картинка шага" width="270" height="190" />
                   <p class="steps__item-index">3</p>
                </div>
                <div class="steps__item-content">
@@ -696,7 +724,9 @@
             </div>
          </div>
       </div>
-      <img class="steps__bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/steps__bg.svg" loading="lazy" alt="Фоновая картинка" width="290" height="180">
+      <svg class="steps__bg" fill="url(#paint0_radial_1948_3994)">
+         <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#bg-steps"></use>
+      </svg>
    </section>
    <section class="advantages">
       <div class="container">
@@ -758,7 +788,7 @@
                   <span class="advantages__bullet-text">Для проведения операций используем специально подготовленные и оборудованные помещения</span>
                </li>
             </ul>
-            <img class="advantages__hero" src="<?php echo get_template_directory_uri(); ?>/assets/img/advantages__hero.png" loading="lazy" alt="Фото улыбки" width="180" height="240" />
+            <img class="advantages__hero" src="<?php echo get_template_directory_uri(); ?>/assets/img/advantages__hero.webp" loading="lazy" alt="Фото улыбки" width="180" height="240" />
             <ul class="advantages__bullet advantages__bullet--second">
                <li class="advantages__bullet-item">
                   <span class="advantages__bullet-header">
@@ -840,22 +870,22 @@
             </div>
             <div class="swiper-wrapper slider__wrapper">
                <div class="swiper-slide slider__slide">
-                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-1.png" loading="lazy" alt="Слайдер" width="280" height="190" />
+                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-1.webp" loading="lazy" alt="Слайдер" width="280" height="190" />
                </div>
                <div class="swiper-slide slider__slide">
-                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-2.png" loading="lazy" alt="Слайдер" width="280" height="190" />
+                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-2.webp" loading="lazy" alt="Слайдер" width="280" height="190" />
                </div>
                <div class="swiper-slide slider__slide">
-                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-3.png" loading="lazy" alt="Слайдер" width="280" height="190" />
+                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-3.webp" loading="lazy" alt="Слайдер" width="280" height="190" />
                </div>
                <div class="swiper-slide slider__slide">
-                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-1.png" loading="lazy" alt="Слайдер" width="280" height="190" />
+                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-1.webp" loading="lazy" alt="Слайдер" width="280" height="190" />
                </div>
                <div class="swiper-slide slider__slide">
-                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-2.png" loading="lazy" alt="Слайдер" width="280" height="190" />
+                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-2.webp" loading="lazy" alt="Слайдер" width="280" height="190" />
                </div>
                <div class="swiper-slide slider__slide">
-                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-3.png" loading="lazy" alt="Слайдер" width="280" height="190" />
+                  <img class="slider__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/slider__hero-3.webp" loading="lazy" alt="Слайдер" width="280" height="190" />
                </div>
             </div>
          </div>
@@ -874,16 +904,16 @@
             </h3>
             <div class="form__fields">
                <fieldset class="form__fieldset">
-                  <legend class="form__legend">Ваше имя</legend>
-                  <input class="form__input" type="text" name="name" value="" required />
+                  <legend class="form__legend" id="formNameFirst">Ваше имя</legend>
+                  <input class="form__input" type="text" name="name" value="" required aria-labelledby="formNameFirst" />
                </fieldset>
                <fieldset class="form__fieldset">
-                  <legend class="form__legend">Ваш телефон</legend>
-                  <input class="form__input" type="tel" name="phone" value="" required />
+                  <legend class="form__legend" id="formPhoneFirst">Ваш телефон</legend>
+                  <input class="form__input" type="tel" name="phone" value="" required aria-labelledby="formPhoneFirst" />
                </fieldset>
-               <div class="form__policy">
-                  <input class="form__radio" type="checkbox" name="privacy" value="" required />
-                  <span> Я даю свое согласие на обработку персональных данных и соглашаюсь с <a href="">политикой конфиденциальности </a> </span>
+               <div class="form__policy" id="formRadioFirst">
+                  <input class="form__radio" type="checkbox" name="privacy" value="" required aria-labelledby="formRadioFirst" />
+                  <span> Я даю свое согласие на обработку персональных данных и соглашаюсь с <a href="#">политикой конфиденциальности </a> </span>
                </div>
             </div>
             <div class="form__action">
@@ -892,14 +922,16 @@
             </div>
          </form>
          <div class="action__doctor">
-            <img class="action__doctor-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/action__doctor-1.png" loading="lazy" alt="Фото доктора" width="280" height="470" />
+            <img class="action__doctor-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/action__doctor-1.webp" loading="lazy" alt="Фото доктора" width="280" height="470" />
             <div class="action__doctor-regalia">
                <p class="action__doctor-name">Мадоян Армен Гагикович</p>
                <p class="action__doctor-position">Врач-имплантолог</p>
             </div>
          </div>
       </div>
-      <img class="action__bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/action__bg-1.svg" loading="lazy" alt="Фоновая картинка" width="280" height="280" />
+      <svg class="action__bg" fill="url(#paint0_radial_1948_4211)">
+         <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#bg-action"></use>
+      </svg>
    </section>
    <section class="medics">
       <div class="container">
@@ -930,7 +962,7 @@
                <div class="swiper-wrapper medics__wrapper">
                   <div class="swiper-slide medics__slide" data-index="0">
                      <div class="medics__slide-bg">
-                        <img class="medics__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__hero-1.png" loading="lazy" alt="Доктор" width="280" height="190" />
+                        <img class="medics__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__hero-1.webp" loading="lazy" alt="Доктор" width="280" height="190" />
                      </div>
                      <h3 class="medics__slide-title">
                         Мельникова <br />
@@ -940,7 +972,7 @@
                   </div>
                   <div class="swiper-slide medics__slide" data-index="1">
                      <div class="medics__slide-bg">
-                        <img class="medics__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__hero-2.png" loading="lazy" alt="Доктор" width="280" height="190" />
+                        <img class="medics__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__hero-2.webp" loading="lazy" alt="Доктор" width="280" height="190" />
                      </div>
                      <h3 class="medics__slide-title">
                         Мадоян <br />
@@ -950,7 +982,7 @@
                   </div>
                   <div class="swiper-slide medics__slide" data-index="2">
                      <div class="medics__slide-bg">
-                        <img class="medics__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__hero-3.png" loading="lazy" alt="Доктор" width="280" height="190" />
+                        <img class="medics__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__hero-3.webp" loading="lazy" alt="Доктор" width="280" height="190" />
                      </div>
                      <h3 class="medics__slide-title">
                         Байцеров <br />
@@ -960,7 +992,7 @@
                   </div>
                   <div class="swiper-slide medics__slide" data-index="3">
                      <div class="medics__slide-bg">
-                        <img class="medics__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__hero-4.png" loading="lazy" alt="Доктор" width="280" height="190" />
+                        <img class="medics__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__hero-4.webp" loading="lazy" alt="Доктор" width="280" height="190" />
                      </div>
                      <h3 class="medics__slide-title">
                         Тников <br />
@@ -976,10 +1008,12 @@
             <h4 class="medics__phone-title">Какой вид имплантации выбрать?</h4>
             <p class="medics__phone-subtitle">Дадим грамотную консультацию и поможем определиться</p>
             <button class="btn btn-secondary medics__phone-btn"><span>Заказать обратный звонок</span></button>
-            <img class="medics__phone-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/phone__hero.png" loading="lazy" alt="" width="250" height="200" />
+            <img class="medics__phone-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/phone__hero.webp" loading="lazy" alt="" width="250" height="200" />
          </div>
       </div>
-      <img class="medics__bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/medics__bg.svg" loading="lazy" alt="Фоновая картинка" width="290" height="215">
+      <svg class="medics__bg" fill="url(#paint0_radial_1948_3932)">
+         <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#bg-medics"></use>
+      </svg>
    </section>
    <section class="questions">
       <div class="container">
@@ -1247,16 +1281,16 @@
             </h3>
             <div class="form__fields">
                <fieldset class="form__fieldset">
-                  <legend class="form__legend">Ваше имя</legend>
-                  <input class="form__input" type="text" name="name" value="" required />
+                  <legend class="form__legend" id="formNameSecond">Ваше имя</legend>
+                  <input class="form__input" type="text" name="name" value="" required aria-labelledby="formNameFirstSecond" />
                </fieldset>
                <fieldset class="form__fieldset">
-                  <legend class="form__legend">Ваш телефон</legend>
-                  <input class="form__input" type="tel" name="phone" value="" required />
+                  <legend class="form__legend" id="formPhoneSecond">Ваш телефон</legend>
+                  <input class="form__input" type="tel" name="phone" value="" required aria-labelledby="formPhoneFirstSecond" />
                </fieldset>
-               <div class="form__policy">
-                  <input class="form__radio" type="checkbox" name="privacy" value="" required />
-                  <span> Я даю свое согласие на обработку персональных данных и соглашаюсь с <a href="">политикой конфиденциальности </a> </span>
+               <div class="form__policy" id="formRadioSecond">
+                  <input class="form__radio" type="checkbox" name="privacy" value="" required aria-labelledby="formRadioSecond" />
+                  <span> Я даю свое согласие на обработку персональных данных и соглашаюсь с <a href="#">политикой конфиденциальности </a> </span>
                </div>
             </div>
             <div class="form__action">
@@ -1265,7 +1299,7 @@
             </div>
          </form>
          <div class="action__doctor">
-            <img class="action__doctor-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/action__doctor-2.png" loading="lazy" alt="Фото доктора" width="280" height="470" />
+            <img class="action__doctor-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/action__doctor-2.webp" loading="lazy" alt="Фото доктора" width="280" height="470" />
             <div class="action__doctor-regalia">
                <p class="action__doctor-name">
                   Амельченкова <br />
@@ -1275,7 +1309,9 @@
             </div>
          </div>
       </div>
-      <img class="action__bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/action__bg-1.svg" loading="lazy" alt="Фоновая картинка" width="280" height="280" />
+      <svg class="action__bg" fill="url(#paint0_radial_1948_4211)">
+         <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#bg-action"></use>
+      </svg>
    </section>
 </main>
 <?php get_footer(); ?>

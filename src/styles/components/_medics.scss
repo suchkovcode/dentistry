@@ -8,8 +8,21 @@
       bottom: -55px;
       z-index: -1;
       width: 100%;
-      height: auto;
+      height: 100%;
       max-width: 780px;
+      max-height: none;
+
+      @include md {
+         bottom: -210px;
+      }
+
+      @include lg {
+         bottom: -310px;
+      }
+
+      @include xl {
+         bottom: -360px;
+      }
    }
 
    &__header {

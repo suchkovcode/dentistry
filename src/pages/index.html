@@ -82,6 +82,12 @@
                   <stop offset="0.630208" stop-color="#4AD1D2" />
                </radialGradient>
             </defs>
+            <defs>
+               <radialGradient id="paint0_radial_1948_3994" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(2563.26 -227.468) rotate(160.464) scale(2864.13 5181.53)">
+                  <stop stop-color="#0A65D1" />
+                  <stop offset="1" stop-color="#00DADE" />
+               </radialGradient>
+            </defs>
          </svg>
          <section class="hero">
             <div class="container">
@@ -781,7 +787,9 @@
                   </div>
                </div>
             </div>
-            <img class="steps__bg" src="/src/assets/img/svg/steps__bg.svg" loading="lazy" alt="Фоновая картинка" width="290" height="180">
+            <svg class="steps__bg" fill="url(#paint0_radial_1948_3994)">
+               <use xlink:href="/src/assets/img/svg/sprite.svg#bg-steps"></use>
+            </svg>
          </section>
          <section class="advantages">
             <div class="container">

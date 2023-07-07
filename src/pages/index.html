@@ -63,6 +63,20 @@
          </div>
       </header>
       <main class="main">
+         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" style="width:0;height:0;position:absolute;">
+            <defs>
+               <radialGradient id="paint0_radial_1948_4391" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(127.923 526.183) rotate(86.3001) scale(706.289 1314.47)">
+                  <stop stop-color="#08A6A9" />
+                  <stop offset="0.630208" stop-color="#4AD1D2" />
+               </radialGradient>
+            </defs>
+            <defs>
+               <radialGradient id="paint0_radial_1948_4211" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1764.45 -341.858) rotate(160.007) scale(1609.91 2969.37)">
+                  <stop stop-color="#0A65D1" />
+                  <stop offset="1" stop-color="#00DADE" />
+               </radialGradient>
+            </defs>
+         </svg>
          <section class="hero">
             <div class="container">
                <div class="hero__content">
@@ -964,7 +978,9 @@
                   </div>
                </div>
             </div>
-            <img class="action__bg" src="/src/assets/img/svg/action__bg-1.svg" loading="lazy" alt="Фоновая картинка" width="280" height="280" />
+            <svg class="action__bg" fill="url(#paint0_radial_1948_4211)">
+               <use xlink:href="/src/assets/img/svg/sprite.svg#bg-action"></use>
+            </svg>
          </section>
          <section class="medics">
             <div class="container">
@@ -1340,7 +1356,9 @@
                   </div>
                </div>
             </div>
-            <img class="action__bg" src="/src/assets/img/svg/action__bg-1.svg" loading="lazy" alt="Фоновая картинка" width="280" height="280" />
+            <svg class="action__bg" fill="url(#paint0_radial_1948_4211)">
+               <use xlink:href="/src/assets/img/svg/sprite.svg#bg-action"></use>
+            </svg>
          </section>
       </main>
       <footer class="footer">
@@ -1425,13 +1443,5 @@
             </div>
          </div>
       </footer>
-      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" style="width:0;height:0;position:absolute;">
-         <defs>
-            <radialGradient id="paint0_radial_1948_4391" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(127.923 526.183) rotate(86.3001) scale(706.289 1314.47)">
-               <stop stop-color="#08A6A9" />
-               <stop offset="0.630208" stop-color="#4AD1D2" />
-            </radialGradient>
-         </defs>
-      </svg>
    </body>
 </html>

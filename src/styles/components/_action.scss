@@ -138,28 +138,22 @@
    &__bg {
       position: absolute;
       bottom: 200px;
-      left: -60px;
+      left: -150px;
       z-index: 0;
       width: 200%;
-      height: auto;
+      height: 100%;
 
       @include lg {
-         position: absolute;
          bottom: -57px;
          left: 160px;
-         z-index: 0;
          width: 100%;
-         height: auto;
       }
 
       @include xxl {
-         position: absolute;
          right: 0;
          bottom: 22px;
          left: initial;
-         z-index: 0;
          width: 790px;
-         height: auto;
       }
    }
 

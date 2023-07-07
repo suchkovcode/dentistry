@@ -418,17 +418,17 @@
                      </h3>
                      <div class="form__fields">
                         <fieldset class="form__fieldset">
-                           <legend class="form__legend">Ваше имя</legend>
-                           <input class="form__input" type="text" name="name" value="" required />
+                           <legend class="form__legend" id="formDoctorName">Ваше имя</legend>
+                           <input class="form__input" type="text" name="name" value="" required aria-labelledby="formDoctorName"/>
                         </fieldset>
-                        <fieldset class="form__fieldset">
+                        <fieldset class="form__fieldset" id="formDoctorPhone">
                            <legend class="form__legend">Ваш телефон</legend>
-                           <input class="form__input" type="tel" name="phone" value="" required />
+                           <input class="form__input" type="tel" name="phone" value="" required aria-labelledby="formDoctorPhone"/>
                         </fieldset>
-                        <div class="form__policy">
-                           <input class="form__radio" type="checkbox" name="privacy" value="" required />
+                        <label class="form__policy" id="formDoctorRadio">
+                           <input class="form__radio" type="checkbox" name="privacy" value="" required aria-labelledby="formDoctorRadio"/>
                            <span> Я даю свое согласие на обработку персональных данных и соглашаюсь с <a href="#">политикой конфиденциальности </a> </span>
-                        </div>
+                        </label>
                      </div>
                      <div class="form__action">
                         <p class="form__info">Во время визита в клинику <strong>вы получите намного больше информации,</strong> чем в интернете</p>

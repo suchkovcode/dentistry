@@ -33,12 +33,12 @@
          <div class="social header__social">
             <a class="social__item" href="">
                <svg class="social__icon">
-                  <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#social-icon-od"></use>
+                  <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#social-icon-inst"></use>
                </svg>
             </a>
             <a class="social__item" href="">
                <svg class="social__icon">
-                  <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#social-icon-vk"></use>
+                  <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/img/sprite.svg#social-icon-fb"></use>
                </svg>
             </a>
             <a class="social__item" href="">

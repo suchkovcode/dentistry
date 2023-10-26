@@ -1,4 +1,4 @@
-# Скорость и производительность сайта
+# Website speed and performance
 Сайт сверстан по принципу mobile first
 
 **Google page speed**

@@ -2,8 +2,8 @@
 The site is designed according to the mobile first principle
 <table>
        <tr>
-         <td><b>Google page speed - mob</b></td>
-         <td><b>Google page speed - des</b></td>
+         <td><b>Google Page Speed - mob</b></td>
+         <td><b>Google Page Speed - des</b></td>
       </tr>
    <tr>
       <td>

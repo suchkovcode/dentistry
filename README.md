@@ -1,5 +1,5 @@
 # Website speed and performance
-Сайт сверстан по принципу mobile first
+The site is designed according to the mobile first principle
 
 **Google page speed**
 

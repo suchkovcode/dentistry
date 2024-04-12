@@ -60,7 +60,7 @@
       "prettier": "^3.2.5",
       "favicons": "^7.2.0",
 
-      "postcss": "^8.4.31",
+      "postcss": "^8.4.38",
       "postcss-sort-media-queries": "^5.2.0",
       "postcss-mq-keyframes": "^0.3.0",
       "autoprefixer": "^10.4.16",

@@ -70,7 +70,7 @@
 
       "@babel/core": "^7.24.4",
       "@babel/cli": "^7.24.1",
-      "@babel/preset-env": "^7.23.2",
+      "@babel/preset-env": "^7.24.4",
 
       "stylelint": "^15.11.0",
       "stylelint-config-prettier-scss": "^1.0.0",

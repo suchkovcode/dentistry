@@ -56,7 +56,7 @@
       "imagemin-optipng": "^8.0.0",
       "imagemin-svgo": "^10.0.1",
 
-      "sass": "^1.69.4",
+      "sass": "^1.75.0",
       "prettier": "^3.0.3",
       "favicons": "^7.1.4",
 
